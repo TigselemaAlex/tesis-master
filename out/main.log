@@ -1,0 +1,4342 @@
+This is LuaHBTeX, Version 1.17.1 (MiKTeX 23.12) (format=lualatex 2024.3.19)  23 MAY 2024 18:59
+ restricted system commands enabled.
+ file:line:error style messages enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+Lua module: luaotfload 2023-08-31 3.26 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "C:/Users/Capibara/AppData/Local/MiK
+TeX/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-08-19.lua" from kpse-res
+olved path "C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfloa
+d/fontloader-2023-08-19.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.133
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/Users/Capibara/AppData/Local/MiK
+TeX/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (./tesis.cls
+Document Class: tesis 
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/base/report.cls
+Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/base/size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/Capibara/AppData/Loca
+l/MiKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen139
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.st
+y
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count194
+\Gm@cntv=\count195
+\c@Gm@tempcnt=\count196
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks18
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cf
+g))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/tools/afterpage.sty
+Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
+\AP@output=\toks19
+\AP@partial=\box51
+\AP@footins=\box52
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/blindtext/blindtext.
+sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+ (C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count197
+\c@Blindtext=\count198
+\c@blind@countparstart=\count199
+\blind@countxx=\count266
+\blindtext@numBlindtext=\count267
+\blind@countyy=\count268
+\c@blindlist=\count269
+\c@blindlistlevel=\count270
+\c@blindlist@level=\count271
+\blind@listitem=\count272
+\c@blind@listcount=\count273
+\c@blind@levelcount=\count274
+\blind@mathformula=\count275
+\blind@Mathformula=\count276
+\c@blind@randomcount=\count277
+\c@blind@randommax=\count278
+\c@blind@pangramcount=\count279
+\c@blind@pangrammax=\count280
+) (C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/xurl/xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfkey
+s.sty
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfk
+eys.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfk
+eyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks22
+)))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count281
+\mult@box=\box53
+\multicol@leftmargin=\dimen148
+\c@unbalance=\count282
+\c@collectmore=\count283
+\doublecol@number=\count284
+\multicoltolerance=\count285
+\multicolpretolerance=\count286
+\full@width=\dimen149
+\page@free=\dimen150
+\premulticols=\dimen151
+\postmulticols=\dimen152
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box54
+\last@line=\box55
+\mc@boxedresult=\box56
+\maxbalancingoverflow=\dimen153
+\mult@rightbox=\box57
+\mult@grightbox=\box58
+\mult@firstbox=\box59
+\mult@gfirstbox=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\c@minrows=\count287
+\c@columnbadness=\count288
+\c@finalcolumnbadness=\count289
+\last@try=\dimen154
+\multicolovershoot=\dimen155
+\multicolundershoot=\dimen156
+\mult@nat@firstbox=\box97
+\colbreak@box=\box98
+\mc@col@check@num=\count290
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks23
+\ex@=\dimen157
+)) (C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsbsy.st
+y
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen158
+) (C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count291
+LaTeX Info: Redefining \frac on input line 236.
+\uproot@=\count292
+\leftroot@=\count293
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count294
+\DOTSCASE@=\count295
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box99
+\strutbox@=\box100
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen159
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count296
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count297
+\dotsspace@=\muskip17
+\c@parentequation=\count298
+\dspbrk@lvl=\count299
+\tag@help=\toks24
+\row@=\count300
+\column@=\count301
+\maxfields@=\count302
+\andhelp@=\toks25
+\eqnshift@=\dimen160
+\alignsep@=\dimen161
+\tagshift@=\dimen162
+\tagwidth@=\dimen163
+\totwidth@=\dimen164
+\lineht@=\dimen165
+\@envbody=\toks26
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphicx.st
+y
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.st
+y
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphic
+s.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 107.
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/luatex.
+def
+File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen166
+\Gin@req@width=\dimen167
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/caption/subcaption.s
+ty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen168
+\captionmargin=\dimen169
+\caption@leftmargin=\dimen170
+\caption@rightmargin=\dimen171
+\caption@width=\dimen172
+\caption@indent=\dimen173
+\caption@parindent=\dimen174
+\caption@hangindent=\dimen175
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count303
+\c@continuedfloat=\count304
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count305
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count306
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen176
+\WF@size=\dimen177
+\c@WF@wrappedlines=\count307
+\WF@box=\box101
+\WF@everypar=\toks28
+Package: wrapfig 2003/01/31  v 3.6
+) (C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count308
+\float@exts=\toks29
+\float@box=\box102
+\@float@everytoks=\toks30
+\@floatcapt=\box103
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/enumitem/enumitem.st
+y
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip55
+\enit@outerparindent=\dimen178
+\enit@toks=\toks31
+\enit@inbox=\box104
+\enit@count@id=\count309
+\enitdp@description=\count310
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/graphics/rotating.st
+y
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+ (C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count311
+\rotFPtop=\skip56
+\rotFPbot=\skip57
+\rot@float@box=\box105
+\rot@mess@toks=\toks32
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/pdflscape/pdflscape.
+sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/pdflscape/pdflscape-
+nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)) (C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.c
+fg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/graphics/mathcolor.l
+tx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/colortbl/colortbl.st
+y
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+ (C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen179
+\ar@mcellbox=\box106
+\extrarowheight=\dimen180
+\NC@list=\toks33
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box107
+)
+\everycr=\toks34
+\minrowclearance=\skip60
+\rownum=\count312
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/graphics/dvipsnam.de
+f
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/makecell/makecell.st
+y
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen181
+\c@nlinenum=\count313
+\TeXr@lab=\toks35
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.st
+y
+Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/infwarerr/infwarer
+r.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.
+sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/kvdefinekeys/kvdef
+inekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pdfescape/pdfescap
+e.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/ltxcmds.st
+y
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pdftexcmds/pdftexc
+mds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks36
+))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/letltxmacro/letltxma
+cro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.st
+y
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/gettitlestring/get
+titlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.
+sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count314
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.st
+y
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count315
+)
+\@linkdim=\dimen182
+\Hy@linkcounter=\count316
+\Hy@pagecounter=\count317
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/intcalc.st
+y
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count318
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count319
+LaTeX Info: Redefining \url on input line 4786.
+\XeTeXLinkMargin=\dimen183
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintc
+alc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count320
+\Field@Width=\dimen184
+\Fld@charsize=\dimen185
+Package hyperref Info: Hyper figures OFF on input line 6065.
+Package hyperref Info: Link nesting OFF on input line 6070.
+Package hyperref Info: Hyper index ON on input line 6073.
+Package hyperref Info: backreferencing OFF on input line 6080.
+Package hyperref Info: Link coloring OFF on input line 6085.
+Package hyperref Info: Link coloring with OCG OFF on input line 6090.
+Package hyperref Info: PDF/A mode OFF on input line 6095.
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/base/atbegshi-ltx.st
+y
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count321
+\c@Item=\count322
+\c@Hfootnote=\count323
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2023-11-26 v7.01g Hyperref driver for luaTeX
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stringen
+c.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/base/atveryend-ltx.s
+ty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count324
+\c@bookmark@seq@number=\count325
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerun
+filecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/uniquecounter/uniq
+uecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip61
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/cleveref/cleveref.st
+y
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: include cross-reference names in hyperlinks on input lin
+e 7836.
+Package cleveref Info: include cross-reference names in hyperlinks on input lin
+e 7852.
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/booktabs/booktabs.st
+y
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen186
+\lightrulewidth=\dimen187
+\cmidrulewidth=\dimen188
+\belowrulesep=\dimen189
+\belowbottomsep=\dimen190
+\aboverulesep=\dimen191
+\abovetopsep=\dimen192
+\cmidrulesep=\dimen193
+\cmidrulekern=\dimen194
+\defaultaddspace=\dimen195
+\@cmidla=\count326
+\@cmidlb=\count327
+\@aboverulesep=\dimen196
+\@belowrulesep=\dimen197
+\@thisruleclass=\count328
+\@lastruleclass=\count329
+\@thisrulewidth=\dimen198
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/tools/longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip62
+\LTright=\skip63
+\LTpre=\skip64
+\LTpost=\skip65
+\LTchunksize=\count330
+\LTcapwidth=\dimen199
+\LT@head=\box108
+\LT@firsthead=\box109
+\LT@foot=\box110
+\LT@lastfoot=\box111
+\LT@gbox=\box112
+\LT@cols=\count331
+\LT@rows=\count332
+\c@LT@tables=\count333
+\c@LT@chunks=\count334
+\LT@p@ftn=\toks37
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/threeparttable/three
+parttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box113
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/threeparttablex/thre
+eparttablex.sty
+Package: threeparttablex 2013/07/23 v0.3 by daleif
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/trimspaces/trimspace
+s.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\TPTL@width=\skip66
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/mdwtools/footnote.st
+y
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box114
+\fn@width=\dimen256
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/multirow/multirow.st
+y
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip67
+\multirow@cntb=\count335
+\multirow@dima=\skip68
+\bigstrutjot=\dimen257
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.st
+y
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.st
+y
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box115
+\beforetitleunit=\skip69
+\aftertitleunit=\skip70
+\ttl@plus=\dimen258
+\ttl@minus=\dimen259
+\ttl@toksa=\toks38
+\titlewidth=\dimen260
+\titlewidthlast=\dimen261
+\titlewidthfirst=\dimen262
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titletoc.st
+y
+Package: titletoc 2023/10/27 v2.16 TOC entries
+\ttl@leftsep=\dimen263
+) (C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.st
+y
+\lst@mode=\count336
+\lst@gtempboxa=\box116
+\lst@token=\toks39
+\lst@length=\count337
+\lst@currlwidth=\dimen264
+\lst@column=\count338
+\lst@pos=\count339
+\lst@lostspace=\dimen265
+\lst@width=\dimen266
+\lst@newlines=\count340
+\lst@lineno=\count341
+\lst@maxwidth=\dimen267
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count342
+\lst@skipnumbers=\count343
+\lst@framebox=\box117
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.cf
+g
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/pgf/frontendlayer/ti
+kz.sty
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgf.s
+ty
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs
+.sty
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfu
+til-common.tex
+\pgfutil@everybye=\toks40
+\pgfutil@tempdima=\dimen268
+\pgfutil@tempdimb=\dimen269
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfu
+til-latex.def
+\pgfutil@abb=\box118
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfr
+cs.code.tex
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/pgf.revision.t
+ex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgfco
+re.sty
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/pgf/systemlayer/pgfs
+ys.sty
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pg
+fsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+\pgf@x=\dimen270
+\pgf@y=\dimen271
+\pgf@xa=\dimen272
+\pgf@ya=\dimen273
+\pgf@xb=\dimen274
+\pgf@yb=\dimen275
+\pgf@xc=\dimen276
+\pgf@yc=\dimen277
+\pgf@xd=\dimen278
+\pgf@yd=\dimen279
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count344
+\c@pgf@countb=\count345
+\c@pgf@countc=\count346
+\c@pgf@countd=\count347
+\t@pgf@toka=\toks41
+\t@pgf@tokb=\toks42
+\t@pgf@tokc=\toks43
+\pgf@sys@id@count=\count348
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pg
+f.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pg
+fsys-luatex.def
+File: pgfsys-luatex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pg
+fsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pg
+fsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count349
+\pgfsyssoftpath@bigbuffer@items=\count350
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pg
+fsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgf
+core.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.c
+ode.tex
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathut
+il.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathpa
+rser.code.tex
+\pgfmath@dimen=\dimen280
+\pgfmath@count=\count351
+\pgfmath@box=\box119
+\pgfmath@toks=\toks44
+\pgfmath@stack@operand=\toks45
+\pgfmath@stack@operation=\toks46
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfu
+nctions.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfu
+nctions.basic.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfu
+nctions.trigonometric.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfu
+nctions.random.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfu
+nctions.comparison.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfu
+nctions.base.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfu
+nctions.round.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfu
+nctions.misc.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfu
+nctions.integerarithmetics.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathca
+lc.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfl
+oat.code.tex
+\c@pgfmathroundto@lastzeros=\count352
+))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfint.co
+de.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgf
+corepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen281
+\pgf@picmaxx=\dimen282
+\pgf@picminy=\dimen283
+\pgf@picmaxy=\dimen284
+\pgf@pathminx=\dimen285
+\pgf@pathmaxx=\dimen286
+\pgf@pathminy=\dimen287
+\pgf@pathmaxy=\dimen288
+\pgf@xx=\dimen289
+\pgf@xy=\dimen290
+\pgf@yx=\dimen291
+\pgf@yy=\dimen292
+\pgf@zx=\dimen293
+\pgf@zy=\dimen294
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgf
+corepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen295
+\pgf@path@lasty=\dimen296
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgf
+corepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen297
+\pgf@shorten@start@additional=\dimen298
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgf
+corescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box120
+\pgf@hbox=\box121
+\pgf@layerbox@main=\box122
+\pgf@picture@serial@count=\count353
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgf
+coregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen299
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgf
+coretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen300
+\pgf@pt@y=\dimen301
+\pgf@pt@temp=\dimen302
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgf
+corequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgf
+coreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgf
+corepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgf
+corearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen303
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgf
+coreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen304
+\pgf@sys@shading@range@num=\count354
+\pgf@shadingcount=\count355
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgf
+coreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgf
+coreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box123
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgf
+corelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgf
+coretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgf
+corepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgf
+corerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmod
+uleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box124
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmod
+uleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pg
+fcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen305
+\pgf@nodesepend=\dimen306
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pg
+fcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgffor
+.sty
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/pgf/math/pgfmath.sty
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.c
+ode.tex))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgff
+or.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen307
+\pgffor@skip=\dimen308
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
+))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/
+tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgfl
+ibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count356
+\pgfplotmarksize=\dimen309
+)
+\tikz@lastx=\dimen310
+\tikz@lasty=\dimen311
+\tikz@lastxsaved=\dimen312
+\tikz@lastysaved=\dimen313
+\tikz@lastmovetox=\dimen314
+\tikz@lastmovetoy=\dimen315
+\tikzleveldistance=\dimen316
+\tikzsiblingdistance=\dimen317
+\tikz@figbox=\box125
+\tikz@figbox@bg=\box126
+\tikz@tempbox=\box127
+\tikz@tempbox@bg=\box128
+\tikztreelevel=\count357
+\tikznumberofchildren=\count358
+\tikznumberofcurrentchild=\count359
+\tikz@fig@count=\count360
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmod
+ulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count361
+\pgfmatrixcurrentcolumn=\count362
+\pgf@matrix@numberofcolumns=\count363
+)
+\tikz@expandcount=\count364
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/
+tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/pgf-pie/pgf-pie.sty
+Package: pgf-pie 2022/06/14 v0.7 Some LaTeX macros for pie chart by using PGF/T
+ikz package.
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/pgf-pie/tikzlibraryp
+ie.code.tex
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/carlisle/scalefnt.st
+y)
+\pgfpie@angleEnd=\dimen318
+\pgfpie@explodeLength=\count365
+\pgfpie@colorLength=\count366
+\pgfpie@sliceLength=\count367
+))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/
+tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/shap
+es/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/
+tikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgfl
+ibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen319
+))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/
+tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/
+tikz/libraries/tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/
+tikz/libraries/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/shap
+es/pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen320
+\TX@old@table=\dimen321
+\TX@old@col=\dimen322
+\TX@target=\dimen323
+\TX@delta=\dimen324
+\TX@cols=\count368
+\TX@ftn=\toks49
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/appendix/appendix.st
+y
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count369
+\c@@ppsavesec=\count370
+\c@@ppsaveapp=\count371
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/prettyref/prettyref.
+sty
+Package: prettyref 1998/07/09 v3.0
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/placeins/placeins.st
+y
+Package: placeins 2005/04/18  v 2.2
+) (C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/svg/svg.sty
+Package: svg 2020/11/26 v2.02k (include SVG pictures)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrbase.
+sty
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrlfile
+.sty
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrlfile
+-hook.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrlogo.
+sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+\c@svg@param@lastpage=\count372
+\svg@box=\box129
+\c@svg@param@currpage=\count373
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/transparent/transpar
+ent.sty
+Package: transparent 2022-10-27 v1.5 Transparency with color stacks
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/transparent/transpar
+ent-nometadata.sty
+Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color
+ stack (HO)
+))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/calculator/calculato
+r.sty
+Package: calculator 2022/09/15 v.2.1
+\cctr@lengtha=\dimen325
+\cctr@lengthb=\dimen326
+\cctr@epsilon=\dimen327
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/pdfpages/pdfpages.st
+y
+Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
+ (C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count374
+\calc@Bcount=\count375
+\calc@Adimen=\dimen328
+\calc@Bdimen=\dimen329
+\calc@Askip=\skip71
+\calc@Bskip=\skip72
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count376
+\calc@Cskip=\skip73
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen330
+\ESO@tempdimb=\dimen331
+)
+\AM@pagewidth=\dimen332
+\AM@pageheight=\dimen333
+\AM@fboxrule=\dimen334
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/pdfpages/ppluatex.de
+f
+File: ppluatex.def 2024/01/21 v0.5y Pdfpages driver for LuaTeX (AM)
+)
+\pdfpages@includegraphics@status=\count377
+\AM@pagebox=\box130
+\AM@global@opts=\toks50
+\AM@pagecnt=\count378
+\AM@toc@title=\toks51
+\AM@lof@heading=\toks52
+\c@AM@survey=\count379
+\AM@templatesizebox=\box131
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip74
+\cftbeforetoctitleskip=\skip75
+\cftaftertoctitleskip=\skip76
+\cftbeforepartskip=\skip77
+\cftpartnumwidth=\skip78
+\cftpartindent=\skip79
+\cftbeforechapskip=\skip80
+\cftchapindent=\skip81
+\cftchapnumwidth=\skip82
+\cftbeforesecskip=\skip83
+\cftsecindent=\skip84
+\cftsecnumwidth=\skip85
+\cftbeforesubsecskip=\skip86
+\cftsubsecindent=\skip87
+\cftsubsecnumwidth=\skip88
+\cftbeforesubsubsecskip=\skip89
+\cftsubsubsecindent=\skip90
+\cftsubsubsecnumwidth=\skip91
+\cftbeforeparaskip=\skip92
+\cftparaindent=\skip93
+\cftparanumwidth=\skip94
+\cftbeforesubparaskip=\skip95
+\cftsubparaindent=\skip96
+\cftsubparanumwidth=\skip97
+\cftbeforeloftitleskip=\skip98
+\cftafterloftitleskip=\skip99
+\cftbeforefigskip=\skip100
+\cftfigindent=\skip101
+\cftfignumwidth=\skip102
+\c@lofdepth=\count380
+\c@lotdepth=\count381
+\cftbeforelottitleskip=\skip103
+\cftafterlottitleskip=\skip104
+\cftbeforetabskip=\skip105
+\cfttabindent=\skip106
+\cfttabnumwidth=\skip107
+) (C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-01-04 L3 programming layer (loader) 
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-
+luatex.def
+File: l3backend-luatex.def 2024-01-04 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count382
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box132
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xp
+arse.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/pgfplots/pgfplots.st
+y
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.
+revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.
+code.tex
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsc
+ore.code.tex
+Package pgfplots info on input line 124: Initializing with LUA version Lua 5.3
+\pgfplots@luabackend@table=\catcodetable14
+\t@pgfplots@toka=\toks53
+\t@pgfplots@tokb=\toks54
+\t@pgfplots@tokc=\toks55
+\pgfplots@tmpa=\dimen335
+\c@pgfplots@coordindex=\count383
+\c@pgfplots@scanlineindex=\count384
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgfpl
+otssysgeneric.code.tex))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/pgfp
+lotslibrary.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/oldpgfcom
+patib/pgfplotsoldpgfsupp_loader.code.tex
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgfl
+ibraryfpu.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks56
+\t@pgf@tokb=\toks57
+\t@pgf@tokc=\toks58
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/oldpgfcom
+patib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/luam
+ath/pgflibraryluamath.code.tex)
+Package pgfplots info on input line 290: luamath library shipped with pgf 3.1.1
+0 is up-to-date
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfp
+lotsutil.code.tex
+Package pgfplots info on input line 82: Found new luatex: initializing lua comm
+ands instead of write18 (shell-escape)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststruc
+ture/pgfplotsliststructure.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststruc
+ture/pgfplotsliststructureext.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststruc
+ture/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count385
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststruc
+ture/pgfplotsmatrix.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/numtable/
+pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count386
+\t@pgfplotstable@a=\toks59
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststruc
+ture/pgfplotsdeque.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfp
+lotsbinary.code.tex
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfp
+lotsbinary.data.code.tex))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfp
+lotsutil.verb.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/pgfl
+ibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count387
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgfli
+brarypgfplots.surfshading.pgfsys-luatex.def)))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfp
+lotscolormap.code.tex
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfp
+lotscolor.code.tex))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotss
+tackedplots.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsp
+lothandlers.code.tex
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsm
+eshplothandler.code.tex
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsm
+eshplotimage.code.tex)))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.
+scaling.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsc
+oordprocessing.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.
+errorbars.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.
+markers.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotst
+icks.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.
+paths.code.tex)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/
+tikz/libraries/tikzlibrarydecorations.code.tex
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmod
+uledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen336
+\pgfdecoratedremainingdistance=\dimen337
+\pgfdecoratedinputsegmentcompleteddistance=\dimen338
+\pgfdecoratedinputsegmentremainingdistance=\dimen339
+\pgf@decorate@distancetomove=\dimen340
+\pgf@decorate@repeatstate=\count388
+\pgfdecorationsegmentamplitude=\dimen341
+\pgfdecorationsegmentlength=\dimen342
+)
+\tikz@lib@dec@box=\box133
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/
+tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/deco
+rations/pgflibrarydecorations.pathmorphing.code.tex))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/
+tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/deco
+rations/pgflibrarydecorations.pathreplacing.code.tex))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/tikz
+librarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count389
+\pgfplots@xmin@reg=\dimen343
+\pgfplots@xmax@reg=\dimen344
+\pgfplots@ymin@reg=\dimen345
+\pgfplots@ymax@reg=\dimen346
+\pgfplots@zmin@reg=\dimen347
+\pgfplots@zmax@reg=\dimen348
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/
+tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgfl
+ibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+\c@appendixno=\count390
+\c@historiacounter=\count391
+\c@requicounter=\count392
+\c@itercounter=\count393
+\c@acptcounter=\count394
+\c@appendixs=\count395
+\cftbeforeappendixsskip=\skip108
+\cftappendixsindent=\skip109
+\cftappendixsnumwidth=\skip110
+\c@apxdepth=\count396
+\cftbeforeapxtitleskip=\skip111
+\cftafterapxtitleskip=\skip112
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.st
+y
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec-lu
+atex.sty
+Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count397
+\l__fontspec_language_int=\count398
+\l__fontspec_strnum_int=\count399
+\l__fontspec_tmp_int=\count400
+\l__fontspec_tmpa_int=\count401
+\l__fontspec_tmpb_int=\count402
+\l__fontspec_tmpc_int=\count403
+\l__fontspec_em_int=\count404
+\l__fontspec_emdef_int=\count405
+\l__fontspec_strong_int=\count406
+\l__fontspec_strongdef_int=\count407
+\l__fontspec_tmpa_dim=\dimen349
+\l__fontspec_tmpb_dim=\dimen350
+\l__fontspec_tmpc_dim=\dimen351
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.cf
+g)))
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/mdwtools/mdwtab.sty
+Package: mdwtab 1998/04/28 1.9 Table typesetting with style
+\tab@state=\count408
+\tab@columns=\count409
+\tab@preamble=\toks60
+\tab@shortline=\toks61
+\extrarowheight=\dimen352
+\tabextrasep=\dimen353
+\arrayextrasep=\dimen354
+\smarraycolsep=\dimen355
+\smarrayextrasep=\dimen356
+\tab@width=\dimen357
+\col@sep=\dimen358
+\tab@endheight=\dimen359
+\tab@leftskip=\skip113
+\tab@rightskip=\skip114
+\fn@width=\dimen360
+)
+luaotfload | cache : Lookup cache loaded from C:/Users/Capibara/AppData/Local/Mi
+KTeX/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman:mode=node;script=latn;language=dflt;+t
+lig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman:mode=node;script=latn;language=dflt;+t
+lig;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/B:mode=node;script=latn;language=dflt;
++tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/B:mode=node;script=latn;language=dflt;
++tlig;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/I:mode=node;script=latn;language=dflt;
++tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/I:mode=node;script=latn;language=dflt;
++tlig;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/BI:mode=node;script=latn;language=dflt
+;+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/BI:mode=node;script=latn;language=dflt
+;+tlig;+smcp;"
+
+(./config/constants.tex) (C:/Projects/Tesis_master/out/main.aux)
+\openout1 = main.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 9
+.
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(113.81102pt, 412.56497pt, 71.13188pt)
+* v-part:(T,H,B)=(85.35826pt, 688.5567pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=412.56497pt
+* \textheight=688.5567pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf
+.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count410
+\scratchdimen=\dimen361
+\scratchbox=\box134
+\nofMPsegments=\count411
+\nofMParguments=\count412
+\everyMPshowfont=\toks62
+\MPscratchCnt=\count413
+\MPscratchDim=\dimen362
+\MPnumerator=\count414
+\makeMPintoPDFobject=\count415
+\everyMPtoPDFconversion=\toks63
+)
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopd
+f-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sy
+s.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:/Users/Capibara/AppData/Local/Programs/MiKTeX/tex/latex/caption/ltcaption.st
+y
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 9.
+ (C:/Projects/Tesis_master/out/main.out)
+(C:/Projects/Tesis_master/out/main.out)
+\@outlinefile=\write5
+
+\openout5 = main.out
+\c@lstlisting=\count416
+
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
+your preamble.
+ on input line 9.
+
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 9.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 9.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 9.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 9.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 9.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 9.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 9.
+LaTeX Font Info:    Redeclaring math accent \check on input line 9.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 9.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 9.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 9.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 9.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 9.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 9
+.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 9.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
+9.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
+input line 9.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
+ 9.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
+9.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 9.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 9.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
+input line 9.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
+e 9.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 9.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 9.
+(./chapters/0-prelims/portada.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 1.
+
+<resources/images/logo-uta.png, id=226, 688.82344pt x 688.82344pt>
+File: resources/images/logo-uta.png Graphic file (type png)
+<use resources/images/logo-uta.png>
+Package luatex.def Info: resources/images/logo-uta.png  used on input line 5.
+(luatex.def)             Requested size: 142.26378pt x 142.26077pt.
+[1
+
+{C:/Users/Capibara/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./resources
+/images/logo-uta.png>]) (./chapters/0-prelims/aprobacion-tutor.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 3.
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 5--14
+[]\TU/TimesNewRoman(0)/m/n/12 En cal-i-dad de tu-tor del tra-bajo de tit-u-laci
+ón con el tema: SIS-TEMA WEB Y
+ []
+
+) (./chapters/0-prelims/autoria.tex [2
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 3.
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 4--8
+\TU/TimesNewRoman(0)/m/n/12 orig-i-nal, autén-tico y per-sonal y ha ob-ser-vado
+ los pre-cep-tos es-table-ci-dos en la
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 4--8
+\TU/TimesNewRoman(0)/m/n/12 Dis-posi-ción Gen-eral Quinta del Reglamento para 
+la Tit-u-lación de Grado en la
+ []
+
+) (./chapters/0-prelims/derechos-autor.tex [3
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 3.
+
+
+Underfull \hbox (badness 3701) in paragraph at lines 4--11
+\TU/TimesNewRoman(0)/m/n/12 este tra-bajo de tit-u-lación den-tro de las reg-u-
+la-ciones legales e in-sti-tu-cionales
+ []
+
+) (./chapters/0-prelims/aprobacion-tribunal.tex [4
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 3.
+
+
+Underfull \hbox (badness 4872) in paragraph at lines 4--13
+\TU/TimesNewRoman(0)/m/n/12 de la Fac-ul-tad de In-ge-niería en Sis-temas, Elec
+-trónica e In-dus-trial, bajo la
+ []
+
+
+Overfull \hbox (9.77359pt too wide) in paragraph at lines 28--33
+ [] 
+ []
+
+) (./chapters/0-prelims/dedicatoria.tex [5
+
+])
+(./chapters/0-prelims/agradecimientos.tex [6]) (./chapters/0-prelims/index.tex
+[7] (C:/Projects/Tesis_master/out/main.toc [8] [9])
+\tf@toc=\write6
+
+\openout6 = main.toc
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 5.
+
+[10] (C:/Projects/Tesis_master/out/main.lot)
+\tf@lot=\write7
+
+\openout7 = main.lot
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 13.
+
+[11] (C:/Projects/Tesis_master/out/main.lof)
+\tf@lof=\write8
+
+\openout8 = main.lof
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 19.
+
+[12] (C:/Projects/Tesis_master/out/main.apx)
+\tf@apx=\write9
+
+\openout9 = main.apx
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 27.
+
+[13] (C:/Projects/Tesis_master/out/main.lol)
+\tf@lol=\write10
+
+\openout10 = main.lol
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 33.
+
+) (./chapters/0-prelims/resumen.tex [14
+
+]) (./chapters/0-prelims/abstract.tex
+[15
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 3.
+
+) [16
+
+]
+CAPÍTULO I.
+(./chapters/1-marco-teorico/tema-investigacion.tex)
+(./chapters/1-marco-teorico/planteamiento-problema.tex [1
+
+])
+(./chapters/1-marco-teorico/antecedentes-investigativos.tex [2] [3] [4]
+Underfull \hbox (badness 1158) in paragraph at lines 26--27
+\TU/TimesNewRoman(0)/m/n/12 la apli-cación de ge-olo-cal-ización y re-conocimi
+ento fa-cial. Para este es-tu-dio de
+ []
+
+[5]) (./chapters/1-marco-teorico/fundamentacion-teorica.tex [6] [7] [8]
+Underfull \hbox (badness 1132) in paragraph at lines 53--54
+\TU/TimesNewRoman(0)/m/n/12 es-peci-ficar de man-era pre-cisa so-bre un con-junt
+o de in-struc-ciones para que una
+ []
+
+
+Underfull \hbox (badness 6608) in paragraph at lines 61--63
+\TU/TimesNewRoman(0)/m/n/12 Es un lenguaje de pro-gra-mación ori-en-tado a ob-j
+e-tos de-sar-rol-lado por Sun
+ []
+
+[9] [10] [11]
+Underfull \hbox (badness 3407) in paragraph at lines 121--123
+\TU/TimesNewRoman(0)/m/n/12 Es un lenguaje de mod-e-lado de ar-qui-tec-tura em-p
+re-sar-ial, el cual per-mite la
+ []
+
+[12] [13]) (./chapters/1-marco-teorico/objetivo-general.tex [14])
+(./chapters/1-marco-teorico/objetivos-especificos.tex
+Underfull \hbox (badness 1533) in paragraph at lines 2--1
+[]\TU/TimesNewRoman(0)/m/n/12 Im-plan-tar un sis-tema web y móvil me-di-ante fr
+ame-works de de-sar-rollo para la
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 3--4
+[]\TU/TimesNewRoman(0)/m/n/12 Analizar frame-works para el de-sar-rollo web y m
+óvil con-siderando sus
+ []
+
+) [15]
+CAPÍTULO II.
+(./chapters/2-metodologia/materiales.tex) (./chapters/2-metodologia/metodos.tex
+
+Underfull \hbox (badness 5711) in paragraph at lines 8--10
+\TU/TimesNewRoman(0)/m/n/12 serán anal-iza-dos me-di-ante méto-dos es-tadís-t
+i-cos, se uti-lizará la in-ves-ti-gación
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+[16
+
+] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
+[]\TU/TimesNewRoman(0)/m/n/10.95 Las fun-ciones de la di-rec-tiva
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
+\TU/TimesNewRoman(0)/m/n/10.95 son may-or-mente ad-min-is-tra-ti-vas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
+\TU/TimesNewRoman(0)/m/n/10.95 y económi-cas en donde
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
+\TU/TimesNewRoman(0)/m/n/10.95 la pres-i-den-cia(pres-i-dente y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
+\TU/TimesNewRoman(0)/m/n/10.95 vi-cepres-i-dente) se en-car-gan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
+\TU/TimesNewRoman(0)/m/n/10.95 de ges-tionar las mul-tas, los
+ []
+
+
+Underfull \hbox (badness 6859) in paragraph at lines 59--65
+\TU/TimesNewRoman(0)/m/n/10.95 even-tos so-ciales y de asam-bleas,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
+\TU/TimesNewRoman(0)/m/n/10.95 ex-ten-der co-mu-ni-ca-dos, ges-tionar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
+\TU/TimesNewRoman(0)/m/n/10.95 las nor-ma-ti-vas y ges-tionar los
+ []
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 59--65
+\TU/TimesNewRoman(0)/m/n/10.95 de cál-culo como Ex-cel, en donde
+ []
+
+
+Underfull \hbox (badness 5893) in paragraph at lines 59--65
+\TU/TimesNewRoman(0)/m/n/10.95 los in-gre-sos es-tán da-dos por los
+ []
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 59--65
+\TU/TimesNewRoman(0)/m/n/10.95 tales como la limpieza, jar-dinería,
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 59--65
+\TU/TimesNewRoman(0)/m/n/10.95 en tesor-ería se ll-eva el con-trol de
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 59--65
+\TU/TimesNewRoman(0)/m/n/10.95 los ho-rar-ios de cortes de jardín y
+ []
+
+
+Underfull \hbox (badness 7379) in paragraph at lines 59--65
+\TU/TimesNewRoman(0)/m/n/10.95 sec-re-taría se en-carga de elab-o-rar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
+\TU/TimesNewRoman(0)/m/n/10.95 las ac-tas de asam-blea, in-formes
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 59--65
+\TU/TimesNewRoman(0)/m/n/10.95 de asis-ten-cia en las asam-bleas e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--68
+[]\TU/TimesNewRoman(0)/m/n/10.95 Se ev-i-den-cia una gran carga
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 65--68
+\TU/TimesNewRoman(0)/m/n/10.95 de tra-bajo en tesor-ería, ya que
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--68
+\TU/TimesNewRoman(0)/m/n/10.95 es úni-ca-mente una per-sona la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--68
+\TU/TimesNewRoman(0)/m/n/10.95 que debe aten-der a las 303
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 65--68
+\TU/TimesNewRoman(0)/m/n/10.95 egre-sos en ho-jas de cál-culo son
+ []
+
+
+Underfull \hbox (badness 6141) in paragraph at lines 65--68
+\TU/TimesNewRoman(0)/m/n/10.95 un prob-lema para la di-rec-tiva,
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 65--68
+\TU/TimesNewRoman(0)/m/n/10.95 porque di-fi-culta la búsqueda de
+ []
+
+
+Underfull \hbox (badness 3701) in paragraph at lines 65--68
+\TU/TimesNewRoman(0)/m/n/10.95 in-for-ma-tion y la gen-eración de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--68
+\TU/TimesNewRoman(0)/m/n/10.95 re-portes. Adi-cional-mente, el
+ []
+
+
+Underfull \hbox (badness 5388) in paragraph at lines 65--68
+\TU/TimesNewRoman(0)/m/n/10.95 pres-i-dente para poder ges-tionar
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 65--68
+\TU/TimesNewRoman(0)/m/n/10.95 los par-queaderos se basa en un
+ []
+
+
+Underfull \hbox (badness 5077) in paragraph at lines 69--72
+[]\TU/TimesNewRoman(0)/m/n/10.95 El pres-i-dente tiene como fun-ción
+ []
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 69--72
+\TU/TimesNewRoman(0)/m/n/10.95 como ini-cia-tiva es-tar al pen-di-ente
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 69--72
+\TU/TimesNewRoman(0)/m/n/10.95 de las novedades que ocur-ran en
+ []
+
+
+Underfull \hbox (badness 6944) in paragraph at lines 72--73
+\TU/TimesNewRoman(0)/m/n/10.95 agre-gadas al sis-tema para que
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 72--73
+\TU/TimesNewRoman(0)/m/n/10.95 se in-tro-duz-can en el mod-elo de
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 74--77
+\TU/TimesNewRoman(0)/m/n/10.95 que lo so-liciten, co-mu-ni-ca-dos de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+[]\TU/TimesNewRoman(0)/m/n/10.95 Se ev-i-den-ció la necesi-dad de
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 77--78
+\TU/TimesNewRoman(0)/m/n/10.95 la di-rec-tiva de poder dig-i-talizar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+\TU/TimesNewRoman(0)/m/n/10.95 y generar gran parte de los
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+[]\TU/TimesNewRoman(0)/m/n/10.95 Este pro-ceso al de-pen-der de
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 80--81
+\TU/TimesNewRoman(0)/m/n/10.95 pueden ser en-vi-a-dos por medios
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+\TU/TimesNewRoman(0)/m/n/10.95 dig-i-tales se man-ten-drán de la
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 80--81
+\TU/TimesNewRoman(0)/m/n/10.95 misma forma, sin em-bargo, se
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+\TU/TimesNewRoman(0)/m/n/10.95 sis-tem-ati-zara el pro-ceso para
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 82--83
+[]\TU/TimesNewRoman(0)/m/n/10.95 Se uti-liza un cro-quis que está en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+\TU/TimesNewRoman(0)/m/n/10.95 las casas del con-junto tienen
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 83--84
+\TU/TimesNewRoman(0)/m/n/10.95 domi-cil-ios en frente lo cual se
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+\TU/TimesNewRoman(0)/m/n/10.95 de-pen-di-endo de a que grupo
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 86--87
+\TU/TimesNewRoman(0)/m/n/10.95 siendo así un pro-ceso man-ual y
+ []
+
+
+Underfull \hbox (badness 6510) in paragraph at lines 88--90
+\TU/TimesNewRoman(0)/m/n/10.95 y egre-sos. Los re-portes varían
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 88--90
+\TU/TimesNewRoman(0)/m/n/10.95 de-pen-di-endo de la necesi-dad de la
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 92--93
+[]\TU/TimesNewRoman(0)/m/n/10.95 Se uti-liza la pizarra de guardianía
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
+[]\TU/TimesNewRoman(0)/m/n/10.95 La di-rec-tiva men-ciona que
+ []
+
+
+Underfull \hbox (badness 4899) in paragraph at lines 93--95
+\TU/TimesNewRoman(0)/m/n/10.95 es-tos medios no son efi-cientes
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 93--95
+\TU/TimesNewRoman(0)/m/n/10.95 en-vi-ado por What-sApp mu-chos
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 93--95
+\TU/TimesNewRoman(0)/m/n/10.95 vista por to-dos los propi-etar-ios,
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 98--99
+\TU/TimesNewRoman(0)/m/n/10.95 de poder ag-ilizar el pro-ceso de
+ []
+
+
+Underfull \hbox (badness 6510) in paragraph at lines 101--102
+[]\TU/TimesNewRoman(0)/m/n/10.95 Se le multa al res-i-dente por su
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+[]\TU/TimesNewRoman(0)/m/n/10.95 Oca-sion-al-mente, sue-len fal-tar
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 102--103
+\TU/TimesNewRoman(0)/m/n/10.95 más de veinte propi-etar-ios a las
+ []
+
+
+Underfull \hbox (badness 7504) in paragraph at lines 107--108
+\TU/TimesNewRoman(0)/m/n/10.95 los pa-gos y la gen-eración de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+\TU/TimesNewRoman(0)/m/n/10.95 para la di-rec-tiva, ya que las
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 111--112
+\TU/TimesNewRoman(0)/m/n/10.95 de telé-fono per-sonal y esto les
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 111--112
+\TU/TimesNewRoman(0)/m/n/10.95 oca-siona que a menudo que no
+ []
+
+
+Underfull \hbox (badness 5908) in paragraph at lines 114--115
+[]\TU/TimesNewRoman(0)/m/n/10.95 Casi toda la in-for-ma-ción que se
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 115--116
+[]\TU/TimesNewRoman(0)/m/n/10.95 Es-tos li-bros y ho-jas de cál-culo
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 115--116
+\TU/TimesNewRoman(0)/m/n/10.95 se han ido pasando de di-rec-tiva
+ []
+
+
+Underfull \hbox (badness 7116) in paragraph at lines 115--116
+\TU/TimesNewRoman(0)/m/n/10.95 pier-den o se dañan y en los
+ []
+
+
+Overfull \hbox (4.5877pt too wide) in alignment at lines 54--117
+ [][][] 
+ []
+
+[18] [19] [20] [21]
+<resources/images/p1.png, id=674, 715.92468pt x 270.25969pt>
+File: resources/images/p1.png Graphic file (type png)
+<use resources/images/p1.png>
+Package luatex.def Info: resources/images/p1.png  used on input line 168.
+(luatex.def)             Requested size: 330.05322pt x 124.59312pt.
+
+Underfull \hbox (badness 1968) in paragraph at lines 177--199
+[]\TU/TimesNewRoman(0)/b/n/12 Pre-gunta 2: \TU/TimesNewRoman(0)/m/n/12 ¿Con que
+ fre-cuen-cia so-licita la in-for-ma-ción de las obli-ga-ciones
+ []
+
+[22<./resources/images/p1.png>]
+<resources/images/p2.png, id=681, 712.91344pt x 270.25969pt>
+File: resources/images/p2.png Graphic file (type png)
+<use resources/images/p2.png>
+Package luatex.def Info: resources/images/p2.png  used on input line 202.
+(luatex.def)             Requested size: 330.05322pt x 125.12097pt.
+<resources/images/p3.png, id=682, 730.22812pt x 271.76532pt>
+File: resources/images/p3.png Graphic file (type png)
+<use resources/images/p3.png>
+Package luatex.def Info: resources/images/p3.png  used on input line 235.
+(luatex.def)             Requested size: 330.05322pt x 122.83234pt.
+ [23<./resources/images/p2.png>]
+<resources/images/p4.png, id=688, 732.48656pt x 291.33844pt>
+File: resources/images/p4.png Graphic file (type png)
+<use resources/images/p4.png>
+Package luatex.def Info: resources/images/p4.png  used on input line 267.
+(luatex.def)             Requested size: 330.05322pt x 131.27444pt.
+ [24<./resources/images/p3.png>]
+<resources/images/p5.png, id=694, 502.87875pt x 266.49562pt>
+File: resources/images/p5.png Graphic file (type png)
+<use resources/images/p5.png>
+Package luatex.def Info: resources/images/p5.png  used on input line 293.
+(luatex.def)             Requested size: 330.05322pt x 174.90764pt.
+ [25<./resources/images/p4.png>]
+<resources/images/p6.png, id=701, 639.89063pt x 264.23718pt>
+File: resources/images/p6.png Graphic file (type png)
+<use resources/images/p6.png>
+Package luatex.def Info: resources/images/p6.png  used on input line 325.
+(luatex.def)             Requested size: 330.05322pt x 136.29533pt.
+ [26<./resources/images/p5.png>]
+<resources/images/p7.png, id=707, 666.23906pt x 262.73157pt>
+File: resources/images/p7.png Graphic file (type png)
+<use resources/images/p7.png>
+Package luatex.def Info: resources/images/p7.png  used on input line 357.
+(luatex.def)             Requested size: 330.05322pt x 130.15875pt.
+ [27<./resources/images/p6.png>]
+Underfull \hbox (badness 1297) in paragraph at lines 361--364
+\TU/TimesNewRoman(0)/m/n/12 Los re-sul-ta-dos de la pre-gunta si-ete mues-tran 
+que el 95.3% de los propi-etar-ios
+ []
+
+<resources/images/p8.png, id=713, 754.31813pt x 264.23718pt>
+File: resources/images/p8.png Graphic file (type png)
+<use resources/images/p8.png>
+Package luatex.def Info: resources/images/p8.png  used on input line 390.
+(luatex.def)             Requested size: 330.05322pt x 115.61557pt.
+[28<./resources/images/p7.png>]
+<resources/images/p9.png, id=719, 508.14844pt x 263.48438pt>
+File: resources/images/p9.png Graphic file (type png)
+<use resources/images/p9.png>
+Package luatex.def Info: resources/images/p9.png  used on input line 416.
+(luatex.def)             Requested size: 330.05322pt x 171.14218pt.
+ [29<./resources/images/p8.png>] [30<./resources/images/p9.png>]) [31]
+CAPÍTULO III.
+(./chapters/3-resultados-y-discusion/3.1-analisis-herramientas-desarrollo.tex
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]\TU/TimesNewRoman(0)/m/n/12 Bib-lioteca
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]\TU/TimesNewRoman(0)/b/n/12 Año de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]\TU/TimesNewRoman(0)/b/n/12 Lenguaje de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]\TU/TimesNewRoman(0)/b/n/12 Tamaño del
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]\TU/TimesNewRoman(0)/b/n/12 Curva de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]\TU/TimesNewRoman(0)/m/n/12 Rel-a-ti-va-mente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]\TU/TimesNewRoman(0)/b/n/12 So-porte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]\TU/TimesNewRoman(0)/m/n/12 Apli-ca-ciones
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/12 grandes y
+ []
+
+[32
+
+]
+Overfull \hbox (22.04433pt too wide) in paragraph at lines 61--61
+[]\TU/TimesNewRoman(0)/b/n/12 An-gu-lar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+[]\TU/TimesNewRoman(0)/m/n/12 Vin-cu-lación de datos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+[]\TU/TimesNewRoman(0)/m/n/12 Ar-qui-tec-tura de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+[]\TU/TimesNewRoman(0)/m/n/12 En-rutamiento y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+[]\TU/TimesNewRoman(0)/m/n/12 De-sar-rollo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+[]\TU/TimesNewRoman(0)/m/n/12 Curva de apren-dizaje
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+[]\TU/TimesNewRoman(0)/m/n/12 No es op-timo para
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+[]\TU/TimesNewRoman(0)/m/n/12 Es-cal-a-bil-i-dad ade-cuada
+ []
+
+
+Overfull \hbox (8.68495pt too wide) in paragraph at lines 76--76
+[]\TU/TimesNewRoman(0)/b/n/12 Re-act
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+[]\TU/TimesNewRoman(0)/m/n/12 De-sar-rollo por
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+[]\TU/TimesNewRoman(0)/m/n/12 De-sar-rollo por
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+[]\TU/TimesNewRoman(0)/m/n/12 Eco-sis-tema pe-queño
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+[]\TU/TimesNewRoman(0)/m/n/12 Menos so-porte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+\TU/TimesNewRoman(0)/m/n/12 co-mu-ni-tario en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+[]\TU/TimesNewRoman(0)/m/n/12 Menos con-sis-tente que
+ []
+
+
+Overfull \hbox (2.23294pt too wide) in alignment at lines 56--101
+ [][][] 
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+[]\TU/TimesNewRoman(0)/b/n/10.95 Platafor-mas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]\TU/TimesNewRoman(0)/b/n/10.95 Ac-ceso al
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]\TU/TimesNewRoman(0)/b/n/10.95 Fun-ciones
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\TU/TimesNewRoman(0)/b/n/10.95 es-pecí-fi-cas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\TU/TimesNewRoman(0)/b/n/10.95 de la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]\TU/TimesNewRoman(0)/b/n/10.95 Dis-tribu-ción
+ []
+
+
+Overfull \hbox (1.36903pt too wide) in paragraph at lines 131--131
+[]\TU/TimesNewRoman(0)/b/n/10.95 Mon-e-ti-zación
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]\TU/TimesNewRoman(0)/b/n/10.95 In-te-gración
+ []
+
+
+Overfull \hbox (3.21364pt too wide) in paragraph at lines 133--133
+\TU/TimesNewRoman(0)/b/n/10.95 per-son-al-izada
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+[]\TU/TimesNewRoman(0)/b/n/10.95 Uso de
+ []
+
+[34]
+Underfull \hbox (badness 1331) in paragraph at lines 151--152
+\TU/TimesNewRoman(0)/m/n/12 obtenidos del es-tu-dio re-visado en donde se ev-i-d
+en-cia que Ionic tiene un buen
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 158--159
+[]\TU/TimesNewRoman(0)/m/n/12 Como lenguaje de pro-gra-mación se se-lec-ciona 
+Java, ya que en [[]22[]], el au-tor
+ []
+
+[35] [36]
+Underfull \hbox (badness 10000) in paragraph at lines 184--187
+[]\TU/TimesNewRoman(0)/m/n/12 Nor-mal-iza los
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 184--187
+\TU/TimesNewRoman(0)/m/n/12 datos en tablas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--187
+\TU/TimesNewRoman(0)/m/n/12 De-fine
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--187
+\TU/TimesNewRoman(0)/m/n/12 es-tric-ta-mente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--187
+\TU/TimesNewRoman(0)/m/n/12 relación en-tre
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--191
+[]\TU/TimesNewRoman(0)/m/n/12 Pro-por-ciona
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--191
+\TU/TimesNewRoman(0)/m/n/12 una var-iedad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--191
+\TU/TimesNewRoman(0)/m/n/12 de mod-e-los
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--191
+\TU/TimesNewRoman(0)/m/n/12 de datos,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--191
+\TU/TimesNewRoman(0)/m/n/12 como pares
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--191
+\TU/TimesNewRoman(0)/m/n/12 clave/-valor,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--191
+\TU/TimesNewRoman(0)/m/n/12 doc-u-men-tos y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--196
+[]\TU/TimesNewRoman(0)/m/n/12 Es-truc-tura e
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 191--196
+\TU/TimesNewRoman(0)/m/n/12 atos flex-i-ble en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--196
+\TU/TimesNewRoman(0)/m/n/12 com-bi-nar la
+ []
+
+
+Overfull \hbox (1.44725pt too wide) in paragraph at lines 191--196
+\TU/TimesNewRoman(0)/m/n/12 transac-cional-i-dad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--196
+\TU/TimesNewRoman(0)/m/n/12 y alta
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\TU/TimesNewRoman(0)/b/n/12 Car-gas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--201
+[]\TU/TimesNewRoman(0)/m/n/12 Es-tán
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--201
+\TU/TimesNewRoman(0)/m/n/12 dis-eñadas para
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--201
+\TU/TimesNewRoman(0)/m/n/12 apli-ca-ciones de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--201
+\TU/TimesNewRoman(0)/m/n/12 proce-samiento
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 197--201
+\TU/TimesNewRoman(0)/m/n/12 de transac-ciones
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--201
+\TU/TimesNewRoman(0)/m/n/12 proce-samiento
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--201
+\TU/TimesNewRoman(0)/m/n/12 analítico on-line
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--206
+[]\TU/TimesNewRoman(0)/m/n/12 Las bases
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--206
+\TU/TimesNewRoman(0)/m/n/12 de datos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--206
+\TU/TimesNewRoman(0)/m/n/12 de búsqueda
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--206
+\TU/TimesNewRoman(0)/m/n/12 NoSQL es-tán
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--206
+\TU/TimesNewRoman(0)/m/n/12 dis-eñadas para
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--206
+\TU/TimesNewRoman(0)/m/n/12 hacer análi-sis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--206
+\TU/TimesNewRoman(0)/m/n/12 so-bre datos
+ []
+
+
+Overfull \hbox (7.13084pt too wide) in paragraph at lines 201--206
+\TU/TimesNewRoman(0)/m/n/12 semiestruc-tura-dos.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--206
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--209
+\TU/TimesNewRoman(0)/m/n/12 para car-gas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--209
+\TU/TimesNewRoman(0)/m/n/12 tra-bajo OLTP/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--215
+[]\TU/TimesNewRoman(0)/m/n/12 Es-cal-a-bil-i-dad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--215
+\TU/TimesNewRoman(0)/m/n/12 ver-ti-cal,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--215
+\TU/TimesNewRoman(0)/m/n/12 crec-imiento
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--215
+\TU/TimesNewRoman(0)/m/n/12 de la can-ti-dad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--215
+\TU/TimesNewRoman(0)/m/n/12 de no-dos de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--215
+\TU/TimesNewRoman(0)/m/n/12 al-ma-ce-namiento
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--215
+\TU/TimesNewRoman(0)/m/n/12 de-pende de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--215
+\TU/TimesNewRoman(0)/m/n/12 la es-truc-tura
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--215
+\TU/TimesNewRoman(0)/m/n/12 tec-nológ-ica
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--218
+[]\TU/TimesNewRoman(0)/m/n/12 Es-cal-a-bil-i-dad
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 215--218
+\TU/TimesNewRoman(0)/m/n/12 hor-i-zon-tal y se
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--218
+\TU/TimesNewRoman(0)/m/n/12 dis-tribuye la
+ []
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 215--218
+\TU/TimesNewRoman(0)/m/n/12 carga por to-dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--222
+[]\TU/TimesNewRoman(0)/m/n/12 Es-cal-a-bil-i-dad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--222
+\TU/TimesNewRoman(0)/m/n/12 hor-i-zon-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--222
+\TU/TimesNewRoman(0)/m/n/12 pro-por-cio-nando
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--222
+\TU/TimesNewRoman(0)/m/n/12 un alta
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--222
+\TU/TimesNewRoman(0)/m/n/12 rendimiento en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
+[]\TU/TimesNewRoman(0)/b/n/12 Propiedades
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--227
+[]\TU/TimesNewRoman(0)/m/n/12 Las bases de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--227
+\TU/TimesNewRoman(0)/m/n/12 datos rela-cional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--227
+\TU/TimesNewRoman(0)/m/n/12 ofre-cen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--227
+\TU/TimesNewRoman(0)/m/n/12 propiedades
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--227
+\TU/TimesNewRoman(0)/m/n/12 de atom-i-ci-dad,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--227
+\TU/TimesNewRoman(0)/m/n/12 co-heren-cia,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--227
+\TU/TimesNewRoman(0)/m/n/12 ais-lamiento
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--227
+\TU/TimesNewRoman(0)/m/n/12 y dura-bil-i-dad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--234
+[]\TU/TimesNewRoman(0)/m/n/12 Las bases
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--234
+\TU/TimesNewRoman(0)/m/n/12 de datos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--234
+\TU/TimesNewRoman(0)/m/n/12 NoSQL ha-cen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--234
+\TU/TimesNewRoman(0)/m/n/12 con-ce-siones
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--234
+\TU/TimesNewRoman(0)/m/n/12 al flex-i-bi-lizar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--234
+\TU/TimesNewRoman(0)/m/n/12 al-gu-nas de las
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--234
+\TU/TimesNewRoman(0)/m/n/12 propiedades
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--234
+\TU/TimesNewRoman(0)/m/n/12 ACID para un
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--238
+[]\TU/TimesNewRoman(0)/m/n/12 Mantiene las
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--238
+\TU/TimesNewRoman(0)/m/n/12 propiedades
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--238
+\TU/TimesNewRoman(0)/m/n/12 de ACID de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--238
+\TU/TimesNewRoman(0)/m/n/12 un sis-tema de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--238
+\TU/TimesNewRoman(0)/m/n/12 base de datos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--238
+\TU/TimesNewRoman(0)/m/n/12 tradi-cional o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--239
+[]\TU/TimesNewRoman(0)/b/n/12 Tol-er-an-cia a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
+\TU/TimesNewRoman(0)/m/n/12 gen-eral-mente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
+\TU/TimesNewRoman(0)/m/n/12 hará fal-lar la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--245
+[]\TU/TimesNewRoman(0)/m/n/12 Con-fig-u-ra-dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--245
+\TU/TimesNewRoman(0)/m/n/12 para que la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--245
+\TU/TimesNewRoman(0)/m/n/12 per-dida de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--245
+\TU/TimesNewRoman(0)/m/n/12 al-gunos no-dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--245
+\TU/TimesNewRoman(0)/m/n/12 no in-ter-rumpa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--245
+\TU/TimesNewRoman(0)/m/n/12 fun-cionamiento
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--251
+\TU/TimesNewRoman(0)/m/n/12 Las bases de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--251
+\TU/TimesNewRoman(0)/m/n/12 datos NewSQL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--251
+\TU/TimesNewRoman(0)/m/n/12 tienen un
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--251
+\TU/TimesNewRoman(0)/m/n/12 mecan-ismo
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 245--251
+\TU/TimesNewRoman(0)/m/n/12 que les per-mite
+ []
+
+[37]) (./chapters/3-resultados-y-discusion/3.2-definicion-metodologia.tex
+[38]
+Overfull \hbox (15.53305pt too wide) in paragraph at lines 20--52
+ [][] 
+ []
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+[]\TU/TimesNewRoman(0)/m/n/12 It-er-a-tivo e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+[]\TU/TimesNewRoman(0)/m/n/12 It-er-a-tivo e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+[]\TU/TimesNewRoman(0)/m/n/12 In-te-gración
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\TU/TimesNewRoman(0)/m/n/12 con-tinua,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\TU/TimesNewRoman(0)/m/n/12 pro-gra-mación
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\TU/TimesNewRoman(0)/m/n/12 en pares,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\TU/TimesNewRoman(0)/m/n/12 de-sar-rollo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\TU/TimesNewRoman(0)/m/n/12 basado en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\TU/TimesNewRoman(0)/m/n/12 prue-bas,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\TU/TimesNewRoman(0)/m/n/12 co-men-tar-ios
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+[]\TU/TimesNewRoman(0)/m/n/12 Cen-trarse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\TU/TimesNewRoman(0)/m/n/12 en el valor,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\TU/TimesNewRoman(0)/m/n/12 elim-i-nar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\TU/TimesNewRoman(0)/m/n/12 des-perdi-cios,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\TU/TimesNewRoman(0)/m/n/12 flujo, mejora
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\TU/TimesNewRoman(0)/m/n/12 con-tinua,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+[]\TU/TimesNewRoman(0)/m/n/12 De-sar-rollo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\TU/TimesNewRoman(0)/m/n/12 rápido,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\TU/TimesNewRoman(0)/m/n/12 par-tic-i-pación
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\TU/TimesNewRoman(0)/m/n/12 del usuario,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\TU/TimesNewRoman(0)/m/n/12 de-sar-rollo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\TU/TimesNewRoman(0)/m/n/12 it-er-a-tivo,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\TU/TimesNewRoman(0)/m/n/12 creación de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+[]\TU/TimesNewRoman(0)/m/n/12 Vi-su-al-ización
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+\TU/TimesNewRoman(0)/m/n/12 del flujo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+\TU/TimesNewRoman(0)/m/n/12 de tra-bajo,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+\TU/TimesNewRoman(0)/m/n/12 lim-itación
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+\TU/TimesNewRoman(0)/m/n/12 pro-greso,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+\TU/TimesNewRoman(0)/m/n/12 mejora
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]\TU/TimesNewRoman(0)/m/n/12 Pe-queños y
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 72--72
+\TU/TimesNewRoman(0)/m/n/12 me-di-anos con
+ []
+
+
+Underfull \hbox (badness 5893) in paragraph at lines 72--72
+[]\TU/TimesNewRoman(0)/m/n/12 Efec-tivo para
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+\TU/TimesNewRoman(0)/m/n/12 proyec-tos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+\TU/TimesNewRoman(0)/m/n/12 grandes con
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+\TU/TimesNewRoman(0)/m/n/12 req-ui-si-tos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]\TU/TimesNewRoman(0)/m/n/12 Pe-queños y
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 72--72
+\TU/TimesNewRoman(0)/m/n/12 me-di-anos con
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+\TU/TimesNewRoman(0)/m/n/12 req-ui-si-tos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+[]\TU/TimesNewRoman(0)/m/n/12 Pe-queños,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+\TU/TimesNewRoman(0)/m/n/12 me-di-anos y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+[]\TU/TimesNewRoman(0)/m/n/12 Cal-i-dad y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+[]\TU/TimesNewRoman(0)/m/n/12 Ve-loci-dad y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+[]\TU/TimesNewRoman(0)/m/n/12 Costo y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[]\TU/TimesNewRoman(0)/m/n/12 Se busca la
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 76--76
+\TU/TimesNewRoman(0)/m/n/12 el código, en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[]\TU/TimesNewRoman(0)/m/n/12 Se busca
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\TU/TimesNewRoman(0)/m/n/12 elim-i-nar
+ []
+
+
+Underfull \hbox (badness 5832) in paragraph at lines 76--76
+\TU/TimesNewRoman(0)/m/n/12 des-perdi-cio y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\TU/TimesNewRoman(0)/m/n/12 com-ple-ji-dad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\TU/TimesNewRoman(0)/m/n/12 in-nece-saria
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\TU/TimesNewRoman(0)/m/n/12 para mejo-rar
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 76--76
+[]\TU/TimesNewRoman(0)/m/n/12 Se en-foca en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\TU/TimesNewRoman(0)/m/n/12 de-sar-rol-lar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\TU/TimesNewRoman(0)/m/n/12 solu-ciones
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\TU/TimesNewRoman(0)/m/n/12 sim-ples y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\TU/TimesNewRoman(0)/m/n/12 ráp-i-das,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\TU/TimesNewRoman(0)/m/n/12 evi-tando
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\TU/TimesNewRoman(0)/m/n/12 ex-ce-sos de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+[]\TU/TimesNewRoman(0)/m/n/12 Busca
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\TU/TimesNewRoman(0)/m/n/12 elim-i-nar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\TU/TimesNewRoman(0)/m/n/12 des-perdi-cio,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\TU/TimesNewRoman(0)/m/n/12 sim-pli-ficar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\TU/TimesNewRoman(0)/m/n/12 pro-ce-sos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\TU/TimesNewRoman(0)/m/n/12 y clar-i-dad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\TU/TimesNewRoman(0)/m/n/12 de flujo de
+ []
+
+
+Underfull \hbox (badness 5696) in paragraph at lines 78--78
+[]\TU/TimesNewRoman(0)/b/n/12 En-trega de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+[]\TU/TimesNewRoman(0)/m/n/12 Fre-cuente y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+[]\TU/TimesNewRoman(0)/m/n/12 En-trega
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+[]\TU/TimesNewRoman(0)/m/n/12 En-trega
+ []
+
+
+Overfull \hbox (4.77989pt too wide) in paragraph at lines 80--80
+[]\TU/TimesNewRoman(0)/b/n/12 Plan-i-fi-cación
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]\TU/TimesNewRoman(0)/m/n/12 Plan-i-fi-cación
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]\TU/TimesNewRoman(0)/m/n/12 Plan-i-fi-cación
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]\TU/TimesNewRoman(0)/m/n/12 Plan-i-fi-cación
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+\TU/TimesNewRoman(0)/m/n/12 ráp-ida y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+[]\TU/TimesNewRoman(0)/m/n/12 Plan-i-fi-cación
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+\TU/TimesNewRoman(0)/m/n/12 con-tinua y
+ []
+
+) (./chapters/3-resultados-y-discusion/3.3-calculo-haversine.tex [40] [41])
+(./chapters/3-resultados-y-discusion/3.4-analisis-proceso-actual.tex [42]
+Underfull \hbox (badness 4713) in paragraph at lines 36--38
+[]\TU/TimesNewRoman(0)/m/n/12 De los pro-ce-sos men-ciona-dos an-te-ri-or-mente se es-tablecieron cu-a-tro pro-ce-sos
+ []
+
+[43]
+Underfull \hbox (badness 1406) in paragraph at lines 41--43
+[]\TU/TimesNewRoman(0)/m/n/12 Se ver-i-fica que el propi-etario o in-quilino cum
+pla con los req-ui-si-tos
+ []
+
+<resources/images/Diagrama de flujo parqueadero-actual.png, id=839, 683.55376pt
+ x 804.00375pt>
+File: resources/images/Diagrama de flujo parqueadero-actual.png Graphic file (t
+ype png)
+<use resources/images/Diagrama de flujo parqueadero-actual.png>
+Package luatex.def Info: resources/images/Diagrama de flujo parqueadero-actual.
+png  used on input line 66.
+(luatex.def)             Requested size: 412.56497pt x 485.27672pt.
+[44] [45<./resources/images/Diagrama de flujo parqueadero-actual.png>]
+Underfull \hbox (badness 2088) in paragraph at lines 87--88
+[]\TU/TimesNewRoman(0)/m/n/12 Se ll-eva a cabo el con-teo de vo-tos a mano alzad
+a úni-ca-mente de
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 97--98
+[]\TU/TimesNewRoman(0)/m/n/12 El propi-etario o in-quilino puede pre-sen-tar una
+ jus-ti-fi-cación por la
+ []
+
+<resources/images/Copia de Diagrama de flujo convocatorias-actual.png, id=869, 
+1024.82875pt x 763.85374pt>
+File: resources/images/Copia de Diagrama de flujo convocatorias-actual.png Grap
+hic file (type png)
+<use resources/images/Copia de Diagrama de flujo convocatorias-actual.png>
+Package luatex.def Info: resources/images/Copia de Diagrama de flujo convocator
+ias-actual.png  used on input line 107.
+(luatex.def)             Requested size: 412.56497pt x 307.50584pt.
+[46]
+<resources/images/Diagrama de flujo de proceso pagos obligaciones actual.png, i
+d=886, 462.72874pt x 544.0325pt>
+File: resources/images/Diagrama de flujo de proceso pagos obligaciones actual.p
+ng Graphic file (type png)
+<use resources/images/Diagrama de flujo de proceso pagos obligaciones actual.pn
+g>
+Package luatex.def Info: resources/images/Diagrama de flujo de proceso pagos ob
+ligaciones actual.png  used on input line 129.
+(luatex.def)             Requested size: 412.56497pt x 485.05904pt.
+ [47<./resources/images/Copia de Diagrama de flujo convocatorias-actual.png>]
+<resources/images/Diagrama de flujo de proceso pagos a proveedores-actual.png, 
+id=900, 462.72874pt x 393.47pt>
+File: resources/images/Diagrama de flujo de proceso pagos a proveedores-actual.
+png Graphic file (type png)
+<use resources/images/Diagrama de flujo de proceso pagos a proveedores-actual.p
+ng>
+Package luatex.def Info: resources/images/Diagrama de flujo de proceso pagos a 
+proveedores-actual.png  used on input line 145.
+(luatex.def)             Requested size: 412.56497pt x 350.8176pt.
+ [48<./resources/images/Diagrama de flujo de proceso pagos obligaciones actual.p
+ng>]
+<resources/images/Diagrama de flujo de proceso multas actual.png, id=910, 522.9
+5375pt x 452.69125pt>
+File: resources/images/Diagrama de flujo de proceso multas actual.png Graphic f
+ile (type png)
+<use resources/images/Diagrama de flujo de proceso multas actual.png>
+Package luatex.def Info: resources/images/Diagrama de flujo de proceso multas a
+ctual.png  used on input line 166.
+(luatex.def)             Requested size: 412.56497pt x 357.13864pt.
+ [49<./resources/images/Diagrama de flujo de proceso pagos a proveedores-actual.
+png>])
+(./chapters/3-resultados-y-discusion/3.5-desarrollo-propuesta.tex [50<./resource
+s/images/Diagrama de flujo de proceso multas actual.png>]
+Underfull \hbox (badness 2080) in paragraph at lines 37--38
+[]\TU/TimesNewRoman(0)/m/n/12 Usuario en-car-gado de la ad-min-is-tración de re
+s-i-den-cias,
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 41--42
+[]\TU/TimesNewRoman(0)/m/n/12 Usuario en-car-gado de la ad-min-is-tración de lo
+s even-tos
+ []
+
+[51]
+Underfull \hbox (badness 3199) in paragraph at lines 72--72
+[]\TU/TimesNewRoman(0)/m/n/12 El usuario po-drá ini-ciar sesión
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+\TU/TimesNewRoman(0)/m/n/12 me-di-ante su au-t-en-ti-cación
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+\TU/TimesNewRoman(0)/m/n/12 in-gre-sando sus cre-den-ciales:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[]\TU/TimesNewRoman(0)/m/n/12 Re-cu-perar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\TU/TimesNewRoman(0)/m/n/12 con-traseña po-drá so-lic-i-tar una
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\TU/TimesNewRoman(0)/m/n/12 con-traseña nueva au-to-gen-er-ada
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 76--76
+\TU/TimesNewRoman(0)/m/n/12 por el sis-tema y en-vi-ada a su
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+[]\TU/TimesNewRoman(0)/m/n/12 Cam-biar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+[]\TU/TimesNewRoman(0)/m/n/12 El usuario po-drá cam-biar su
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]\TU/TimesNewRoman(0)/m/n/12 Ges-tionar
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 82--82
+\TU/TimesNewRoman(0)/m/n/12 reg-is-trar, in-hab-il-i-tar o ed-i-tar la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+[]\TU/TimesNewRoman(0)/m/n/12 Ges-tionar
+ []
+
+
+Underfull \hbox (badness 4872) in paragraph at lines 86--86
+\TU/TimesNewRoman(0)/m/n/12 o ed-i-tar la de-scrip-ción de los
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]\TU/TimesNewRoman(0)/m/n/12 Ges-tionar
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 88--88
+\TU/TimesNewRoman(0)/m/n/12 ubi-cación de las co-or-de-nadas y
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 88--88
+\TU/TimesNewRoman(0)/m/n/12 el ra-dio de aceptación me-di-ante
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]\TU/TimesNewRoman(0)/m/n/12 Ges-tionar
+ []
+
+
+Overfull \hbox (4.25227pt too wide) in paragraph at lines 92--92
+\TU/TimesNewRoman(0)/m/n/12 esta-cionamien-tos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+
+Underfull \hbox (badness 8189) in paragraph at lines 92--93
+[]\TU/TimesNewRoman(0)/m/n/12 El pres-i-dente po-drá vi-su-alizar,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+\TU/TimesNewRoman(0)/m/n/12 aso-ci-ada a cada par-queadero.
+ []
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 92--93
+\TU/TimesNewRoman(0)/m/n/12 la de-scrip-ción de los tipos de
+ []
+
+
+Overfull \hbox (1.43924pt too wide) in paragraph at lines 97--97
+[]\TU/TimesNewRoman(0)/m/n/12 R10
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]\TU/TimesNewRoman(0)/m/n/12 Ges-tionar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]\TU/TimesNewRoman(0)/m/n/12 El pres-i-dente o vi-cepres-i-dente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+\TU/TimesNewRoman(0)/m/n/12 po-drán vi-su-alizar, elim-i-nar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+\TU/TimesNewRoman(0)/m/n/12 o ac-tu-alizar el in-quilino o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+\TU/TimesNewRoman(0)/m/n/12 propi-etario de cada res-i-den-cia
+ []
+
+
+Overfull \hbox (0.99393pt too wide) in paragraph at lines 99--99
+[]\TU/TimesNewRoman(0)/m/n/12 R11
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]\TU/TimesNewRoman(0)/m/n/12 Ges-tionar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]\TU/TimesNewRoman(0)/m/n/12 El pres-i-dente o vi-cepres-i-dente
+ []
+
+
+Underfull \hbox (badness 3029) in paragraph at lines 99--99
+\TU/TimesNewRoman(0)/m/n/12 o in-hab-il-i-tar a los guardias de
+ []
+
+
+Overfull \hbox (1.43924pt too wide) in paragraph at lines 101--101
+[]\TU/TimesNewRoman(0)/m/n/12 R12
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+[]\TU/TimesNewRoman(0)/m/n/12 Ges-tionar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+\TU/TimesNewRoman(0)/m/n/12 ac-tivi-dades de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+[]\TU/TimesNewRoman(0)/m/n/12 El pres-i-dente o vi-cepres-i-dente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+\TU/TimesNewRoman(0)/m/n/12 o elim-i-nar las ac-tivi-dades de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+\TU/TimesNewRoman(0)/m/n/12 guardianía. Tam-bién po-drá
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+\TU/TimesNewRoman(0)/m/n/12 cam-biar el es-tado de cada
+ []
+
+
+Overfull \hbox (1.43924pt too wide) in paragraph at lines 104--104
+[]\TU/TimesNewRoman(0)/m/n/12 R13
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+[]\TU/TimesNewRoman(0)/m/n/12 Ges-tionar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+\TU/TimesNewRoman(0)/m/n/12 los tipos de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+[]\TU/TimesNewRoman(0)/m/n/12 El pres-i-dente o vi-cepres-i-dente
+ []
+
+
+Overfull \hbox (1.43924pt too wide) in paragraph at lines 106--106
+[]\TU/TimesNewRoman(0)/m/n/12 R14
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]\TU/TimesNewRoman(0)/m/n/12 Ges-tionar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]\TU/TimesNewRoman(0)/m/n/12 El pres-i-dente o vi-cepres-i-dente
+ []
+
+
+Underfull \hbox (badness 4353) in paragraph at lines 106--106
+\TU/TimesNewRoman(0)/m/n/12 por los guardías, asi como el
+ []
+
+
+Overfull \hbox (1.43924pt too wide) in paragraph at lines 108--108
+[]\TU/TimesNewRoman(0)/m/n/12 R15
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+[]\TU/TimesNewRoman(0)/m/n/12 Ges-tionar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+[]\TU/TimesNewRoman(0)/m/n/12 El pres-i-dente o vi-cepres-i-dente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+\TU/TimesNewRoman(0)/m/n/12 po-drá vi-su-alizar, descar-gar,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+\TU/TimesNewRoman(0)/m/n/12 reg-is-trar, ed-i-tar, fi-nalizar o
+ []
+
+
+Overfull \hbox (1.43924pt too wide) in paragraph at lines 110--110
+[]\TU/TimesNewRoman(0)/m/n/12 R16
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+[]\TU/TimesNewRoman(0)/m/n/12 Ges-tionar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+\TU/TimesNewRoman(0)/m/n/12 asis-ten-cias de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+[]\TU/TimesNewRoman(0)/m/n/12 Las con-vo-ca-to-rias de tipo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+\TU/TimesNewRoman(0)/m/n/12 asam-blea son las úni-cas que
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 110--110
+\TU/TimesNewRoman(0)/m/n/12 poseerán reg-istro de asis-ten-cias,
+ []
+
+
+Overfull \hbox (1.43924pt too wide) in paragraph at lines 112--112
+[]\TU/TimesNewRoman(0)/m/n/12 R17
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[]\TU/TimesNewRoman(0)/m/n/12 Ges-tionar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+\TU/TimesNewRoman(0)/m/n/12 vota-ciones de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[]\TU/TimesNewRoman(0)/m/n/12 Las con-vo-ca-to-rias de tipo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+\TU/TimesNewRoman(0)/m/n/12 asam-blea son las úni-cas que
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+\TU/TimesNewRoman(0)/m/n/12 poseerán vota-ciones, de tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+\TU/TimesNewRoman(0)/m/n/12 man-era que el pres-i-dente o
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 112--112
+\TU/TimesNewRoman(0)/m/n/12 vi-cepres-i-dente po-drán vi-su-alizar,
+ []
+
+
+Underfull \hbox (badness 7907) in paragraph at lines 112--112
+\TU/TimesNewRoman(0)/m/n/12 de cada pre-gunta prop-uesta a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+\TU/TimesNewRoman(0)/m/n/12 vi-su-alizar la in-for-ma-ción de
+ []
+
+
+Overfull \hbox (1.43924pt too wide) in paragraph at lines 116--116
+[]\TU/TimesNewRoman(0)/m/n/12 R18
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+[]\TU/TimesNewRoman(0)/m/n/12 Ges-tionar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+\TU/TimesNewRoman(0)/m/n/12 in-gre-sos
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 116--116
+[]\TU/TimesNewRoman(0)/m/n/12 Pos-te-rior a la en-trega física o
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 116--116
+\TU/TimesNewRoman(0)/m/n/12 pago junto con el com-pro-bante
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+\TU/TimesNewRoman(0)/m/n/12 te-niendo en cuenta el úl-timo
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 116--116
+\TU/TimesNewRoman(0)/m/n/12 mes de pago y hasta que mes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+\TU/TimesNewRoman(0)/m/n/12 está abo-nando el res-i-dente y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+\TU/TimesNewRoman(0)/m/n/12 elec-trónico un respaldo del
+ []
+
+
+Overfull \hbox (1.43924pt too wide) in paragraph at lines 118--118
+[]\TU/TimesNewRoman(0)/m/n/12 R19
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+[]\TU/TimesNewRoman(0)/m/n/12 Ges-tionar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+\TU/TimesNewRoman(0)/m/n/12 in-gre-sos
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 118--118
+[]\TU/TimesNewRoman(0)/m/n/12 Pos-te-rior a la en-trega física o
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 118--118
+\TU/TimesNewRoman(0)/m/n/12 pago junto con el com-pro-bante
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+\TU/TimesNewRoman(0)/m/n/12 y pos-te-ri-or-mente se en-vía al
+ []
+
+
+Overfull \hbox (1.43924pt too wide) in paragraph at lines 120--120
+[]\TU/TimesNewRoman(0)/m/n/12 R20
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[]\TU/TimesNewRoman(0)/m/n/12 Ges-tionar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+[]\TU/TimesNewRoman(0)/m/n/12 La tesor-era po-drá vi-su-alizar,
+ []
+
+
+Underfull \hbox (badness 5787) in paragraph at lines 120--121
+\TU/TimesNewRoman(0)/m/n/12 Los res-i-dentes deben pre-sen-tar
+ []
+
+
+Underfull \hbox (badness 7814) in paragraph at lines 120--121
+\TU/TimesNewRoman(0)/m/n/12 de man-era física o dig-i-tal el
+ []
+
+
+Underfull \hbox (badness 6204) in paragraph at lines 120--121
+\TU/TimesNewRoman(0)/m/n/12 el com-pro-bante y a ac-tu-alizar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+\TU/TimesNewRoman(0)/m/n/12 elec-trónico un respaldo del
+ []
+
+
+Overfull \hbox (1.43924pt too wide) in paragraph at lines 125--125
+[]\TU/TimesNewRoman(0)/m/n/12 R21
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]\TU/TimesNewRoman(0)/m/n/12 Ges-tionar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]\TU/TimesNewRoman(0)/m/n/12 El sec-re-tario po-drá vi-su-alizar,
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 125--125
+\TU/TimesNewRoman(0)/m/n/12 reg-is-trar, ed-i-tar, o elim-i-nar los
+ []
+
+
+Overfull \hbox (1.43924pt too wide) in paragraph at lines 127--127
+[]\TU/TimesNewRoman(0)/m/n/12 R22
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+
+ []
+
+
+Overfull \hbox (1.43924pt too wide) in paragraph at lines 131--131
+[]\TU/TimesNewRoman(0)/m/n/12 R23
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]\TU/TimesNewRoman(0)/m/n/12 Vi-su-alizar el
+ []
+
+
+Overfull \hbox (1.43924pt too wide) in paragraph at lines 133--133
+[]\TU/TimesNewRoman(0)/m/n/12 R24
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]\TU/TimesNewRoman(0)/m/n/12 Vi-su-alizar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/TimesNewRoman(0)/m/n/12 es-tado de las
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/TimesNewRoman(0)/m/n/12 obli-ga-ciones
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/TimesNewRoman(0)/m/n/12 vi-su-alizar el es-tado fi-nanciero
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 133--133
+\TU/TimesNewRoman(0)/m/n/12 de sus obli-ga-ciones fi-nancieras
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/TimesNewRoman(0)/m/n/12 de to-das sus res-i-den-cias o
+ []
+
+
+Overfull \hbox (1.43924pt too wide) in paragraph at lines 135--135
+[]\TU/TimesNewRoman(0)/m/n/12 R25
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]\TU/TimesNewRoman(0)/m/n/12 Vi-su-alizar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/12 asam-blea del
+ []
+
+
+Overfull \hbox (1.43924pt too wide) in paragraph at lines 137--137
+[]\TU/TimesNewRoman(0)/m/n/12 R26
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]\TU/TimesNewRoman(0)/m/n/12 Reg-is-trar
+ []
+
+
+Overfull \hbox (1.43924pt too wide) in paragraph at lines 141--141
+[]\TU/TimesNewRoman(0)/m/n/12 R27
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+[]\TU/TimesNewRoman(0)/m/n/12 El propi-etario po-drá reg-is-trar
+ []
+
+
+Underfull \hbox (badness 6001) in paragraph at lines 141--141
+\TU/TimesNewRoman(0)/m/n/12 su voto en las pre-gun-tas que
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+\TU/TimesNewRoman(0)/m/n/12 se en-cuen-tren ha-bil-i-tadas
+ []
+
+
+Underfull \hbox (badness 7796) in paragraph at lines 141--141
+\TU/TimesNewRoman(0)/m/n/12 para su voto siem-pre que se
+ []
+
+
+Underfull \hbox (badness 5203) in paragraph at lines 141--141
+\TU/TimesNewRoman(0)/m/n/12 en-cuen-tre den-tro del rango de
+ []
+
+
+Overfull \hbox (2.57626pt too wide) in alignment at lines 65--143
+[][][][][] 
+ []
+
+[52] [53] [54] [55]
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+[]\TU/TimesNewRoman(0)/m/n/12 Ges-tionar ac-tivi-dades de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\TU/TimesNewRoman(0)/m/n/12 Ges-tionar asis-ten-cias de las
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]\TU/TimesNewRoman(0)/m/n/12 Ges-tionar vota-ciones de las
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
+[]\TU/TimesNewRoman(0)/m/n/12 Vi-su-alizar es-tado de las
+ []
+
+
+Overfull \hbox (1.98329pt too wide) in alignment at lines 152--213
+[][][][][][] 
+ []
+
+[56] [57]
+Underfull \hbox (badness 1348) in paragraph at lines 237--238
+[]\TU/TimesNewRoman(0)/m/n/12 La tesor-era ver-i-fica el com-pro-bante de pago 
+de diez dólares por la
+ []
+
+
+Underfull \hbox (badness 7099) in paragraph at lines 259--261
+[]\TU/TimesNewRoman(0)/m/n/12 Se ver-i-fica la ubi-cación del propi-etario o in
+-quilino me-di-ante la
+ []
+
+[58]
+Underfull \hbox (badness 3138) in paragraph at lines 292--293
+[]\TU/TimesNewRoman(0)/m/n/12 El propi-etario o in-quilino puede pre-sen-tar una
+ jus-ti-fi-cación por la
+ []
+
+[59] [60]
+Underfull \hbox (badness 1688) in paragraph at lines 354--355
+[]\TU/TimesNewRoman(0)/m/n/12 El sis-tema en-vía por correo elec-trónico el re
+spaldo de pago al
+ []
+
+) [61]
+CAPÍTULO IV.
+(./chapters/0-prelims/biblio.tex (C:/Projects/Tesis_master/out/main.bbl
+[62
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
+\TU/TimesNewRoman(0)/m/n/12 AD-MIN-IS-TRA-TIVA PARA LA CO-OP-ER-A-TIVA DE TRANS-
+PORTE
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 25--28
+\TU/TimesNewRoman(0)/m/n/12 “EX-PRESO MI-LA-GRO” EN EL CAN-TÓN MI-LA-GRO,''
+ \TU/TimesNewRoman(0)/m/it/12 UNI-VER-SI-DAD
+ []
+
+
+Underfull \hbox (badness 5548) in paragraph at lines 39--43
+[]\TU/TimesNewRoman(0)/m/n/12 F. Fa-jardo, Azu-cena, ``MOD-ELO DE GESTIÓN AD-MI
+N-IS-TRA-TIVO -
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 39--43
+\TU/TimesNewRoman(0)/m/n/12 Y TOMA DE DE-CI-SIONES,'' \TU/TimesNewRoman(0)/m/it
+/12 ES-CUELA SU-PE-RIOR POLITÉC-NICA DE
+ []
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 56--60
+\TU/TimesNewRoman(0)/m/n/12 Me-di-ante Ser-vi-cios SOAP,'' Tra-bajo de Tit-u-lac
+ión, Uni-ver-si-dad Dis-tri-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
+[]\TU/TimesNewRoman(0)/m/n/12 C. Mor-eira, ``DE-SAR-ROLLO DE UN SIS-TEMA WEB PAR
+A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
+\TU/TimesNewRoman(0)/m/n/12 EL FOR-T-ALEC-IMIENTO DE LOS PRO-CE-SOS DE GESTIÓN
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
+\TU/TimesNewRoman(0)/m/n/12 AD-MIN-IS-TRA-TIVA Y FI-NANCIERA DEL CON-DO-MINIO SO
+-LAR
+ []
+
+
+Underfull \hbox (badness 3271) in paragraph at lines 72--78
+\TU/TimesNewRoman(0)/m/n/12 DEL RÍO DE LA CIU-DAD DE IBARRA UTI-LIZANDO MI-CROS
+OFT
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 72--78
+\TU/TimesNewRoman(0)/m/n/12 PRE-GRADO IN-GE-NIERO EN SIS-TEMAS COM-PUTA-CIONALES
+ MSC.
+ []
+
+[63
+
+]
+Underfull \hbox (badness 3199) in paragraph at lines 80--83
+\TU/TimesNewRoman(0)/m/n/12 RE-AL-IZACIÓN DE VOTA-CIONES,'' Tra-bajo de Tit-u-l
+ación, Uni-ver-si-dad
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 106--111
+\TU/TimesNewRoman(0)/m/n/12 REST y RE-DUX para la op-ti-mización de la ad-min-i
+s-tración del con-junto
+ []
+
+[64] [65])) (./chapters/5-appendixs/index.tex [66]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 2.
+
+(./chapters/5-appendixs/entrevista-director-diviso.tex
+Underfull \hbox (badness 1365) in paragraph at lines 18--19
+[]\TU/TimesNewRoman(0)/m/n/10.95 ¿Cuáles es el pro-ceso ac-tual para la adquis
+i-ción de
+ []
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 20--21
+[]\TU/TimesNewRoman(0)/m/n/10.95 ¿De que man-era se co-mu-nica a los res-i-dent
+es del
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+\TU/TimesNewRoman(0)/m/n/10.95 con-do-minio even-tos so-ciales o con-vo-ca-to-ri
+as de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+[]\TU/TimesNewRoman(0)/m/n/10.95 ¿Ac-tual-mente cómo fun-ciona el buzón de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\TU/TimesNewRoman(0)/m/n/10.95 alícuo-tas, par-queaderos, etc.), asam-bleas, ev
+en-tos
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 25--26
+\TU/TimesNewRoman(0)/m/n/10.95 so-ciales, pa-gos a provee-dores y demás in-for-
+ma-ción
+ []
+
+
+Overfull \hbox (1.81071pt too wide) in paragraph at lines 9--28
+ [] 
+ []
+
+) [67
+
+] (./chapters/5-appendixs/encuesta-residentes.tex
+Underfull \hbox (badness 2865) in paragraph at lines 11--11
+[]\TU/TimesNewRoman(0)/m/n/10.95 ¿Cree usted que el pro-ceso ac-tual para obten
+er la
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 11--11
+\TU/TimesNewRoman(0)/m/n/10.95 in-for-ma-ción de las obli-ga-ciones fi-nanciera
+s (pa-gos,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+[]\TU/TimesNewRoman(0)/m/n/10.95 Ni de acuerdo ni en
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 19--19
+[]\TU/TimesNewRoman(0)/m/n/10.95 ¿Con que fre-cuen-cia so-licita la in-for-ma-c
+ión de las
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 25--26
+[]\TU/TimesNewRoman(0)/m/n/10.95 Más de cu-a-tro ve-ces al
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+[]\TU/TimesNewRoman(0)/m/n/10.95 Ni de acuerdo ni en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+[]\TU/TimesNewRoman(0)/m/n/10.95 Ni de acuerdo ni en
+ []
+
+
+Underfull \hbox (badness 6252) in paragraph at lines 43--43
+[]\TU/TimesNewRoman(0)/m/n/10.95 ¿Ha ex-per-i-men-tado re-tra-sos en la en-treg
+a de los
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+[]\TU/TimesNewRoman(0)/m/n/10.95 ¿Con que fre-cuen-cia ha uti-lizado el buzón de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[]\TU/TimesNewRoman(0)/m/n/10.95 ¿Con-sid-era usted que los medios ac-tuales
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+[]\TU/TimesNewRoman(0)/m/n/10.95 Ni de acuerdo ni en
+ []
+
+
+Overfull \hbox (3.37677pt too wide) in alignment at lines 6--78
+ [][] 
+ []
+
+[68] [69]) (./chapters/5-appendixs/encuesta-TAM-web.tex
+Underfull \hbox (badness 3942) in paragraph at lines 17--17
+[]\TU/TimesNewRoman(0)/m/n/12 El sis-tema fa-cilita las tar-eas de gestión del con-junto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[]\TU/TimesNewRoman(0)/m/n/12 Pro-por-ciona in-for-ma-ción rel-e-vante para la toma de
+ []
+
+) [70] (./chapters/5-appendixs/encuesta-TAM-app.tex
+Underfull \hbox (badness 6204) in paragraph at lines 17--17
+[]\TU/TimesNewRoman(0)/m/n/12 Las no-ti-fi-ca-ciones de pa-gos son claras y f
+á-ciles de
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 22--22
+[]\TU/TimesNewRoman(0)/m/n/12 Es sen-cillo nave-gar por la apli-cación para en-
+con-trar la
+ []
+
+)) [71] (C:/Projects/Tesis_master/out/main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2020/03/25>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: A95372152D869421ADBE1AB24E728FE8;9531.
+)
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 73 (\begingroup)
+### bottom level
+
+Here is how much of LuaTeX's memory you used:
+ 45880 strings out of 476497
+ 195390,1977958 words of node,token memory allocated
+ 1009 words of node memory still in use:
+   7 hlist, 2 vlist, 3 rule, 2 glue, 4 kern, 1 glyph, 28 attribute, 122 glue_spe
+c, 28 attribute_list, 2 write, 11 pdf_action nodes
+   avail lists: 1:2,2:2823,3:787,4:166,5:885,6:294,7:16823,8:246,9:3427,10:20,11
+:1311
+ 66178 multiletter control sequences out of 65536+600000
+ 68 fonts using 19614743 bytes
+ 109i,12n,107p,1450b,5557s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Windows/Fonts/timesi.ttf><C:/Windows/Fonts/timesbi.ttf><C:/Windows/Fonts/tim
+es.ttf><C:/Windows/Fonts/timesbd.ttf><C:/Users/Capibara/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Capibara/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Capibara/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/C
+apibara/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C
+:/Users/Capibara/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb>
+Output written on main.pdf (87 pages, 1292182 bytes).
+
+PDF statistics: 1169 PDF objects out of 1200 (max. 8388607)
+ 340 named destinations out of 1000 (max. 131072)
+ 464 words of extra memory for PDF output out of 10000 (max. 100000000)
+

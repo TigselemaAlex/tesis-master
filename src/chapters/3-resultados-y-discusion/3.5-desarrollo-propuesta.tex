@@ -1,0 +1,359 @@
+\section{Desarrollo de la propuesta}\label{sec:desarrollo-propuesta}
+
+Para el desarrollo de la propuesta se aplicó la metodología RAD la cual según\cite{bonilla_cadena_desarrollo_2022}, la autora menciona que esta metodología ayuda al desarrollo rápido de aplicaciones de una manera rápida y económica enfocada principalmente a empresas con baja disponibilidad de recursos y tiempo.
+
+La metodología RAD se basa en cuatro fases principales:
+
+\begin{itemize}
+    \item Planificación de requerimientos \\
+    En esta primera fase se identifican los requerimientos del sistema para satisfacer las necesidades del cliente y se establece el alcance del proyecto.
+    \item Diseño de usuario\\
+    Una vez identificados los requerimientos se crean modelos de diseño previos a la construcción del sistema los cuales son presentados a los usuarios para recibir retroalimentación.
+    \item Construcción\\
+    En esta fase se construye el sistema de acuerdo a los modelos de diseño previamente aprobados, mediante la codificación y pruebas del sistema.
+    \item Transición
+    La fase final en la que se realiza la entrega del sistema levantado en un entorno de producción real en donde se realizarán pruebas finales y se capacitará a los usuarios finales.
+\end{itemize}
+
+\subsection{Planificación de requerimientos} \label{subsec:planificacion-requerimientos}
+
+En esta primera etapa se realizó un análisis de la información recopilada en las entrevistas, encuestas y en la situación actual descrita anteriormente.
+
+En las siguientes tablas continuación se detallan en los usuarios identificados en la interacción con el sistema web y la aplicación móvil.
+En la Tabla \ref{tab:table_requerimientos} se detallan los requerimientos del proyecto identificados por usuarios.
+
+\begin{table}[H]
+    \centering
+    \caption{Descripción de los usuarios identificados en la interacción con el sistema web administrativo}
+    \renewcommand*{\arraystretch}{1.4}
+    \begin{longtable}{|p{0.2\textwidth}|p{0.7\textwidth}|}
+        \hline
+        \textbf{Usuario} & \textbf{Descripción}                                                                           \\
+        \hline
+        Administrador    & Usuario encargado de la administración de usuarios y la configuración de la geolocalización.   \\
+        \hline
+        Presidente       & Usuario encargado de la administración de parqueaderos, residencias, guardianía, convocatorias \\
+        \hline
+        Vicepresidente   & Usuario encargado de la administración de residencias, guardianía y convocatorias              \\
+        \hline
+        Tesorero         & Usuario encargado de la administración de los ingresos, multas y egresos                       \\
+        \hline
+        Secretario       & Usuario encargado de la administración de los eventos sociales y convocatorias                 \\
+        \hline
+    \end{longtable}\label{tab:table_usuarios_web}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Descripción de los usuarios identificados en la interacción con la aplicación móvil}
+    \renewcommand*{\arraystretch}{1.4}
+    \begin{longtable}{|p{0.2\textwidth}|p{0.7\textwidth}|}
+        \hline
+        \textbf{Usuario} & \textbf{Descripción}                                                                                                                                                 \\
+        \hline
+        Propietario      & Usuario encargado de registrar la asistencia en asambleas y votación, visualización de las obligaciones financieras relacionadas con su residencia o sus residencias \\
+        \hline
+        Inquilino        & Usuario encargado de registrar la asistencia en asambleas y visualización de las obligaciones financieras relacionadas con su residencia o sus residencias           \\
+        \hline
+    \end{longtable}\label{tab:table_usuarios_movil}
+\end{table}
+
+\begin{spacing}{1}
+
+    \begin{center}
+        \renewcommand*{\arraystretch}{1.4}
+        \begin{longtable}[l]{|p{0.045\textwidth}|p{0.19\textwidth}|p{0.4\textwidth}|p{0.13\textwidth}| p{0.09\textwidth}|}
+            \caption{Identificación de los requerimientos del sistema} \\
+            \hline
+            \textbf{ID} & \textbf{Requerimiento}                            & \textbf{Descripción}                                                                                                                                                                                                                                                                                                                                                                                                                                                                   & \textbf{Prioridad}         & \textbf{Riesgo}           \\
+            \hline
+            \multicolumn{5}{|l|}{ \textbf{Todos los usuarios} } \\
+            \hline
+            R1          & Iniciar sesión                                    & El usuario podrá iniciar sesión mediante su autenticación ingresando sus credenciales: cédula y contraseña & \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Alto}\\
+            \hline
+            R2          & Cerrar sesión                                     & El usuario podrá finalizar la sesión en cualquier momento                                                                                                                                                                                                                                                                                                                                                                                                                              & \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Bajo}\\
+            \hline
+            R3          & Recuperar contraseña                              & El usuario en caso de olvidar la contraseña podrá solicitar una contraseña nueva autogenerada por el sistema y enviada a su correo electrónico & \multicolumn{1}{c|}{Media} & \multicolumn{1}{c|}{Bajo}\\
+            \hline
+            R4          & Cambiar contraseña                                & El usuario podrá cambiar su contraseña en cualquier momento & \multicolumn{1}{c|}{Media} & \multicolumn{1}{c|}{Bajo}\\
+            \hline
+            \multicolumn{5}{|l|}{ \textbf{Administrador} } \\
+            \hline
+            R5          & Gestionar usuarios                                & El administrador podrá visualizar, registrar, inhabilitar o editar la información y roles de los demás usuarios  & \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Alto}\\
+            \hline
+            R6          & Gestionar roles                                   & El administrador podrá visualizar o editar la descripción de los roles existentes en el sistema  & \multicolumn{1}{c|}{Media} & \multicolumn{1}{c|}{Bajo}\\
+            \hline
+            R7          & Gestionar pasajes                                 & El administrador podrá visualizar o editar la descripción de los pasajes existentes en el sistema  & \multicolumn{1}{c|}{Media} & \multicolumn{1}{c|}{Bajo}\\
+            \hline
+            R8          & Gestionar geolocalización                         & El administrador podrá editar la ubicación de las coordenadas y el radio de aceptación mediante la visualización de un mapa del lugar en donde se darán lugar las asambleas  & \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Alto}\\
+            \hline
+            \multicolumn{5}{|l|}{ \textbf{Presidente} } \\
+            \hline
+            R9 & Gestionar estacionamientos & El presidente podrá visualizar, eliminar o actualizar la residencia asociada a cada parqueadero.
+            También podrá visualizar o editar la descripción de los tipos de parqueaderos existentes & \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Alto}\\
+            \hline
+            \multicolumn{5}{|l|}{ \textbf{Presidente y Vicepresidente} } \\
+            \hline
+            R10         & Gestionar residencias                             & El presidente o vicepresidente podrán visualizar, eliminar o actualizar el inquilino o propietario de cada residencia del conjunto & \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Alto}\\
+            \hline
+            R11         & Gestionar guardias                                & El presidente o vicepresidente podrán visualizar, registrar, editar, o inhabilitar a los guardias de seguridad  & \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Alto}\\
+            \hline
+            R12 & Gestionar actividades de guardianía & El presidente o vicepresidente podrá visualizar, registrar, editar, o eliminar las actividades de guardianía.
+            También podrá cambiar el estado de cada actividad & \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Alto}\\
+            \hline
+            R13         & Gestionar los tipos de incidentes                 & El presidente o vicepresidente podrán visualizar, registrar, editar, o inhabilitar los tipos de incidentes & \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Alto}\\
+            \hline
+            R14         & Gestionar incidentes                              & El presidente o vicepresidente podrán visualizar, crear, editar, o eliminar los incidentes reportados por los guardías, asi como el cambio del estado del incidente & \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Alto}\\
+            \hline
+            R15         & Gestionar convocatorias                           & El presidente o vicepresidente podrá visualizar, descargar, registrar, editar, finalizar o eliminar las convocatorias,  & \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Alto}\\
+            \hline
+            R16         & Gestionar asistencias de las asambleas            & Las convocatorias de tipo asamblea son las únicas que poseerán registro de asistencias, de tal manera que el presidente o vicepresidente podrán realizar el registro manual de las asistencias, asi como descargar un reporte de inasistentes & \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Alto}\\
+            \hline
+            R17         & Gestionar votaciones de las asambleas             & Las convocatorias de tipo asamblea son las únicas que poseerán votaciones, de tal manera que el presidente o vicepresidente podrán visualizar, editar, habilitar el voto o eliminar de cada pregunta propuesta a votación, asi como también poder visualizar la información de votación de cada votante & \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Alto}\\
+            \hline
+            \multicolumn{5}{|l|}{ \textbf{Tesorero} } \\
+            \hline
+            R18         & Gestionar ingresos mensuales                      & Posterior a la entrega física o digital del comprobante de pago por parte del residente la tesorera procede a registrar los datos del pago junto con el comprobante teniendo en cuenta el último mes de pago y hasta que mes está abonando el residente y posteriormente se envía al correo electrónico un respaldo del registro del pago, adicional a esto también puede visualizar, editar la información así como actualizar el comprobante de pago o eliminar el registro del pago & \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Alto}\\
+            \hline
+            R19         & Gestionar ingresos casuales                       & Posterior a la entrega física o digital del comprobante de pago por parte del residente la tesorera procede a registrar los datos del pago junto con el comprobante y posteriormente se envía al correo electrónico un respaldo del registro del pago, adicional a esto también puede visualizar, editar la información así como actualizar el comprobante de pago o eliminar el registro del pago & \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Alto}\\
+            \hline
+            R20 & Gestionar multas & La tesorera podrá visualizar, crear, editar o eliminar las multas.
+            Los residentes deben presentar de manera física o digital el comprobante del pago de la multa por el monto indicado y posterior a su revisión se procede a subir el comprobante y a actualizar el estado del pago de la multa, posteriormente se envía al correo electrónico un respaldo del registro del pago & \multicolumn{1}{c|}{Alta}  & \multicolumn{1}{c|}{Alto}\\
+            \hline
+            \multicolumn{5}{|l|}{ \textbf{Secretario} } \\
+            \hline
+            R21         & Gestionar eventos sociales                        & El secretario podrá visualizar, registrar, editar, o eliminar los eventos sociales. & \multicolumn{1}{c|}{Media} & \multicolumn{1}{c|}{Bajo}\\
+            \hline
+            R22         & Subir actas                           & El secretario podrá subir actas de las convocatorias & \multicolumn{1}{c|}{Media} & \multicolumn{1}{c|}{Bajo}\\
+            \hline
+            \multicolumn{5}{|l|}{ \textbf{Propietario e Inquilino} } \\
+            \hline
+            R23         & Visualizar el calendario                          & El propietario o inquilino podrán visualizar el calendario de eventos sociales y asambleas próximas & \multicolumn{1}{c|}{Media} & \multicolumn{1}{c|}{Bajo}\\
+            \hline
+            R24         & Visualizar estado de las obligaciones financieras & El propietario o inquilino podrán visualizar el estado financiero de sus obligaciones financieras de todas sus residencias o parqueaderos & \multicolumn{1}{c|}{Media} & \multicolumn{1}{c|}{Bajo}\\
+            \hline
+            R25         & Visualizar asamblea del día                       & El propietario o inquilino podrán visualizar la asamblea únicamente si se da en ese día & \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Bajo}\\
+            \hline
+            R26         & Registrar asistencia                              & El propietario o inquilino podrán registrar su asistencia siempre que se encuentre dentro del rango de geolocalización registrado por el administrador del sistema & \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Alto}\\
+            \hline
+            \multicolumn{5}{|l|}{ \textbf{Propietario} } \\
+            \hline
+            R27         & Registrar voto                                    & El propietario podrá registrar su voto en las preguntas que se encuentren habilitadas para su voto siempre que se encuentre dentro del rango de geolocalización registrado por el administrador del sistema y tenga registrada la asistencia& \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Alto}\\
+            \hline
+        \end{longtable}\label{tab:table_requerimientos}
+    \end{center}
+\end{spacing}
+
+Una vez definidos los requerimientos del sistema se define el plan de trabajo en cada iteración para el desarrollo de los sistemas.
+
+\begin{spacing}{1}
+    \begin{center}
+        \renewcommand*{\arraystretch}{1.4}
+        \begin{longtable}[l]{|p{0.17\textwidth}|p{0.045\textwidth}|p{0.055\textwidth}|p{0.37\textwidth}| p{0.09\textwidth}|p{0.09\textwidth}| }
+            \caption{Identificación de los requerimientos del sistema} \\
+            \hline
+            \multirow{2}{*}{\textbf{N° Iteración}} & \multirow{2}{*}{\textbf{N°}} & \multirow{2}{*}{\textbf{ID}} & \multirow{2}{*}{\textbf{Requerimiento}} & \multicolumn{2}{c|}{\textbf{Tiempo estimado}}\\
+            \cline{5-6}
+            & & & & \textbf{Horas} & \textbf{dias} \\
+            \hline
+            \multirow{8}{*}{Iteración 1} & 1 & R1 & Iniciar sesión & 6 & 1 \\
+            \cline{2-6}
+             & 2 & R2 & Cerrar sesión & 1 & 1 \\
+            \cline{2-6}
+             & 3 & R3 & Recuperar contraseña & 2 & 1 \\
+            \cline{2-6}
+             & 4 & R4 & Cambiar contraseña & 1 & 1 \\
+            \cline{2-6}
+             & 5 & R5 & Gestionar usuarios & 10 & 2 \\
+            \cline{2-6}
+             & 6 & R6 & Gestionar roles & 3 & 1 \\
+            \cline{2-6}
+             & 7 & R7 & Gestionar pasajes & 3 & 1 \\
+            \cline{2-6}
+             & 8 & R8 & Gestionar geolocalización & 6 & 1 \\
+            \hline
+            \multirow{9}{*}{Iteración 2} & 9 & R9 & Gestionar estacionamientos & 16 & 2 \\
+            \cline{2-6}
+             & 10 & R10 & Gestionar residencias & 8 & 1 \\
+            \cline{2-6}
+             & 11 & R11 & Gestionar guardias & 6 & 1 \\
+            \cline{2-6}
+             & 12 & R12 & Gestionar actividades de guardianía & 8 & 1 \\
+            \cline{2-6}
+             & 13 & R13 & Gestionar los tipos de incidentes & 4 & 1 \\
+            \hline
+             & 14 & R14 & Gestionar incidentes & 8 & 1 \\
+            \cline{2-6}
+             & 15 & R15 & Gestionar convocatorias & 16 & 2 \\
+            \cline{2-6}
+             & 16 & R16 & Gestionar asistencias de las asambleas & 8 & 1 \\
+            \cline{2-6}
+             & 17 & R17 & Gestionar votaciones de las asambleas & 10 & 2 \\
+            \hline
+            \multirow{10}{*}{Iteración 3} & 18 & R18 & Gestionar ingresos mensuales & 16 & 2 \\
+            \cline{2-6}
+             & 19 & R19 & Gestionar ingresos casuales & 8 & 1 \\
+            \cline{2-6}
+             & 20 & R20 & Gestionar multas & 14 & 2 \\
+            \cline{2-6}
+             & 21 & R21 & Gestionar eventos sociales & 8 & 1 \\
+            \cline{2-6}
+             & 22 & R22 & Subir actas & 2 & 1 \\
+            \cline{2-6}
+             & 23 & R23 & Visualizar el calendario & 4 & 1 \\
+            \cline{2-6}
+             & 24 & R24 & Visualizar estado de las obligaciones financieras & 12 & 2 \\
+            \cline{2-6}
+             & 25 & R25 & Visualizar asamblea del día & 4 & 1 \\
+            \cline{2-6}
+             & 26 & R26 & Registrar asistencia & 8 & 1 \\
+            \cline{2-6}
+             & 27 & R27 & Registrar voto & 8 & 1 \\
+            \hline
+        \end{longtable}
+    \end{center}
+\end{spacing}
+
+\subsection{Diseño de usuario} \label{subsec:diseno-usuario}
+\subsubsection{Análisis de los procesos sistematizados propuestos}
+
+A continuación se detallaran los procesos sistematizados para la administración de parqueaderos, convocatorias y administración financiera.
+
+\begin{itemize}
+    \item Proceso de administración de parqueaderos (Zona azul).
+    \begin{enumerate}
+        \item Se verifica que el propietario o inquilino este registrado en el sistema.
+        \begin{enumerate}
+            \item Si está registrado se procede al siguiente proceso.
+            \item Si no está registrado se le notifica al administrador para su registro en el sistema y se repite el proceso.
+        \end{enumerate}
+        \item El presidente solicita enviar la documentación requerida para la asignación de un parqueadero.
+        \begin{enumerate}
+            \item Si entrega la documentación completa se procede al siguiente proceso.
+            \item Si no entrega la documentación completa se finaliza el proceso.
+        \end{enumerate}
+        \item El presidente muestra en el sistema el mapa de parqueaderos disponibles.
+        \item El propietario o inquilino debe abonar diez dólares por la asignación del parqueadero y enviar el comprobante de pago a la tesorera.
+        \item La tesorera verifica el comprobante de pago de diez dólares por la asignación del parqueadero.
+        \item Se registra el pago en los ingresos mensuales en el sistema.
+        \item Se sube el comprobante de pago al sistema.
+        \item Se envía por correo electrónico el respaldo de pago al propietario o inquilino.
+        \item El presidente asigna el parqueadero al domicilio relacionado al propietario o inquilino.
+        \item El sistema genera una carta de compromiso.
+    \end{enumerate}
+
+    \item Proceso de administración de convocatorias.
+    \begin{enumerate}
+        \item La directiva del conjunto se reúne para definir la fecha de la convocatoria.
+        \item Se registra en el sistema la convocatoria y se notifica a los propietarios o inquilinos mediante la aplicación móvil.
+        \item Se lleva a cabo la convocatoria.
+        \begin{itemize}
+            \item Si es una asamblea se procede al siguiente proceso.
+            \item Si es una reunión o sesión de directiva se salta al proceso 6.
+        \end{itemize}
+        \item Los inquilinos o propietarios registran su asistencia en la aplicación móvil.
+        \begin{enumerate}
+            \item Si no esta registrado en el sistema el presidente o vicepresidente registra su asistencia de su domicilio al que representa.
+            \item Si esta registrado en el sistema se procede al siguiente proceso.
+        \end{enumerate}
+        \item Se verifica la ubicación del propietario o inquilino mediante la geolocalización.
+        \begin{itemize}
+            \item Si se encuentra en el rango de geolocalización se registra la asistencia y se procede al siguiente proceso.
+            \item Si no se encuentra en el rango de geolocalización no se registra la asistencia.
+        \end{itemize}
+        \item Se tratan los temas de la convocatoria.
+        \item Se propone una votación de los temas a tratar.
+        \begin{itemize}
+            \item Si existe una votación se procede al siguiente proceso.
+            \item Si no existe una votación se salta al proceso 14.
+        \end{itemize}
+        \item Se registra la votación en el sistema.
+        \item Se habilita el voto a los propietarios o inquilinos.
+        \item El sistema verifica que el usuario que va a votar sea propietario.
+        \begin{itemize}
+            \item Si es propietario se procede al siguiente proceso.
+            \item Si no es propietario no se registra el voto.
+        \end{itemize}
+        \item Los propietarios registran su voto en la aplicación móvil.
+        \item Se verifica la ubicación del propietario mediante la geolocalización.
+        \begin{itemize}
+            \item Si se encuentra en el rango de geolocalización se registra el voto y se procede al siguiente proceso.
+            \item Si no se encuentra en el rango de geolocalización no se registra el voto.
+        \end{itemize}
+        \item Se muestra el resultado de la votación desde el sistema.
+        \item Se finaliza la convocatoria.
+        \item Se sube el acta de la convocatoria al sistema.
+        \begin{itemize}
+            \item Si es una asamblea se procede al siguiente proceso.
+            \item Si es una reunión o sesión de directiva se finaliza el proceso.
+        \end{itemize}
+        \item Se genera el informe de inasistencia de los propietarios o inquilinos desde el sistema.
+        \item Se envía el informe de asistencia a los residentes y se registra la respectiva multa en el sistema.
+        \item El propietario o inquilino puede presentar una justificación por la inasistencia en las siguientes 24 horas.
+        \item Se verifica la justificación presentada.
+        \begin{itemize}
+            \item Si la justificación es válida se procede a eliminar la multa del sistema y se finaliza el proceso.
+            \item Si la justificación no es válida la multa se mantiene y termina el proceso.
+        \end{itemize}
+    \end{enumerate}
+
+
+    \item Proceso de administración financiera.
+    \begin{enumerate}
+        \item Pagos de obligaciones financieras mensuales
+        \begin{enumerate}
+            \item El inquilino realiza el pago de la mensualidad de sus obligaciones financieras.
+            \item El inquilino envía el comprobante de pago a la tesorera.
+            \item La tesorera verifica el comprobante de pago.
+            \begin{itemize}
+                \item Si el comprobante es válido se procede al siguiente proceso.
+                \item Si el comprobante no es válido se finaliza el proceso.
+            \end{itemize}
+            \item La tesorera selecciona la residencia del inquilino o propietario.
+            \item El sistema verifica hasta que mes abonó el inquilino en su anterior pago.
+            \begin{itemize}
+                \item Si el inquilino tiene abonos anteriores el sistema coloca el mes siguiente de manera automática y se procede al siguiente paso.
+                \item Si el inquilino no tiene abonos se procede al siguiente paso.
+            \end{itemize}
+            \item Se registra el pago en el sistema.
+            \item Se sube el comprobante de pago al sistema.
+            \item Se genera una orden de pago.
+            \item Se envía por correo electrónico el respaldo de pago al inquilino o propietario.
+        \end{enumerate}
+
+        \item Pagos a proveedores
+        \begin{enumerate}
+            \item El proveedor envía la factura a la tesorera.
+            \item La tesorera verifica la factura.
+            \begin{itemize}
+                \item Si la factura es válida se procede al siguiente proceso.
+                \item Si la factura no es válida se finaliza el proceso.
+            \end{itemize}
+            \item La tesorera verifíca si el proveedor está registrado en el sistema.
+            \begin{itemize}
+                \item Si el proveedor está registrado se procede al siguiente proceso.
+                \item Si el proveedor no está registrado se le registra en el sistema y se repite el proceso.
+            \end{itemize}
+            \item La tesorera registra la factura en el sistema.
+            \item Se sube la factura al sistema.
+        \end{enumerate}
+
+        \item Multas
+        \begin{enumerate}
+            \item Se registra la multa en el sistema.
+            \item Se suben evidencias de la multa al sistema.
+            \item Se le notifica al propietario o inquilino la multa mediante la aplicación móvil.
+            \item El propietario o inquilino envía el comprobante de pago de la multa.
+            \item La tesorera verifica el comprobante de pago.
+            \begin{itemize}
+                \item Si el comprobante es válido se procede al siguiente proceso.
+                \item Si el comprobante no es válido se mantiene la multa y se finaliza el proceso.
+            \end{itemize}
+            \item Se actualiza el estado de la multa en el sistema.
+            \item Se genera una orden de pago.
+            \item El sistema envía por correo electrónico el respaldo de pago al propietario o inquilino.
+        \end{enumerate}
+
+    \end{enumerate}
+\end{itemize}
+

@@ -1,0 +1,261 @@
+\section{Análisis de herramientas de desarrollo}\label{sec:analisis-frameworks-desarrollo}
+
+En la siguiente sección se detalla el análisis de las herramientas de desarrollo que se utilizarán para la implementación del sistema de gestión de conjunto habitacional tanto frameworks como herramientas y metodologías de desarrollo que mejor se adapten a las necesidades del proyecto.
+
+\subsection{Análisis y selección de frameworks}\label{subsec:analisis-seleccion-frameworks-desarrollo}
+
+Dado que el sistema administrativo para la directiva sera un sistema web y el sistema para los propietarios e inquilinos sera un sistema móvil, se debe seleccionar un framework de desarrollo web, un framework de desarrollo móvil, un framework de desarrollo de APIs, un gestor de bases de datos y herramientas para la geolocalización.
+
+\subsubsection{Framework de desarrollo web}\label{subsubsec:framework-desarrollo-web}
+
+En primera instancia se debe evaluar las características de los frameworks de desarrollo web más utilizados en la actualidad, como Angular, React y Vue, para seleccionar el que mejor se adapte a las necesidades del proyecto.
+Para lo cual en \cite{universitat_politecnica_de_valencia_universitat_2014}  el autor muestra una tabla de comparación entre las características de los frameworks de desarrollo web Angular, React y Vue que se detallan a continuación.
+
+\begin{spacing}{1}
+    \begin{center}
+
+        \renewcommand*{\arraystretch}{1.4}
+        \begin{longtable}[c]{ |>{\bfseries}p{0.2\textwidth} |p{0.2\textwidth} |p{0.2\textwidth}  |p{0.2\textwidth}|  }
+            \caption[Características de los framework front-end Angular, React y Vue]{ Características de los framework front-end Angular, React y Vue\cite{universitat_politecnica_de_valencia_universitat_2014} } \\
+            \hline
+            \multicolumn{1}{|c|}{ \textbf{Característica}} & \multicolumn{1}{c|}{\textbf{Angular}} & \multicolumn{1}{c|}{ \textbf{React}} & \multicolumn{1}{c|}{ \textbf{Vue}} \\
+            \hline
+            Tipo                                         & Marco Frontal                        & Biblioteca Frontal                  & Marco Frontal                     \\
+            \hline
+            Año de lanzamiento                           & 2016                                 & 2013                                & 2014                              \\
+            \hline
+            Lenguaje de programación                     & TypeScript                           & JavaScript                          & JavaScript                        \\
+            \hline
+            Tamaño del ecosistema                        & Grande                               & Grande                              & Mediano                           \\
+            \hline
+            Enlace de datos bidireccional                & Sí                                   & Sí                                  & Sí                                \\
+            \hline
+            Arquitectura de componentes                  & Sí                                   & Sí                                  & Sí                                \\
+            \hline
+            DOM Virtual                                  & No                                   & Sí                                  & Sí                                \\
+            \hline
+            Curva de aprendizaje                         & Relativamente pronunciada            & Moderada                            & Moderada                          \\
+            \hline
+            Rendimiento                                  & Bueno                                & Muy Bueno                           & Bueno                             \\
+            \hline
+            Soporte comunitario                          & Fuerte                               & Fuerte                              & Fuerte                            \\
+            \hline
+            Casos de uso                                 & Aplicaciones grandes y complejas     & Varias escalas                      & Varias escalas                    \\
+            \hline
+        \end{longtable}\label{tab:table_angular_react_vue_caracteristicas}
+
+    \end{center}
+\end{spacing}
+
+En la Tabla \ref{tab:table_angular_react_vue_ventajas_desventajas} analizán también las ventajas y desventajas de los frameworks de desarrollo web Angular, React y Vue.
+En donde el autor \cite{universitat_politecnica_de_valencia_universitat_2014}  realiza una extracción de las ventajas y desventajas de los frameworks los cuales serán detallados a continuación.
+
+\begin{spacing}{1}
+    \begin{center}
+        \renewcommand*{\arraystretch}{1.4}
+        \begin{longtable}[c]{ |>{\bfseries}p{0.05\textwidth} |p{0.38\textwidth} |p{0.38\textwidth}|    }
+            \caption[Ventajas y desventajas de los framework front-end Angular, React y Vue]{ Ventajas y desventajas de los framework front-end Angular, React y Vue\cite{universitat_politecnica_de_valencia_universitat_2014} }\label{tab:table_angular_react_vue_ventajas_desventajas} \\
+            \hline
+            \multicolumn{1}{|c|}{ \textbf{Framework}} & \multicolumn{1}{c|}{\textbf{Ventajas}} & \multicolumn{1}{c|}{ \textbf{Desventajas}} \\
+            \hline
+            Angular & \begin{itemize}
+                          \item Potente
+                          \item Vinculación de datos bidireccional
+                          \item Arquitectura de componentes
+                          \item Enrutamiento y navegación
+                          \item Desarrollo multiplataforma
+            \end{itemize}
+            & \begin{itemize}
+                  \item Curva de aprendizaje pronunciada
+                  \item Grande y complejo
+                  \item Problemas de rendimiento
+                  \item No es optimo para proyectos pequeños
+                  \item Escalabilidad adecuada para proyectos grandes
+            \end{itemize} \\
+            \hline
+            React & \begin{itemize}
+                        \item Alto rendimiento
+                        \item Desarrollo por componentes
+                        \item Comunidad activa
+                        \item Ecosistema rico
+            \end{itemize}
+            & \begin{itemize}
+                  \item Curva de aprendizaje alta para principiantes
+                  \item Sintaxis JSX
+                  \item Enfoque solo en la capa visible
+            \end{itemize} \\
+            \hline
+            Vue & \begin{itemize}
+                      \item Fácil de aprender
+                      \item Marco incremental
+                      \item Responsive data binding
+                      \item Desarrollo por componentes
+                      \item Ecosistema rico
+            \end{itemize}
+            & \begin{itemize}
+                  \item Ecosistema pequeño comparado con Angular y React
+                  \item Menos soporte comunitario en comparación con Angular y React
+                  \item Menos consistente que Angular
+            \end{itemize} \\
+            \hline
+        \end{longtable}
+    \end{center}
+\end{spacing}
+
+Después de analizar las características, ventajas y desventajas de los frameworks de desarrollo web Angular, React y Vue, se selecciona el framework de desarrollo web Angular, ya que es el que mejor se adapta a las necesidades del proyecto debido a que proporciona un framework muy completo con una arquitectura ya predefinida además de tener una variedad de herramientas y librerías que facilitan el desarrollo de aplicaciones web y teniendo en cuenta que posee un framework de desarrollo móvil llamado Ionic que facilita la creación de aplicaciones móviles multiplataforma.
+
+\subsubsection{Framework de desarrollo móvil}\label{subsubsec:framework-desarrollo-movil}
+
+Como framework de desarrollo móvil se selecciona el framework de desarrollo móvil Ionic, ya que en el estudio comparativo en \cite{ahmad_analysis_2023}, el autor muestra una Tabla \ref{tab:table_movil_frameworks_comparacion} de resultados en donde se tiene en cuenta diversos factores de rendimiento, seguridad, facilidad de acceso al hardware, uso de CPU, uso de memoria, entre otros factores, en donde se evidencia que el framework de desarrollo móvil Ionic obtiene un puntaje de 81 puntos, React Native 85 puntos y Flutter 79 puntos.
+
+
+\begin{spacing}{1}
+    \begin{small}
+        \begin{center}
+            \renewcommand*{\arraystretch}{1.4}
+            \begin{longtable}[c]{ |>{\bfseries}p{0.15\textwidth}  |p{0.05\textwidth} |p{0.05\textwidth}  |p{0.05\textwidth}  |p{0.05\textwidth}  |p{0.05\textwidth}  |p{0.05\textwidth}|   }
+                \caption[Comparación de los frameworks: Métricas y puntuajes]{ Comparación de los frameworks: Métricas y puntuajes \cite{ahmad_analysis_2023}}\label{tab:table_movil_frameworks_comparacion} \\
+                \hline
+                \multicolumn{1}{|c|}{ \textbf{Métrica}}  & \multicolumn{1}{c|}{\textbf{Ionic}} & \multicolumn{1}{c|}{ \textbf{React Native}} & \multicolumn{1}{c|}{ \textbf{Flutter}} & \multicolumn{1}{c|}{ \textbf{NativeScript}} & \multicolumn{1}{c|}{ \textbf{MAUI}} & \multicolumn{1}{c|}{ \textbf{ReactJs}}\\
+                \hline
+                Plataformas objetivo                   & \multicolumn{1}{c|}{10}             & \multicolumn{1}{c|}{10}                     & \multicolumn{1}{c|}{10} & \multicolumn{1}{c|}{6}  & \multicolumn{1}{c|}{8} & \multicolumn{1}{c|}{10} \\
+                \hline
+                Acceso al hardware                     & \multicolumn{1}{c|}{13}             & \multicolumn{1}{c|}{16}                     & \multicolumn{1}{c|}{16} & \multicolumn{1}{c|}{14} & \multicolumn{1}{c|}{14} & \multicolumn{1}{c|}{16} \\
+                \hline
+                Funciones específicas de la plataforma & \multicolumn{1}{c|}{18}             & \multicolumn{1}{c|}{17} & \multicolumn{1}{c|}{18} & \multicolumn{1}{c|}{18} & \multicolumn{1}{c|}{16} & \multicolumn{1}{c|}{12} \\
+                \hline
+                Distribución de canales                & \multicolumn{1}{c|}{4}              & \multicolumn{1}{c|}{4}                      & \multicolumn{1}{c|}{4}  & \multicolumn{1}{c|}{4}  & \multicolumn{1}{c|}{4}  & \multicolumn{1}{c|}{1}  \\
+                \hline
+                Testeo                                 & \multicolumn{1}{c|}{8}              & \multicolumn{1}{c|}{8}                      & \multicolumn{1}{c|}{8}                 & \multicolumn{1}{c|}{4}  & \multicolumn{1}{c|}{8}  & \multicolumn{1}{c|}{8}  \\
+                \hline
+                Monetización                           & \multicolumn{1}{c|}{6}              & \multicolumn{1}{c|}{6}                      & \multicolumn{1}{c|}{6}                 & \multicolumn{1}{c|}{6}  & \multicolumn{1}{c|}{3}  & \multicolumn{1}{c|}{6}  \\
+                \hline
+                Integración personalizada de código    & \multicolumn{1}{c|}{2}              & \multicolumn{1}{c|}{2}                      & \multicolumn{1}{c|}{2}  & \multicolumn{1}{c|}{2}  & \multicolumn{1}{c|}{2}  & \multicolumn{1}{c|}{0}  \\
+                \hline
+                Seguridad                              & \multicolumn{1}{c|}{8}              & \multicolumn{1}{c|}{6}                      & \multicolumn{1}{c|}{6}                 & \multicolumn{1}{c|}{8}  & \multicolumn{1}{c|}{6}  & \multicolumn{1}{c|}{6}  \\
+                \hline
+                Uso del CPU                            & \multicolumn{1}{c|}{3}              & \multicolumn{1}{c|}{6}                      & \multicolumn{1}{c|}{2}                 & \multicolumn{1}{c|}{1}  & \multicolumn{1}{c|}{5}  & \multicolumn{1}{c|}{4}  \\
+                \hline
+                Uso de memoria                         & \multicolumn{1}{c|}{3}              & \multicolumn{1}{c|}{6}                      & \multicolumn{1}{c|}{2}  & \multicolumn{1}{c|}{1}  & \multicolumn{1}{c|}{5}  & \multicolumn{1}{c|}{4}  \\
+                \hline
+                Tamaño de la aplicación                & \multicolumn{1}{c|}{6}              & \multicolumn{1}{c|}{4}                      & \multicolumn{1}{c|}{5}  & \multicolumn{1}{c|}{2}  & \multicolumn{1}{c|}{1}  & \multicolumn{1}{c|}{3}  \\
+                \hline
+                \textbf{Total}                         & \multicolumn{1}{c|}{\textbf{81}}    & \multicolumn{1}{c|}{\textbf{85}}            & \multicolumn{1}{c|}{\textbf{79}}                           & \multicolumn{1}{c|}{\textbf{66}}                                & \multicolumn{1}{c|}{\textbf{72}}                        & \multicolumn{1}{c|}{\textbf{70}}                           \\
+                \hline
+            \end{longtable}
+        \end{center}
+    \end{small}
+\end{spacing}
+
+
+Por lo cual teniendo en consideración de que Ionic es un framework que en puede trabajar con Angular el cual también se utilizara para el desarrollo web y los resultados obtenidos del estudio revisado en donde se evidencia que Ionic tiene un buen rendimiento en las métricas medidas siendo únicamente superada por React Native por 4 puntos se elige el framework de desarrollo móvil Ionic.
+
+\subsubsection{Framework de desarrollo back-end}
+
+Dado que el proyecto será tanto web como móvil se realizara un estudio comparativo de frameworks que faciliten la creación de una API para comunicar tanto interfaz de usuario web como la interfaz de usuario móvil con la base de datos.
+\bigbreak
+
+Como lenguaje de programación se selecciona Java, ya que en \cite{zhang_design_2021}, el autor menciona que java es un lenguaje muy robusto y seguro, orientado a objetos, con una amplia comunidad, además el autor menciona que es más eficiente que lenguajes de programación muy usados como .NET en términos de tiempo de respuesta y utilización de recursos.
+\bigbreak
+En \cite{choma_efficiency_2023}, el autor realizó un estudio comparativo entre los frameworks de desarrollo back-end Spring Boot, Django y Express, en dicho estudio se les realizaron pruebas de rendimiento enviando dieciséis mil peticiones HTTP simultáneas de tipo GET, POST, PUT y DELETE, en donde se evidencio la superioridad de Spring Boot ya que el autor menciona que éste framework supera al resto debido a que implementa mejores mecanismos de mejoras de rendimiento extraídos de Spring Framework, por lo cual se selecciona este framework para el desarrollo back-end.
+\bigbreak
+
+\subsubsection{Herramienta de geolocalización}
+
+Para la obtención de las ubicaciones en tiempo real se usara el plugin de geolocalización que viene integrado en Ionic, el cual esta provisto de métodos simples para obtener la ubicación actual y poder hacerle un seguimiento en tiempo real usando el GPS del dispositivo móvil \cite{ionic_geolocation}.
+\bigbreak
+Por otro lado, se usara la API de Google Maps para la visualización de las ubicaciones en un mapa, ya que esta API proporciona una variedad de herramientas para la visualización de mapas y la obtención de ubicaciones, además de funciones en la cuales nos permite representar áreas mediante la configuración de polígonos y círculos \cite{poligons}.
+
+
+\subsubsection{Gestor de bases de datos}
+
+Las bases de datos son un componente fundamental en el desarrollo de aplicaciones, por lo cual se debe seleccionar un gestor de bases de datos que se adapte a las necesidades del proyecto, en donde se debe tener en cuenta la escalabilidad, la seguridad, la disponibilidad y la facilidad de uso.
+
+\newpage
+\begin{spacing}{1}
+    \begin{center}
+
+        \renewcommand*{\arraystretch}{1.4}
+        \begin{longtable}[c]{ |>{\bfseries}p{0.2\textwidth}| p{0.2\textwidth}| p{0.2\textwidth}|  p{0.2\textwidth}|  }
+            \caption[Comparación entre gestores SQL, NoSQL y NewSQL]{ Comparación entre gestores SQL, NoSQL y NewSQL\cite{lasluisa_evaluacion_2020} }\label{tab:table_sql_nosql_newsql} \\
+            \hline
+            \multicolumn{1}{|c|}{ \textbf{Descripción}} & \multicolumn{1}{c|}{\textbf{Relacional}} & \multicolumn{1}{c|}{ \textbf{No Relacional}} & \multicolumn{1}{c|}{ \textbf{NewSQL}} \\
+            \hline
+            Modelo de datos & Normaliza los datos en
+            tablas conformadas por filas y columnas.
+            Define estrictamente relación entre tablas
+            & Proporciona una variedad
+            de modelos de datos,
+            como pares clave/valor,
+            documentos y gráficos.
+            & Estructura e atos
+            flexible en donde es
+            posible combinar la
+            transaccionalidad y alta
+            redundancia. \\
+            \hline
+            Cargas de trabajo óptima & Están diseñadas para
+            aplicaciones de procesamiento
+            de transacciones online (OLTP)
+            y procesamiento analítico
+            online (OLAP). & Las bases de datos de
+            búsqueda NoSQL están
+            diseñadas para hacer
+            análisis sobre datos
+            semiestructurados.
+            & Alto rendimiento para
+            cargas de trabajo OLTP/
+            OLAP. \\
+            \hline
+            Escalabilidad & Escalabilidad vertical,
+            crecimiento de la cantidad
+            de nodos de almacenamiento
+            depende de la estructura
+            tecnológica física.
+            & Escalabilidad horizontal y
+            se distribuye la carga por
+            todos los nodos.
+            & Escalabilidad horizontal
+            proporcionando un alta
+            rendimiento en una amplia
+            gama de plataformas. \\
+            \hline
+            Propiedades ACID & Las bases de datos relacional
+            ofrecen propiedades de
+            atomicidad, coherencia,
+            aislamiento y durabilidad
+            (ACID). & Las bases de datos
+            NoSQL hacen
+            concesiones al
+            flexibilizar algunas de las
+            propiedades ACID para
+            un modelo de datos más
+            flexible.
+            & Mantiene las propiedades
+            de ACID de un sistema de
+            base de datos tradicional o
+            relacional. \\
+            \hline
+            Tolerancia a fallos & Fallo en el nodo generalmente
+            hará fallar la consulta.
+            & Configurados para que
+            la perdida de algunos
+            nodos no interrumpa
+            funcionamiento global.
+            & Crash Recovery: Las
+            bases de datos NewSQL
+            tienen un mecanismo
+            que les permite recuperar
+            datos y pasar a un estado
+            coherente.\\
+            \hline
+        \end{longtable}
+
+    \end{center}
+\end{spacing}
+
+Una vez analizadas las características de los gestores descritos en la Tabla \ref{tab:table_sql_nosql_newsql}, se selecciona el gestor de bases de datos relacional, ya que son gestores en los cuales los datos están normalizados en tablas y se define estrictamente la relación entre tablas, además de que es un gestor de bases de datos que se adapta a las necesidades del proyecto, ya que Spring Boot tiene soporte para el ORM Hibernate que facilita la conexión y el manejo de la los datos.
+
+\bigbreak
+
+Como sistema de gestor de bases de datos relacional se elige PostgreSQL, ya que en \cite{leon_soberon_alisis_2020}, el autor realiza un análisis de los gestores de bases de datos PostgreSQL y MySQl obteniendo como resultado que PostgeSQL tiene un mejor resultado en términos de consumo de CPU y memoria sobre MySQL, sin embargo en los procesos crud de eliminar y consultar imágenes MySQL tiene un mejor rendimiento, por lo cual teniendo en cuenta que no se realizarán almacenamiento de imágenes en la base de datos se selecciona PostgreSQL.

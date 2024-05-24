@@ -1,0 +1,60 @@
+%! TeX program = lualatex
+\documentclass{tesis}
+\usepackage{fontspec}
+\usepackage{mdwtab}
+\setmainfont{Times New Roman}
+
+\input{config/constants.tex}
+
+\begin{document}
+
+%Start counting pages from 2 in roman numbers
+\pagenumbering{roman}
+
+%A. Paginas preliminares
+\input{chapters/0-prelims/portada}
+
+\setcounter{page}{2}
+\input{chapters/0-prelims/aprobacion-tutor}
+\input{chapters/0-prelims/autoria}
+\input{chapters/0-prelims/derechos-autor}
+\input{chapters/0-prelims/aprobacion-tribunal}
+\input{chapters/0-prelims/dedicatoria}
+\input{chapters/0-prelims/agradecimientos}
+\input{chapters/0-prelims/index}
+\input{chapters/0-prelims/resumen}
+\input{chapters/0-prelims/abstract}
+
+
+%B. Contenidos
+%Change counting to arabic numbers
+\newpage
+\renewcommand{\thepage}{\arabic{page}}% Roman page numbers
+\setcounter{page}{1}
+\chapter{MARCO TEÓRICO}\label{ch:marco-teorico}
+\input{chapters/1-marco-teorico/tema-investigacion}
+\input{chapters/1-marco-teorico/planteamiento-problema}
+\input{chapters/1-marco-teorico/antecedentes-investigativos}
+\input{chapters/1-marco-teorico/fundamentacion-teorica}
+\input{chapters/1-marco-teorico/objetivo-general}
+\input{chapters/1-marco-teorico/objetivos-especificos}
+
+
+\chapter{METODOLOGÍA}\label{ch:metodologia}
+\input{chapters/2-metodologia/materiales}
+\input{chapters/2-metodologia/metodos}
+
+\chapter{RESULTADOS Y DISCUSIÓN}\label{ch:resultados-y-discusion}
+\input{chapters/3-resultados-y-discusion/3.1-analisis-herramientas-desarrollo}
+\input{chapters/3-resultados-y-discusion/3.2-definicion-metodologia}
+\input{chapters/3-resultados-y-discusion/3.3-calculo-haversine}
+\input{chapters/3-resultados-y-discusion/3.4-analisis-proceso-actual}
+\input{chapters/3-resultados-y-discusion/3.5-desarrollo-propuesta}
+
+\chapter{CONCLUSIONES Y RECOMENDACIONES}\label{ch:conclusiones-y-recomendaciones}
+
+%C. Materiales de referencia
+\input{chapters/0-prelims/biblio}
+\input{chapters/5-appendixs/index}
+
+\end{document}

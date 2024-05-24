@@ -1,0 +1,38 @@
+\section{Cálculo de la distancia Haversine}\label{sec:calculo-de-la-distancia-haversine}
+
+El cálculo de la distancia entre dos puntos geográficos es una tarea común en la programación de aplicaciones que requieren la ubicación de un usuario o la ubicación de un lugar específico.
+En el caso de la aplicación móvil, se requiere conocer si el usuario se encuentra dentro de un rango de distancia de el lugar de reuniones en las asambleas de conjunto residencial.
+\bigbreak
+En \cite{camino_costa_desarrollo_2012} el autor menciona que la fórmula de Haversine es una fórmula utilizada para calcular la distancia entre dos puntos en la superficie de una esfera, en este caso, la Tierra.
+Además, menciona que esta fórmula es precisa en el cálculo numérico incluso a distancias pequeñas, lo cual es ideal debido a que la precisión es un factor importante en la aplicación móvil, ya que será determinante para la verificación de la ubicación de los residentes.
+\bigbreak
+La fórmula de Haversine se define como:
+
+
+\begin{itemize}
+  \item $R$: Radio de la Tierra (aproximadamente 6371 km o 6371e3 metros).
+  \item $\text{lat1}$, $\text{lon1}$: Latitud y longitud del primer punto en grados.
+  \item $\text{lat2}$, $\text{lon2}$: Latitud y longitud del segundo punto en grados.
+  \item $dLat$: Diferencia de latitud en radianes.
+  \item $dLon$: Diferencia de longitud en radianes.
+  \item $a$: Fórmula de Haversine.
+  \item $c$: Ángulo central en radianes.
+  \item $d$: Distancia entre los dos puntos en metros.
+\end{itemize}
+
+
+\begin{equation}
+    \begin{aligned}
+        \text{R} &= 6371e3 \\
+        \text{dLat} &= \text{lat2} - \text{lat1} \\
+        \text{dLon} &= \text{lon2} - \text{lon1} \\
+        a &= \sin^2\left(\frac{dLat}{2}\right) + \cos(\text{lat1}) \cdot \cos(\text{lat2}) \cdot \sin^2\left(\frac{dLon}{2}\right) \\
+        c &= 2 \cdot \text{atan2}\left(\sqrt{a}, \sqrt{1-a}\right) \\
+        d &= R \cdot c \\
+    \end{aligned}\label{eq:equation3}
+\end{equation}
+
+
+
+
+
