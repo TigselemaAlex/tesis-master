@@ -34,47 +34,51 @@ Warning--missing school in camino_costa_desarrollo_2012
 Warning--empty year in camino_costa_desarrollo_2012
 Warning--missing school in bonilla_cadena_desarrollo_2022
 Warning--empty year in bonilla_cadena_desarrollo_2022
+Warning--empty journal in tapia_leon_comparacion_2015
+Warning--empty year in tapia_leon_comparacion_2015
+Warning--empty journal in varela_modelo_2010
+Warning--empty year in varela_modelo_2010
 
 Done.
-You've used 31 entries,
+You've used 33 entries,
             4073 wiz_defined-function locations,
-            979 strings with 14838 characters,
-and the built_in function-call counts, 12593 in all, are:
-= -- 1094
-> -- 234
-< -- 21
-+ -- 111
-- -- 52
-* -- 573
-:= -- 2446
-add.period$ -- 62
-call.type$ -- 31
-change.case$ -- 31
-chr.to.int$ -- 33
-cite$ -- 52
-duplicate$ -- 997
-empty$ -- 1021
-format.name$ -- 67
-if$ -- 2653
+            989 strings with 15355 characters,
+and the built_in function-call counts, 13824 in all, are:
+= -- 1190
+> -- 266
+< -- 31
++ -- 127
+- -- 58
+* -- 644
+:= -- 2639
+add.period$ -- 66
+call.type$ -- 33
+change.case$ -- 33
+chr.to.int$ -- 51
+cite$ -- 58
+duplicate$ -- 1090
+empty$ -- 1110
+format.name$ -- 75
+if$ -- 2922
 int.to.chr$ -- 0
-int.to.str$ -- 31
-missing$ -- 214
-newline$ -- 138
-num.names$ -- 31
-pop$ -- 501
+int.to.str$ -- 33
+missing$ -- 232
+newline$ -- 146
+num.names$ -- 33
+pop$ -- 545
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 973
+skip$ -- 1063
 stack$ -- 0
-substring$ -- 114
-swap$ -- 662
-text.length$ -- 10
+substring$ -- 158
+swap$ -- 733
+text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 31
-warning$ -- 21
-while$ -- 41
-width$ -- 33
-write$ -- 307
-(There were 21 warnings)
+type$ -- 33
+warning$ -- 25
+while$ -- 47
+width$ -- 35
+write$ -- 326
+(There were 25 warnings)

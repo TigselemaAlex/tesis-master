@@ -1,19 +1,141 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces Resultados de la encuesta en la pregunta uno}}{22}{figure.caption.11}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Resultados de la encuesta en la pregunta dos}}{23}{figure.caption.13}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Resultados de la encuesta en la pregunta tres}}{24}{figure.caption.15}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Resultados de la encuesta en la pregunta cuatro}}{25}{figure.caption.17}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Resultados de la encuesta en la pregunta cinco}}{26}{figure.caption.19}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Resultados de la encuesta en la pregunta seis}}{27}{figure.caption.21}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Resultados de la encuesta en la pregunta siete}}{28}{figure.caption.23}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Resultados de la encuesta en la pregunta ocho}}{29}{figure.caption.25}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Resultados de la encuesta en la pregunta nueve}}{30}{figure.caption.27}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Resultados de la encuesta en la pregunta uno}}{22}{figure.caption.10}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Resultados de la encuesta en la pregunta dos}}{23}{figure.caption.12}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Resultados de la encuesta en la pregunta tres}}{24}{figure.caption.14}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Resultados de la encuesta en la pregunta cuatro}}{25}{figure.caption.16}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Resultados de la encuesta en la pregunta cinco}}{26}{figure.caption.18}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Resultados de la encuesta en la pregunta seis}}{27}{figure.caption.20}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Resultados de la encuesta en la pregunta siete}}{28}{figure.caption.22}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Resultados de la encuesta en la pregunta ocho}}{29}{figure.caption.24}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Resultados de la encuesta en la pregunta nueve}}{30}{figure.caption.26}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10}{\ignorespaces Diagrama de flujo de procesos actual de administración de parqueaderos (Zona azul).}}{45}{figure.caption.29}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Diagrama de flujo de procesos actual de administración de convocatorias.}}{47}{figure.caption.30}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Diagrama de flujo de procesos actual del pago de obligaciones financieras.}}{48}{figure.caption.31}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Diagrama de flujo de procesos actual del pago de obligaciones financieras.}}{49}{figure.caption.32}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Diagrama de flujo de procesos actual de multas.}}{50}{figure.caption.33}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Diagrama de flujo de procesos actual de administración de parqueaderos (Zona azul).}}{45}{figure.caption.28}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Diagrama de flujo de procesos actual de administración de convocatorias.}}{47}{figure.caption.29}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Diagrama de flujo de procesos actual del pago de obligaciones financieras.}}{48}{figure.caption.30}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Diagrama de flujo de procesos actual del pago de obligaciones financieras.}}{49}{figure.caption.31}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Diagrama de flujo de procesos actual de multas.}}{50}{figure.caption.32}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Diagrama de flujo de procesos sistematizado prupuesto de administración de parqueaderos (Zona azul).}}{59}{figure.caption.35}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Diagrama de flujo de procesos sistematizado prupuesto de convocatorias}}{62}{figure.caption.36}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Diagrama de flujo de procesos sistematizado prupuesto de pago de obligaciones financieras mensuales}}{64}{figure.caption.37}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Diagrama de flujo de procesos sistematizado prupuesto de pago a proveedores}}{65}{figure.caption.38}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Diagrama de flujo de procesos sistematizado prupuesto de multas}}{66}{figure.caption.39}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Arquitectura del sistema}}{67}{figure.caption.40}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Prototipo de inicio de sesión}}{68}{figure.caption.41}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Prototipo de la vista del la barra de navegación}}{68}{figure.caption.42}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Prototipo de la vista del dashboard de administración}}{69}{figure.caption.43}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Prototipo de la vista del dashboard de presidencia}}{69}{figure.caption.44}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Prototipo de la vista del dashboard de tesorería}}{70}{figure.caption.45}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Prototipo de la vista de la administración de usuarios}}{70}{figure.caption.46}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Prototipo de la vista del fomulario para edicion o creación de usuarios}}{71}{figure.caption.47}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Prototipo de la vista de la configuración de la geolocalización}}{71}{figure.caption.48}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Prototipo de la vista de administración de residencias}}{72}{figure.caption.49}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Prototipo de la vista de administración de parqueaderos}}{72}{figure.caption.50}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Prototipo de la vista de administración de tipos de parqueaderos}}{73}{figure.caption.51}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Prototipo de la vista del formulario de cambio de residencia asociada a un parqueadero}}{73}{figure.caption.52}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Prototipo de la vista del formulario en la selección de residencia}}{74}{figure.caption.53}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Prototipo de la vista de la administración de convocatorias}}{74}{figure.caption.54}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Prototipo de la vista del formulario de de edición o creación de convocatorias}}{75}{figure.caption.55}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Prototipo de la vista de vista previa a la descarga de la convocatoría}}{75}{figure.caption.56}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Prototipo de la vista de administración de asistencias en asambleas}}{76}{figure.caption.57}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Prototipo de la vista de administración de votaciones en asambleas}}{76}{figure.caption.58}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Prototipo de la vista de administración de tipos de ingresos casuales y mensuales}}{77}{figure.caption.59}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Prototipo de la vista del formulario de creación y edición de tipos de ingresos casuales y mensuales}}{77}{figure.caption.60}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Prototipo de la vista de administración de tipos de multas}}{78}{figure.caption.61}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Prototipo de la vista de administración de ingresos mensuales}}{78}{figure.caption.62}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Prototipo de la vista del formulario de creación y edición de ingresos mensuales}}{79}{figure.caption.63}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Prototipo de la vista del recibo de cobro generado por el sistema}}{79}{figure.caption.64}%
+\contentsline {figure}{\numberline {45}{\ignorespaces Prototipo de la vista de la administración de multas}}{80}{figure.caption.65}%
+\contentsline {figure}{\numberline {46}{\ignorespaces Prototipo de la vista del formulario de creación y edición de ingresos multas}}{80}{figure.caption.66}%
+\contentsline {figure}{\numberline {47}{\ignorespaces Prototipo de la vista de la administración de egresos}}{81}{figure.caption.67}%
+\contentsline {figure}{\numberline {48}{\ignorespaces Prototipo de la vista de la administración de tipos de egresos}}{81}{figure.caption.68}%
+\contentsline {figure}{\numberline {49}{\ignorespaces Prototipo de la vista de la administración de proveedores}}{82}{figure.caption.69}%
+\contentsline {figure}{\numberline {50}{\ignorespaces Prototipo de la vista del formulario de creación y edición de egresos}}{82}{figure.caption.70}%
+\contentsline {figure}{\numberline {51}{\ignorespaces Prototipo de la vista del inicio de sesión}}{83}{figure.caption.71}%
+\contentsline {figure}{\numberline {52}{\ignorespaces Prototipo de la vista de la barra de navegación}}{83}{figure.caption.72}%
+\contentsline {figure}{\numberline {53}{\ignorespaces Prototipo de la vista de eventos próximos}}{84}{figure.caption.73}%
+\contentsline {figure}{\numberline {54}{\ignorespaces Prototipo de la vista detallada de un evento}}{85}{figure.caption.74}%
+\contentsline {figure}{\numberline {55}{\ignorespaces Prototipo de la vista de asambleas del día actual}}{86}{figure.caption.75}%
+\contentsline {figure}{\numberline {56}{\ignorespaces Prototipo de la vista del registro de asistencia en asambleas}}{86}{figure.caption.76}%
+\contentsline {figure}{\numberline {57}{\ignorespaces Prototipo de la vista del registro de voto en asambleas}}{87}{figure.caption.77}%
+\contentsline {figure}{\numberline {58}{\ignorespaces Prototipo de la vista del registro de voto en asambleas}}{87}{figure.caption.78}%
+\contentsline {figure}{\numberline {59}{\ignorespaces Archivo \textit {pom.xml} con las dependencias Maven de la API}}{88}{figure.caption.79}%
+\contentsline {figure}{\numberline {60}{\ignorespaces Código de configuración de propiedades de la API}}{89}{figure.caption.80}%
+\contentsline {figure}{\numberline {61}{\ignorespaces Código de configuración de propiedades de la API}}{90}{figure.caption.81}%
+\contentsline {figure}{\numberline {62}{\ignorespaces Código de la clase abstracta base para las demas entidades AbstractEntity}}{91}{figure.caption.82}%
+\contentsline {figure}{\numberline {63}{\ignorespaces Código de la entidad Income}}{91}{figure.caption.83}%
+\contentsline {figure}{\numberline {64}{\ignorespaces Código de el repositorio para para entidad Income}}{92}{figure.caption.84}%
+\contentsline {figure}{\numberline {65}{\ignorespaces Diagrama entidad-relación de la base de datos}}{93}{figure.caption.85}%
+\contentsline {figure}{\numberline {66}{\ignorespaces Código de configuración del almacenamiento de archivos en S3}}{94}{figure.caption.86}%
+\contentsline {figure}{\numberline {67}{\ignorespaces Código del servicio de carga y eliminación del archivo S3}}{95}{figure.caption.87}%
+\contentsline {figure}{\numberline {68}{\ignorespaces Código de configuración del motor de plantillas HTML para los correos electrónicos}}{95}{figure.caption.88}%
+\contentsline {figure}{\numberline {69}{\ignorespaces Código de modelo para mapearlo en la plantilla HTML}}{96}{figure.caption.89}%
+\contentsline {figure}{\numberline {70}{\ignorespaces Código del método de envio de correo electrónico para recuperar la contraseña}}{96}{figure.caption.90}%
+\contentsline {figure}{\numberline {71}{\ignorespaces Código de configuración del motor de plantillas HTML para los correos electrónicos}}{97}{figure.caption.91}%
+\contentsline {figure}{\numberline {72}{\ignorespaces Código del servicio de las Notificaciones Push}}{98}{figure.caption.92}%
+\contentsline {figure}{\numberline {73}{\ignorespaces Código del cálculo de la distancia de Haversine en Java}}{99}{figure.caption.93}%
+\contentsline {figure}{\numberline {74}{\ignorespaces Código de método de registro de asistencia en la asamblea}}{99}{figure.caption.94}%
+\contentsline {figure}{\numberline {75}{\ignorespaces Código del controlador de usuarios}}{100}{figure.caption.95}%
+\contentsline {figure}{\numberline {76}{\ignorespaces Archivo \textit {package.json} con las dependencias del sistema web}}{101}{figure.caption.96}%
+\contentsline {figure}{\numberline {77}{\ignorespaces Archivo \textit {app.config.ts} con la configuración de la aplicación}}{102}{figure.caption.97}%
+\contentsline {figure}{\numberline {78}{\ignorespaces Archivo \textit {app-routes.ts} con la configuración de las rutas de la aplicación}}{102}{figure.caption.98}%
+\contentsline {figure}{\numberline {79}{\ignorespaces Código del inicio de sesión en el frontend}}{103}{figure.caption.99}%
+\contentsline {figure}{\numberline {80}{\ignorespaces Código del método de autenticación en el API}}{104}{figure.caption.100}%
+\contentsline {figure}{\numberline {81}{\ignorespaces Página de inicio de sesión}}{104}{figure.caption.101}%
+\contentsline {figure}{\numberline {82}{\ignorespaces Código del método de autenticación en el API}}{104}{figure.caption.102}%
+\contentsline {figure}{\numberline {83}{\ignorespaces Endpoint para obtener todos los usuarios}}{105}{figure.caption.103}%
+\contentsline {figure}{\numberline {84}{\ignorespaces Página de gestión de usuarios}}{105}{figure.caption.104}%
+\contentsline {figure}{\numberline {85}{\ignorespaces Endpoint para crear un usuario}}{105}{figure.caption.105}%
+\contentsline {figure}{\numberline {86}{\ignorespaces Formulario de creación y edición de usuarios}}{106}{figure.caption.106}%
+\contentsline {figure}{\numberline {87}{\ignorespaces Método de actualización de la geolocalización en el API}}{106}{figure.caption.107}%
+\contentsline {figure}{\numberline {88}{\ignorespaces Página de gestión de geolocalización}}{106}{figure.caption.108}%
+\contentsline {figure}{\numberline {89}{\ignorespaces Endpoint para actualizar el usuario representante de una residencia}}{107}{figure.caption.109}%
+\contentsline {figure}{\numberline {90}{\ignorespaces Formulario de actualización de usuario representante de una residencia}}{107}{figure.caption.110}%
+\contentsline {figure}{\numberline {91}{\ignorespaces Método de actualización de la casa asociada a un parqueadero en la API}}{107}{figure.caption.111}%
+\contentsline {figure}{\numberline {92}{\ignorespaces Página de gestión de parqueaderos}}{108}{figure.caption.112}%
+\contentsline {figure}{\numberline {93}{\ignorespaces Formulario de actualización de la casa asociada a un parqueadero}}{108}{figure.caption.113}%
+\contentsline {figure}{\numberline {94}{\ignorespaces Endpoint para crear un incidente}}{108}{figure.caption.114}%
+\contentsline {figure}{\numberline {95}{\ignorespaces Página de gestión de incidentes}}{109}{figure.caption.115}%
+\contentsline {figure}{\numberline {96}{\ignorespaces Formulario de creación y edición de incidentes}}{109}{figure.caption.116}%
+\contentsline {figure}{\numberline {97}{\ignorespaces Reporte de incidente}}{109}{figure.caption.117}%
+\contentsline {figure}{\numberline {98}{\ignorespaces Método de creación de una convocatoria y envio de notificación push en la API}}{110}{figure.caption.118}%
+\contentsline {figure}{\numberline {99}{\ignorespaces Página de gestión de convocatorias}}{110}{figure.caption.119}%
+\contentsline {figure}{\numberline {100}{\ignorespaces Formulario de creación y edición de convocatorias}}{110}{figure.caption.120}%
+\contentsline {figure}{\numberline {101}{\ignorespaces Formulario de creación y edición de convocatorias}}{111}{figure.caption.121}%
+\contentsline {figure}{\numberline {102}{\ignorespaces Método del registro de asistencia manual en la API}}{112}{figure.caption.122}%
+\contentsline {figure}{\numberline {103}{\ignorespaces Método del registro de asistencia manual en la API}}{112}{figure.caption.123}%
+\contentsline {figure}{\numberline {104}{\ignorespaces Reporte de inasistencias en la asamblea}}{112}{figure.caption.124}%
+\contentsline {figure}{\numberline {105}{\ignorespaces Endpoint para crear una pregunta de asamblea}}{113}{figure.caption.125}%
+\contentsline {figure}{\numberline {106}{\ignorespaces Endpoint para obtener todas las preguntas de asamblea}}{113}{figure.caption.126}%
+\contentsline {figure}{\numberline {107}{\ignorespaces Endpoint para habilitar o deshabilitar una pregunta de asamblea}}{113}{figure.caption.127}%
+\contentsline {figure}{\numberline {108}{\ignorespaces Lista de preguntas de asamblea}}{113}{figure.caption.128}%
+\contentsline {figure}{\numberline {109}{\ignorespaces Listado detallado de votaciones de una pregunta de asamblea}}{114}{figure.caption.129}%
+\contentsline {figure}{\numberline {110}{\ignorespaces Dependencias de la applicación móvil hecha con Ionic}}{115}{figure.caption.130}%
+\contentsline {figure}{\numberline {111}{\ignorespaces Configuración de la URL de la API en la aplicación móvil}}{116}{figure.caption.131}%
+\contentsline {figure}{\numberline {112}{\ignorespaces Codigo del archivo de configuración principal de la aplicación móvil}}{116}{figure.caption.132}%
+\contentsline {figure}{\numberline {113}{\ignorespaces Codigo del archivo de configuración principal de la aplicación móvil}}{117}{figure.caption.133}%
+\contentsline {figure}{\numberline {114}{\ignorespaces Ubicación del archivo \textit {google.services.json}}}{117}{figure.caption.134}%
+\contentsline {figure}{\numberline {115}{\ignorespaces Código del archivo \textit {variables.gradle} con la referencia al plugin de Firebase}}{118}{figure.caption.135}%
+\contentsline {figure}{\numberline {116}{\ignorespaces Código del archivo \textit {manifest.xml} con los permisos necesarios}}{118}{figure.caption.136}%
+\contentsline {figure}{\numberline {117}{\ignorespaces Página de inicio de sesión}}{119}{figure.caption.137}%
+\contentsline {figure}{\numberline {118}{\ignorespaces Método para obtener las convocatorias próximas}}{119}{figure.caption.138}%
+\contentsline {figure}{\numberline {119}{\ignorespaces Página de las próximas asambleas}}{120}{figure.caption.139}%
+\contentsline {figure}{\numberline {120}{\ignorespaces Detalle de una convocatoria}}{120}{figure.caption.140}%
+\contentsline {figure}{\numberline {121}{\ignorespaces Página de el estado de las obligaciones financieras}}{121}{figure.caption.141}%
+\contentsline {figure}{\numberline {122}{\ignorespaces Endpoints para obtener las obligaciones financieras de un usuario}}{121}{figure.caption.142}%
+\contentsline {figure}{\numberline {123}{\ignorespaces Página de los últimos pagos realizados por el usuario}}{122}{figure.caption.143}%
+\contentsline {figure}{\numberline {124}{\ignorespaces Página de las multas sin pagar}}{122}{figure.caption.144}%
+\contentsline {figure}{\numberline {125}{\ignorespaces Código para registrar la asistencia en la asamblea}}{123}{figure.caption.145}%
+\contentsline {figure}{\numberline {126}{\ignorespaces Endpoint para registrar la asistencia en la asamblea}}{123}{figure.caption.146}%
+\contentsline {figure}{\numberline {127}{\ignorespaces Página de las multas sin pagar}}{124}{figure.caption.147}%
+\contentsline {figure}{\numberline {128}{\ignorespaces Método para registrar el voto en la asamblea}}{125}{figure.caption.148}%
+\contentsline {figure}{\numberline {129}{\ignorespaces Página de las votaciones de la asamblea}}{125}{figure.caption.149}%
+\contentsline {figure}{\numberline {130}{\ignorespaces Administrador de VPC en AWS}}{129}{figure.caption.150}%
+\contentsline {figure}{\numberline {131}{\ignorespaces Administrador de EC2 en AWS}}{129}{figure.caption.151}%
+\contentsline {figure}{\numberline {132}{\ignorespaces Código de copia de recursos y ejecución del API en EC2}}{129}{figure.caption.152}%
+\contentsline {figure}{\numberline {133}{\ignorespaces Zonas hospedadas de Route 53 en AWS}}{130}{figure.caption.153}%
+\contentsline {figure}{\numberline {134}{\ignorespaces Certificados SSL generados con certbot}}{130}{figure.caption.154}%
+\contentsline {figure}{\numberline {135}{\ignorespaces Estado del servicio web Nginx en la instancia EC2}}{130}{figure.caption.155}%
+\contentsline {figure}{\numberline {136}{\ignorespaces Archivo de configuración de Nginx en la instancia EC2}}{131}{figure.caption.156}%
 \addvspace {10\p@ }
 \contentsfinish 
