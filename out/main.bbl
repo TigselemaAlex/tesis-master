@@ -124,10 +124,10 @@ D.~{Puello, Plinio} y {Scholoborg, Francisco}, ``Modelo de aceptación
 R.~Martín y G.~Ollé, ``Agilizando los cambios de ui-ux sobre el ambiente
   productivo mediante figma,'' \emph{Universidad Nacional de la Plata}, 2020.
 
-\bibitem{universitat_politecnica_de_valencia_universitat_2014}
+\bibitem{wu_desarrollo_2014}
 \BIBentryALTinterwordspacing
-E.~Universitat Politècnica De~València, ``Universitat politècnica de
-  valència,'' vol.~18, no.~1, p.~ix. [En línea]. Disponible en:
+L.~Wu, ``Desarrollo de una aplicación para el tracking de animales
+  domésticos,'' vol.~18, no.~1, p.~ix. [En línea]. Disponible en:
   \url{http://polipapers.upv.es/index.php/IA/article/view/3293}
 \BIBentrySTDinterwordspacing
 
@@ -174,7 +174,7 @@ K.~Lasluisa, M.~A.~G. Saltos, P.~F.~B. Egas, y R.~M. Toasa, ``Evaluación del
 \BIBentryALTinterwordspacing
 J.~J. León~Soberón, ``{ANÁLISIS} {COMPARATIVO} {DE} {SISTEMAS} {GESTORES}
   {DE} {BASES} {DE} {DATOS} {POSTGRESQL} y {MYSQL} {EN} {PROCESOS} {CRUD},''
-  phdthesis. [En línea]. Disponible en:
+  thesis, Universidad Señor de Sipán. [En línea]. Disponible en:
   \url{https://repositorio.uss.edu.pe/bitstream/handle/20.500.12802/7012/Le%c3%b3n%20Sober%c3%b3n%20Jenner%20Jes%c3%bas.pdf?sequence=1&isAllowed=y}
 \BIBentrySTDinterwordspacing
 
@@ -190,7 +190,8 @@ A.~Z. Islam y D.~A. Ferworn, ``A comparison between agile and traditional
 \BIBentryALTinterwordspacing
 L.~J. Barriga~Sánchez, ``{SISTEMA} {DE} {GESTIÓN} {DE} {HISTORIAS}
   {CLÍNICAS} y {TELEMEDICINA} {ORIENTADO} {AL} {DEPARTAMENTO} {MÉDICO} {GAD}
-  {MUNICIPALIDAD} {DE} {AMBATO},'' phdthesis. [En línea]. Disponible en:
+  {MUNICIPALIDAD} {DE} {AMBATO},'' thesis, Universidad Técnica de Ambato. [En
+  línea]. Disponible en:
   \url{https://repositorio.uta.edu.ec/jspui/bitstream/123456789/39584/1/t2401so.pdf}
 \BIBentrySTDinterwordspacing
 
@@ -198,14 +199,15 @@ L.~J. Barriga~Sánchez, ``{SISTEMA} {DE} {GESTIÓN} {DE} {HISTORIAS}
 \BIBentryALTinterwordspacing
 O.~Camino~Costa, ``Desarrollo de una aplicación de realidad aumentada sobre
   android para el apuntamiento de los nodos en el telescopio de neutrinos
-  antares,'' phdthesis. [En línea]. Disponible en:
-  \url{https://riunet.upv.es/handle/10251/18444}
+  antares,'' thesis, Universidad Politecnica de Valencia. [En línea].
+  Disponible en: \url{https://riunet.upv.es/handle/10251/18444}
 \BIBentrySTDinterwordspacing
 
 \bibitem{bonilla_cadena_desarrollo_2022}
 J.~A. Bonilla~Cadena, ``Desarrollo de una plataforma web para recorridos
   virtuales 360° mediante la metodología {RAD}. caso grupo inmobiliario
-  horizonte de la ciudad de riobamba,'' phdthesis.
+  horizonte de la ciudad de riobamba,'' thesis, Universidad Nacional del
+  Chimborazo.
 
 \bibitem{tapia_leon_comparacion_2015}
 \BIBentryALTinterwordspacing

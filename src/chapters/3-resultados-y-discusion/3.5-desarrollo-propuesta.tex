@@ -19,35 +19,40 @@ La metodología RAD se basa en cuatro fases principales:
 
 En esta primera etapa se realizó un análisis de la información recopilada en las entrevistas, encuestas y en la situación actual descrita anteriormente.
 
-En las siguientes tablas continuación se detallan en los usuarios identificados en la interacción con el sistema web y la aplicación móvil.
-En la Tabla \ref{tab:table_requerimientos} se detallan los requerimientos del proyecto identificados por usuarios.
+En las siguientes tablas se detallan los usuarios identificados en la interacción con el sistema web y la aplicación móvil.
+En la Tabla \ref{tab:table_requerimientos_sistema} se detallan los requerimientos del proyecto identificados por usuarios.
 
-\begin{table}[H]
-    \centering
-    \caption{Descripción de los usuarios identificados en la interacción con el sistema web administrativo}
-    \renewcommand*{\arraystretch}{1.4}
-    \begin{longtable}{|p{0.2\textwidth}|p{0.7\textwidth}|}
-        \hline
-        \textbf{Usuario} & \textbf{Descripción}                                                                           \\
-        \hline
-        Administrador    & Usuario encargado de la administración de usuarios y la configuración de la geolocalización.   \\
-        \hline
-        Presidente       & Usuario encargado de la administración de parqueaderos, residencias, guardianía, convocatorias \\
-        \hline
-        Vicepresidente   & Usuario encargado de la administración de residencias, guardianía y convocatorias              \\
-        \hline
-        Tesorero         & Usuario encargado de la administración de los ingresos, multas y egresos                       \\
-        \hline
-        Secretario       & Usuario encargado de la administración de los eventos sociales y convocatorias                 \\
-        \hline
-    \end{longtable}\label{tab:table_usuarios_web}
-\end{table}
+\begin{footnotesize}
+\begin{spacing}{1}
 
-\begin{table}[H]
-    \centering
-    \caption{Descripción de los usuarios identificados en la interacción con la aplicación móvil}
-    \renewcommand*{\arraystretch}{1.4}
-    \begin{longtable}{|p{0.2\textwidth}|p{0.7\textwidth}|}
+    \begin{center}
+        \renewcommand*{\arraystretch}{1.4}
+        \begin{longtable}{|p{0.2\textwidth}|p{0.7\textwidth}|}
+            \caption{Descripción de los usuarios identificados en la interacción con el sistema web administrativo}\label{tab:table_usuarios_web}\\
+            \hline
+            \textbf{Usuario} & \textbf{Descripción}                                                                           \\
+            \hline
+            Administrador    & Usuario encargado de la administración de usuarios y la configuración de la geolocalización.   \\
+            \hline
+            Presidente       & Usuario encargado de la administración de parqueaderos, residencias, guardianía, convocatorias \\
+            \hline
+            Vicepresidente   & Usuario encargado de la administración de residencias, guardianía y convocatorias              \\
+            \hline
+            Tesorero         & Usuario encargado de la administración de los ingresos, multas y egresos                       \\
+            \hline
+            Secretario       & Usuario encargado de la administración de los eventos sociales y convocatorias                 \\
+            \hline
+        \end{longtable}
+    \end{center}
+\end{spacing}
+\end{footnotesize}
+
+
+\begin{footnotesize}
+\begin{spacing}{1}
+    \begin{center}
+        \renewcommand*{\arraystretch}{1.4}
+        \begin{longtable}{|p{0.2\textwidth}|p{0.7\textwidth}|}\caption{Descripción de los usuarios identificados en la interacción con la aplicación móvil}\label{tab:table_usuarios_movil_description} \\
         \hline
         \textbf{Usuario} & \textbf{Descripción}                                                                                                                                                 \\
         \hline
@@ -55,15 +60,19 @@ En la Tabla \ref{tab:table_requerimientos} se detallan los requerimientos del pr
         \hline
         Inquilino        & Usuario encargado de registrar la asistencia en asambleas y visualización de las obligaciones financieras relacionadas con su residencia o sus residencias           \\
         \hline
-    \end{longtable}\label{tab:table_usuarios_movil}
-\end{table}
+        \end{longtable}
+    \end{center}
+\end{spacing}
+\end{footnotesize}
 
+
+\begin{footnotesize}
 \begin{spacing}{1}
 
     \begin{center}
         \renewcommand*{\arraystretch}{1.4}
         \begin{longtable}[l]{|p{0.045\textwidth}|p{0.19\textwidth}|p{0.4\textwidth}|p{0.13\textwidth}| p{0.09\textwidth}|}
-            \caption{Identificación de los requerimientos del sistema} \\
+            \caption{Identificación de los requerimientos del sistema}\label{tab:table_requerimientos_sistema} \\
             \hline
             \textbf{ID} & \textbf{Requerimiento}                            & \textbf{Descripción}                                                                                                                                                                                                                                                                                                                                                                                                                                                                   & \textbf{Prioridad}         & \textbf{Riesgo}           \\
             \hline
@@ -86,6 +95,8 @@ En la Tabla \ref{tab:table_requerimientos} se detallan los requerimientos del pr
             R7          & Gestionar pasajes                                 & El administrador podrá visualizar o editar la descripción de los pasajes existentes en el sistema  & \multicolumn{1}{c|}{Media} & \multicolumn{1}{c|}{Bajo}\\
             \hline
             R8          & Gestionar geolocalización                         & El administrador podrá editar la ubicación de las coordenadas y el radio de aceptación mediante la visualización de un mapa del lugar en donde se darán lugar las asambleas  & \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Alto}\\
+            \hline
+            \newpage
             \hline
             \multicolumn{5}{|l|}{ \textbf{Presidente} } \\
             \hline
@@ -110,6 +121,8 @@ En la Tabla \ref{tab:table_requerimientos} se detallan los requerimientos del pr
             R16         & Gestionar asistencias de las asambleas            & Las convocatorias de tipo asamblea son las únicas que poseerán registro de asistencias, de tal manera que el presidente o vicepresidente podrán realizar el registro manual de las asistencias, asi como descargar un reporte de inasistentes & \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Alto}\\
             \hline
             R17         & Gestionar votaciones de las asambleas             & Las convocatorias de tipo asamblea son las únicas que poseerán votaciones, de tal manera que el presidente o vicepresidente podrán visualizar, editar, habilitar el voto o eliminar de cada pregunta propuesta a votación, asi como también poder visualizar la información de votación de cada votante & \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Alto}\\
+            \hline
+            \newpage
             \hline
             \multicolumn{5}{|l|}{ \textbf{Tesorero} } \\
             \hline
@@ -140,17 +153,17 @@ En la Tabla \ref{tab:table_requerimientos} se detallan los requerimientos del pr
             \hline
             R27         & Registrar voto                                    & El propietario podrá registrar su voto en las preguntas que se encuentren habilitadas para su voto siempre que se encuentre dentro del rango de geolocalización registrado por el administrador del sistema y tenga registrada la asistencia& \multicolumn{1}{c|}{Alta} & \multicolumn{1}{c|}{Alto}\\
             \hline
-        \end{longtable}\label{tab:table_requerimientos}
+        \end{longtable}
     \end{center}
 \end{spacing}
-
+\end{footnotesize}
 Una vez definidos los requerimientos del sistema se define el plan de trabajo en cada iteración para el desarrollo de los sistemas.
-
+\begin{footnotesize}
 \begin{spacing}{1}
     \begin{center}
         \renewcommand*{\arraystretch}{1.4}
         \begin{longtable}[l]{|p{0.17\textwidth}|p{0.045\textwidth}|p{0.055\textwidth}|p{0.37\textwidth}| p{0.09\textwidth}|p{0.09\textwidth}| }
-            \caption{Identificación de los requerimientos del sistema} \\
+            \caption{Plan de trabajo de iteraciones}\label{tab:re_sistema_identif} \\
             \hline
             \multirow{2}{*}{\textbf{N° Iteración}} & \multirow{2}{*}{\textbf{N°}} & \multirow{2}{*}{\textbf{ID}} & \multirow{2}{*}{\textbf{Requerimiento}} & \multicolumn{2}{c|}{\textbf{Tiempo estimado}}\\
             \cline{5-6}
@@ -181,7 +194,7 @@ Una vez definidos los requerimientos del sistema se define el plan de trabajo en
              & 12 & R12 & Gestionar actividades de guardianía & 8 & 1 \\
             \cline{2-6}
              & 13 & R13 & Gestionar los tipos de incidentes & 4 & 1 \\
-            \hline
+            \cline{2-6}
              & 14 & R14 & Gestionar incidentes & 8 & 1 \\
             \cline{2-6}
              & 15 & R15 & Gestionar convocatorias & 16 & 2 \\
@@ -189,6 +202,8 @@ Una vez definidos los requerimientos del sistema se define el plan de trabajo en
              & 16 & R16 & Gestionar asistencias de las asambleas & 8 & 1 \\
             \cline{2-6}
              & 17 & R17 & Gestionar votaciones de las asambleas & 10 & 2 \\
+            \hline
+            \newpage
             \hline
             \multirow{10}{*}{Iteración 3} & 18 & R18 & Gestionar ingresos mensuales & 16 & 2 \\
             \cline{2-6}
@@ -213,7 +228,7 @@ Una vez definidos los requerimientos del sistema se define el plan de trabajo en
         \end{longtable}
     \end{center}
 \end{spacing}
-
+\end{footnotesize}
 \subsection{Diseño de usuario} \label{subsec:diseno-usuario}
 \subsubsection{Análisis de los procesos sistematizados propuestos}
 
@@ -391,7 +406,7 @@ A continuación se detallaran los procesos sistematizados para la administració
 Para el desarrollo de la propuesta se utilizó una arquitectura cliente-servidor.
 El cliente permite a los usuarios interactuar con el sistema mediante la aplicación móvil y el sistema web.
 En donde las personas que son parte de la directiva tendrán acceso al sistema web y los propietarios o inquilinos accederán únicamente a la aplicación móvil.
-Por otro lado la API que estará alojada en el servidor se encargara de procesar las peticiones de los clientes provenientes de la aplicación móvil y el sistema web, en  donde se proveerán de servicios necesarios para satisfacer los requerimientos.
+Por otro lado la API que estará alojada en el servidor se encargara de procesar las peticiones de los clientes provenientes de la aplicación móvil y el sistema web, en  donde se proveerán de servicios necesarios para satisfacer los requerimientos tal y como se muestra en la Figura \ref{fig:arquitectura}.
 Además de ofrecernos la conexión a la base de datos para la persistencia de los datos.
 La base de datos la cual también se encontrará alojada en el servidor, nos permitirá almacenar y servir la información necesaria para el funcionamiento del sistema.
 Por último la API se conectará a los servicios de almacenamiento de archivos de AWS S3 para la carga de archivos necesarios para el sistema.
@@ -466,7 +481,7 @@ En la Figura \ref{fig:usuarios formulario} se muestra la vista del formulario pa
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{resources/images/usuarios formulario}
-    \caption{Prototipo de la vista del fomulario para edicion o creación de usuarios}
+    \caption{Prototipo de la vista del fomulario para edición o creación de usuarios}
     \label{fig:usuarios formulario}
 \end{figure}
 
@@ -523,7 +538,7 @@ En la Figura \ref{fig:parqueaderos formulario} se muestra la vista del formulari
     \label{fig:parqueaderos formulario seleccion residente}
 \end{figure}
 
-En la Figura \ref{fig:convocatorias} se muestra la vista de la administración de convocatorias en donde el presidente o vicepresidente podrán visualizar las convocatorías junto con la información relevante de cada una, registrar o editar una convocatoria mediante un formulario Figura \ref{fig:convocatorias-edit}, además de poder desplegar un menú de opciones en donde se podrá visualizar un pista previa de la convocatoria para ser descargada en formato PDF Figura \ref{fig:convocatorias-ver}, finalizar la convocatoría, administrar la asistencia Figura \ref{fig:convocatorias-asistentes} o administrar las votaciones en el caso de ser una asamblea Figura \ref{fig:convocatorias-votaciones}.
+En la Figura \ref{fig:convocatorias} se muestra la vista de la administración de convocatorias en donde el presidente o vicepresidente podrán visualizar las convocatorias junto con la información relevante de cada una, registrar o editar una convocatoria mediante un formulario Figura \ref{fig:convocatorias-edit}, además de poder desplegar un menú de opciones en donde se podrá visualizar un pista previa de la convocatoria para ser descargada en formato PDF Figura \ref{fig:convocatorias-ver}, finalizar la convocatoria, administrar la asistencia Figura \ref{fig:convocatorias-asistentes} o administrar las votaciones en el caso de ser una asamblea Figura \ref{fig:convocatorias-votaciones}.
 
 \begin{figure}[H]
     \centering
@@ -542,7 +557,7 @@ En la Figura \ref{fig:convocatorias} se muestra la vista de la administración d
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{resources/images/convocatorias_ver}
-    \caption{Prototipo de la vista de vista previa a la descarga de la convocatoría}
+    \caption{Prototipo de la vista de vista previa a la descarga de la convocatoria}
     \label{fig:convocatorias-ver}
 \end{figure}
 
@@ -722,7 +737,7 @@ Al igual que en el registro también para las votaciones se mostrarán indicacio
 \begin{figure}[H]
     \centering
     \fbox{\includegraphics[width=0.3\textwidth]{resources/images/Asambleas-voto-movil}}
-    \caption{Prototipo de la vista del registro de voto en asambleas}
+    \caption{Prototipo de la vista del perfil}
     \label{fig:asambleas-votacion-movil}
 \end{figure}
 
@@ -770,7 +785,7 @@ Adicionalmente se configurarón los Cross-Origin Resource Sharing (CORS) para pe
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{resources/images/security}
-    \caption{Código de configuración de propiedades de la API}
+    \caption{Código de configuración de seguridad de la API}
     \label{fig:security}
 \end{figure}
 
@@ -877,7 +892,7 @@ Para poder enviar notificaciones push a los dispositivos móviles se debe config
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{resources/images/firebase}
-    \caption{Código de configuración del motor de plantillas HTML para los correos electrónicos}
+    \caption{Código de configuración de Firebase para el envío de Notificaciones Push}
     \label{fig:firebase}
 \end{figure}
 
@@ -961,7 +976,7 @@ Adicionalmente es necesario configurar las rutas de la aplicación en el archivo
 
 \paragraph{Inicio de sesión}
 
-En la Figura \ref{fig:sw-login-code} se muestra el código del login en donde se tomarán las credenciales del formulario de inicio de sesión y se enviarán al servicio de autenticación para que éste realize la solicitud a la API y así el controlador de autenticación pueda validar las credenciales a través del método de autenticación definido Figura \ref{fig:api-auth-login-usecase} en donde se válidan las credenciales y en el caso de ser válidas se generará un token JWT que sera enviado al cliente web para que este lo almacene en el sesión storage y pueda ser utilizado en las demás peticiones mediante el interceptador de peticiones HTTP definido en el sistema web Figura \ref{fig:sw-interceptor}.
+En la Figura \ref{fig:sw-login-code} se muestra el código del login en donde se tomarán las credenciales del formulario de inicio de sesión y se enviarán al servicio de autenticación para que éste realize la solicitud a la API y así el controlador de autenticación pueda validar las credenciales a través del método de autenticación definido Figura \ref{fig:api-auth-login-usecase} en donde se válidan las credenciales y en el caso de ser válidas se generará un token JWT que será enviado al cliente web para que este lo almacene en el sesión storage y pueda ser utilizado en las demás peticiones mediante el interceptador de peticiones HTTP definido en el sistema web Figura \ref{fig:sw-interceptor}.
 
 \begin{figure}[H]
     \centering
@@ -987,14 +1002,14 @@ En la Figura \ref{fig:sw-login-code} se muestra el código del login en donde se
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{resources/images/sw-interceptor}
-    \caption{Código del método de autenticación en el API}
+    \caption{Código del interceptor de peticiones HTTP en el sistema web}
     \label{fig:sw-interceptor}
 \end{figure}
 
 \paragraph{Gestión de usuarios}
 
 Los usuarios del condominio únicamente podrán ser registrado por el administrador para lo cual se debe ingresar los datos personales proporcionados por el usuario y se debe seleccionar el rol que tendrá el usuario dentro del condominio.
-Ésta información sera enviada a la API en un cuerpo de tipo JSON para que ésta pueda ser procesada y almacenada en la base de datos.
+Ésta información será enviada a la API en un cuerpo de tipo JSON para que ésta pueda ser procesada y almacenada en la base de datos.
 Una vez registrado el usuario podrá ser visualizado en la tabla de usuarios en donde se podrá editar o eliminar el usuario tal como se muestra en la Figura \ref{fig:sw-usuarios}.
 
 \begin{figure}[H]
@@ -1128,8 +1143,8 @@ Estos incidentes registrados podrán ser actualizados en el caso de que se llegu
 
 \paragraph{Gestión de convocatorias}
 
-Para el registro de convocatorias se debe establecer la fecha de inicio, de que tipo de convocatoria es ya que dependiendo de si es una asamblea se podrá establecer la fecha y hora límite para el registro de asistencia por parte de los residentes mediante el uso de la aplicación móvil, el asunto de la convocatoría y una descripción a cerca de los temas o actividades a tratar en la convocatoria.
-Esta información sera enviada a la API en formato JSON para que ésta pueda ser registrada y notificar a los demás residentes solo en el caso de ser una asamblea tal como se muestra en la Figura \ref{fig:api-convocation-create}.
+Para el registro de convocatorias se debe establecer la fecha de inicio, de que tipo de convocatoria es ya que dependiendo de si es una asamblea se podrá establecer la fecha y hora límite para el registro de asistencia por parte de los residentes mediante el uso de la aplicación móvil, el asunto de la convocatoria y una descripción a cerca de los temas o actividades a tratar en la convocatoria.
+Esta información será enviada a la API en formato JSON para que ésta pueda ser registrada y notificar a los demás residentes solo en el caso de ser una asamblea tal como se muestra en la Figura \ref{fig:api-convocation-create}.
 Adicionalmente se puede visualizar la convocatoria para ser descargada en formato PDF para poder ser compartida en los grupos de WhatsApp tal como se muestra en la Figura \ref{fig:sw-convocatorias-comunicado}.
 
 
@@ -1157,13 +1172,13 @@ Adicionalmente se puede visualizar la convocatoria para ser descargada en format
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{resources/images/sw-convocatorias-comunicado}
-    \caption{Formulario de creación y edición de convocatorias}
+    \caption{Vista previa a la descarga del comunidado de la convocatoria en PDF}
     \label{fig:sw-convocatorias-comunicado}
 \end{figure}
 
 \paragraph{Gestión de asistencias en asambleas}
 
-Para las convocatorías que son asambleas tendrán habilitada la opción de poder administrar las asistencias, en donde se listarán todas las residencias junto con la información de los residentes asociados a cada una de ellas.
+Para las convocatorias que son asambleas tendrán habilitada la opción de poder administrar las asistencias, en donde se listarán todas las residencias junto con la información de los residentes asociados a cada una de ellas.
 Para el registro de asistencia manual se selecciona la casa y se coloca su estado de asistencia y en el caso de ser necesario se puede registrar el nombre de la persona que asiste representando esa residencia sin ser la persona asociada a ella.
 A la API se le envía el id de la convocatoria, el id de la residencia, el estado de la asistencia y opcionalmente el nombre de la persona que asiste tal como se muestra en la Figura \ref{fig:api-attendance-create}.
 Adicionalmente se puede obtener un reporte de las casas ausentes para poder realizar su descarga e informar a los residentes por los grupos de comunicación tal como se muestra en la Figura \ref{fig:sw-asamblea-asistencia-reporte}.
@@ -1178,7 +1193,7 @@ Adicionalmente se puede obtener un reporte de las casas ausentes para poder real
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{resources/images/sw-asamblea-asistencia}
-    \caption{Método del registro de asistencia manual en la API}
+    \caption{Página de gestión de asistencia en asambleas}
     \label{fig:sw-asamblea-asistencia}
 \end{figure}
 
@@ -1266,7 +1281,7 @@ Adicionalmente es necesario copiar el archivo JSON \textit{google.services.json}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{resources/images/app-push}
-    \caption{Codigo del archivo de configuración principal de la aplicación móvil}
+    \caption{Codigo del servicio de Notificaciones Push en la aplicación móvil}
     \label{fig:app-push}
 \end{figure}
 
@@ -1326,7 +1341,7 @@ Para ello se toma la fecha actual desde la API y se evalúan todos las convocato
 \begin{figure}[H]
     \centering
     \fbox{\includegraphics[width=0.3\textwidth]{resources/images/app-eventos-detalle}}
-    \caption{Detalle de una convocatoria}
+    \caption{Detalle de una asamblea}
     \label{fig:app-eventos-detalle}
 \end{figure}
 
@@ -1385,11 +1400,11 @@ La API validará la ubicación a través del calculo de Haversine y en el caso d
 \begin{figure}[H]
     \centering
     \fbox{\includegraphics[width=0.3\textwidth]{resources/images/app-asambleas-asistencias}}
-    \caption{Página de las multas sin pagar}
+    \caption{Página de asistencia en la asamblea}
     \label{fig:app-asistencia}
 \end{figure}
 
-\paragraph{Registrar asistencia}
+\paragraph{Registrar voto}
 
 Como se muestra en la Figura \ref{fig:api-votacion-codigo}, el registro del voto se realiza enviando el id del usuario, el id de la pregunta, el voto, el identificador del dispositivo móvil y la ubicación actual del dispositivo móvil para poder registrar el voto en la pregunta de la asamblea de una manera muy similar a como se realiza en el registro de la asistencia.
 En este caso la API validará que el usuario que esta votando no sea un inquilino y que tenga colocada la asistencia en la asamblea para poder registrar el voto tal como se muestra en la Figura \ref{fig:api-vote}.
@@ -1412,13 +1427,13 @@ En este caso la API validará que el usuario que esta votando no sea un inquilin
 
 La transición de la aplicación a producción se realizó en dos fases, la primera fase fue la de pruebas de aceptación en donde se validaron los criterios de aceptación definidos en las tablas a continuación con las cuales los usuarios validarán las diferentes funcionalidades tanto de la aplicación móvil como de la web para que de esta manera se asegure el cumplimiento de los requisitos definidos en la primera fase de la metodología y la segunda fase fue la de despliegue en producción en donde se realizó la configuración de los servidores y se subió la aplicación a producción.
 
+\begin{footnotesize}
+
 \begin{spacing}{1}
     \begin{center}
-
-
     \renewcommand*{\arraystretch}{1.4}
     \begin{longtable}{ |>{\bfseries}l|p{0.5\textwidth}|l|l| }
-        \caption{Pruebas de aceptación - primera iteración}\\
+        \caption{Pruebas de aceptación - Primera iteración}\\
         \hline
         \multicolumn{1}{|c|}{ \textbf{N.}} & \multicolumn{1}{c|}{\textbf{Criterio}} & \multicolumn{1}{c|}{ \textbf{Estado}} & \multicolumn{1}{c|}{ \textbf{Usuario}}\\
         \hline
@@ -1439,20 +1454,22 @@ La transición de la aplicación a producción se realizó en dos fases, la prim
     \end{longtable}\label{tab:pruebas-aceptacion-1}
     \end{center}
 \end{spacing}
+\end{footnotesize}
 
+\begin{footnotesize}
 \begin{spacing}{1}
     \begin{center}
 
 
     \renewcommand*{\arraystretch}{1.4}
     \begin{longtable}{ |>{\bfseries}l|p{0.5\textwidth}|l|l| }
-        \caption{Pruebas de aceptación - segunda iteración}\\
+        \caption{Pruebas de aceptación - Segunda iteración}\\
         \hline
         \multicolumn{1}{|c|}{ \textbf{N.}} & \multicolumn{1}{c|}{\textbf{Criterio}} & \multicolumn{1}{c|}{ \textbf{Estado}} & \multicolumn{1}{c|}{ \textbf{Usuario}}\\
         \hline
         1 & Visualización de los diferentes parqueaderos agrupados por colores según su tipo en un mapa que represente las calles del conjunto habitacional & Aprobado & Presidente\\
         \hline
-        2 & Comprobar la funcionalidad de actualización de residencia asociada con cada parqueadero & Presidente\\
+        2 & Comprobar la funcionalidad de actualización de residencia asociada con cada parqueadero & Aprobado & Presidente\\
         \hline
         3 & Visualización de todas las residencias del conjunto habitacional & Aprobado & Presidente\\
         \hline
@@ -1484,14 +1501,14 @@ La transición de la aplicación a producción se realizó en dos fases, la prim
     \end{longtable}\label{tab:pruebas-aceptacion-2}
     \end{center}
 \end{spacing}
+\end{footnotesize}
 
+\begin{footnotesize}
 \begin{spacing}{1}
     \begin{center}
-
-
     \renewcommand*{\arraystretch}{1.4}
     \begin{longtable}{ |>{\bfseries}l|p{0.5\textwidth}|l|l| }
-        \caption{Pruebas de aceptación - tercera iteración}\\
+        \caption{Pruebas de aceptación - Tercera iteración}\\
         \hline
         \multicolumn{1}{|c|}{ \textbf{N.}} & \multicolumn{1}{c|}{\textbf{Criterio}} & \multicolumn{1}{c|}{ \textbf{Estado}} & \multicolumn{1}{c|}{ \textbf{Usuario}}\\
         \hline
@@ -1526,6 +1543,7 @@ La transición de la aplicación a producción se realizó en dos fases, la prim
     \end{longtable}\label{tab:pruebas-aceptacion-3}
     \end{center}
 \end{spacing}
+\end{footnotesize}
 
 Para poder implantar el sistema en producción se realizo la configuración de una instancia Elastic Compute Cloud (EC2) en AWS en donde se instaló un servidor Amazon-Linux para el despliegue de la aplicación web y un servidor Tomcat para el despliegue de la API.
 También se requirió de un dominio para configurar los certificados (SSL) y poder habilitar el protocolo HTTPS en la aplicación web y la API.
@@ -1597,7 +1615,197 @@ En \cite{varela_modelo_2010} se menciona que la utilidad percibida hace referenc
 \paragraph{Facilidad de uso percibida (PEOU)}
 Por otro lado en \cite{tapia_leon_comparacion_2015} menciona que la facilidad de uso percibida hace referencia al grado en el que un usuario piensa que el uso de una herramienta tecnológica le llevá a un esfuerzo mínimo.
 
-\subsubsection{Cuestionarios TAM}\label{subsubsec:cuestionarios-tam}
+\subsubsection{Resultados del modelo TAM}\label{subsubsec:cuestionarios-tam}
 En esta sección se presentan los resultados obtenidos de la aplicación de los cuestionarios TAM a los directivos del conjunto habitacional y a los residentes del mismo.
 Ambos cuestionarios se aplicarón a través de formularios en línea y se encuentran en los Anexos \ref{tab:tam_encuesta_web} y \ref{tab:tam_encuesta_app}.
+
+\paragraph{Resultados del cuestionario TAM al sistema web} Los resultados recogidos de las encuestas aplicadas a los cuatro miembros de la directiva y dos miembros representantes de los pasajes del conjunto habitacional se muestran en las Figuras \ref{fig:TAM-w-PU-Result} y \ref{fig:TAM-w-PEOU-Result}.
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.4\textwidth}
+        \fbox{\includegraphics[width=1\textwidth]{resources/images/tam-w-pu1}}
+        \caption{Resultados PU1}
+    \end{subfigure}%
+    \hfill
+    \begin{subfigure}[b]{0.4\textwidth}
+        \fbox{\includegraphics[width=1\textwidth]{resources/images/tam-w-pu2}}
+        \caption{Resultados PU2}
+    \end{subfigure}%
+    \\
+    \begin{subfigure}[b]{0.4\textwidth}
+        \fbox{\includegraphics[width=1\textwidth]{resources/images/tam-w-pu3}}
+        \caption{Resultados PU3}
+    \end{subfigure}%
+    \hfill
+    \begin{subfigure}[b]{0.4\textwidth}
+        \fbox{\includegraphics[width=1\textwidth]{resources/images/tam-w-pu4}}
+        \caption{Resultados PU4}
+    \end{subfigure}%
+    \caption{Resultados del PU de la encuesta TAM al sistema web}
+    \label{fig:TAM-w-PU-Result}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.4\textwidth}
+        \fbox{\includegraphics[width=1\textwidth]{resources/images/tam-w-peou1}}
+        \caption{Resultados PEOU1}
+    \end{subfigure}%
+    \hfill
+    \begin{subfigure}[b]{0.4\textwidth}
+        \fbox{\includegraphics[width=1\textwidth]{resources/images/tam-w-peou2}}
+        \caption{Resultados PEOU2}
+    \end{subfigure}%
+    \\
+    \begin{subfigure}[b]{0.4\textwidth}
+        \fbox{\includegraphics[width=1\textwidth]{resources/images/tam-w-peou3}}
+        \caption{Resultados PEOU3}
+    \end{subfigure}%
+    \hfill
+    \begin{subfigure}[b]{0.4\textwidth}
+        \fbox{\includegraphics[width=1\textwidth]{resources/images/tam-w-peou4}}
+        \caption{Resultados PEOU4}
+    \end{subfigure}%
+    \caption{Resultados del PEOU de la encuesta TAM al sistema web}
+    \label{fig:TAM-w-PEOU-Result}
+\end{figure}
+
+\begin{footnotesize}
+\begin{spacing}{1}
+    \begin{center}
+        \renewcommand*{\arraystretch}{1.4}
+    \begin{longtable}{|p{0.08\textwidth}|p{0.14\textwidth}|p{0.14\textwidth}|p{0.1\textwidth}|p{0.14\textwidth}|p{0.14\textwidth}|p{0.08\textwidth}|}
+        \caption{Resultados PU/PEOU-TAM web}\\
+        \hline
+        \multicolumn{7}{|c|}{\textbf{Resultados Utilidad percibida (PU)}}\\
+        \hline
+        \textbf{Código} & \textbf{Totalmente en desacuerdo} & \textbf{En desacuerdo} & \textbf{Neutral} & \textbf{De acuerdo} & \textbf{Totalmente de acuerdo} & \textbf{Media} \\
+        \hline
+        PU1 & 0 & 0 & 0 & 1.332 & 3.335 & 4.667\\
+        \hline
+        PU2 & 0 & 0 & 0 & 1.332 & 3.335 & 4.667\\
+        \hline
+        PU3 & 0 & 0 & 0 & 0.668 & 4.165 & 4.833\\
+        \hline
+        PU4 & 0 & 0 & 0.501 & 0.668 & 3.335 & 4.504\\
+        \hline
+            \multicolumn{6}{|c|}{\textbf{Media Total (PU)}} & 4.6678\\
+        \hline
+            \multicolumn{7}{|c|}{\textbf{Resultados Facilidad de uso percibida (PEOU)}}\\
+        \hline
+        PEOU1 & 0 & 0 & 0 & 2 & 2.5 & 4.5\\
+        \hline
+        PEOU2 & 0 & 0 & 0 & 1.332 & 3.335 & 4.667\\
+        \hline
+        PEOU3 & 0 & 0 & 0 & 2 & 2.5 & 4.5\\
+        \hline
+        PEOU4 & 0 & 0 & 0 & 1.332 & 3.335 & 4.667\\
+        \hline
+            \multicolumn{6}{|c|}{\textbf{Media Total (PEOU)}} & 4.5835\\
+        \hline
+    \end{longtable}
+\end{center}
+\end{spacing}
+\end{footnotesize}
+
+
+Basándonos en los datos recabados dela encuesta TAM del sistema web, donde la utilidad percibida promedio alcanzó 4.6678 y la facilidad de uso percibida fue de 4.5835, es claro que los usuarios de la directiva del conjunto habitacional valoran altamente tanto la utilidad como la facilidad de uso de la aplicación web.
+
+
+\paragraph{Resultados del cuestionario TAM a la aplicación móvil} Los resultados recogidos de las encuestas aplicadas a ciento seis residentes tanto propietarios como inquilinos del conjunto habitacional se muestran en las Figuras \ref{fig:TAM-m-PU-Result} y \ref{fig:TAM-m-PEOU-Result}.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.4\textwidth}
+        \fbox{\includegraphics[width=1\textwidth]{resources/images/tam-m-pu1}}
+        \caption{Resultados PU1}
+    \end{subfigure}%
+    \hfill
+    \begin{subfigure}[b]{0.4\textwidth}
+        \fbox{\includegraphics[width=1\textwidth]{resources/images/tam-m-pu2}}
+        \caption{Resultados PU2}
+    \end{subfigure}%
+    \\
+    \begin{subfigure}[b]{0.4\textwidth}
+        \fbox{\includegraphics[width=1\textwidth]{resources/images/tam-m-pu3}}
+        \caption{Resultados PU3}
+    \end{subfigure}%
+    \hfill
+    \begin{subfigure}[b]{0.4\textwidth}
+        \fbox{\includegraphics[width=1\textwidth]{resources/images/tam-m-pu4}}
+        \caption{Resultados PU4}
+    \end{subfigure}%
+    \caption{Resultados del PU de la encuesta TAM a la aplicación móvil}
+    \label{fig:TAM-m-PU-Result}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.4\textwidth}
+        \fbox{\includegraphics[width=1\textwidth]{resources/images/tam-m-peou1}}
+        \caption{Resultados PEOU1}
+    \end{subfigure}%
+    \hfill
+    \begin{subfigure}[b]{0.4\textwidth}
+        \fbox{\includegraphics[width=1\textwidth]{resources/images/tam-m-peou2}}
+        \caption{Resultados PEOU2}
+    \end{subfigure}%
+    \\
+    \begin{subfigure}[b]{0.4\textwidth}
+        \fbox{\includegraphics[width=1\textwidth]{resources/images/tam-m-peou3}}
+        \caption{Resultados PEOU3}
+    \end{subfigure}%
+    \hfill
+    \begin{subfigure}[b]{0.4\textwidth}
+        \fbox{\includegraphics[width=1\textwidth]{resources/images/tam-m-peou4}}
+        \caption{Resultados PEOU4}
+    \end{subfigure}%
+    \caption{Resultados del PEOU de la encuesta TAM a la aplicación móvil}
+    \label{fig:TAM-m-PEOU-Result}
+\end{figure}
+
+\begin{footnotesize}
+    \begin{spacing}{1}
+        \begin{center}
+            \renewcommand*{\arraystretch}{1.4}
+            \begin{longtable}{|p{0.08\textwidth}|p{0.14\textwidth}|p{0.14\textwidth}|p{0.1\textwidth}|p{0.14\textwidth}|p{0.14\textwidth}|p{0.08\textwidth}|}
+                \caption{Resultados PU/PEOU-TAM móvil}\\
+                \hline
+                \multicolumn{7}{|c|}{\textbf{Resultados Utilidad percibida (PU)}}\\
+                \hline
+                \textbf{Código} & \textbf{Totalmente en desacuerdo} & \textbf{En desacuerdo} & \textbf{Neutral} & \textbf{De acuerdo} & \textbf{Totalmente de acuerdo} & \textbf{Media} \\
+                \hline
+                PU1 & 0 & 0.018 & 0.141 & 0.98 & 3.49 & 4.629\\
+                \hline
+                PU2 & 0 & 0 & 0.084 & 1.736 & 2.69 & 4.51\\
+                \hline
+                PU3 & 0 & 0 & 0.141 & 1.7 & 2.64 & 4.481\\
+                \hline
+                PU4 & 0 & 0 & 0.171 & 1.244 & 3.065 & 4.48\\
+                \hline
+                \multicolumn{6}{|c|}{\textbf{Media Total (PU)}} & 4.525\\
+                \hline
+                \newpage
+                \hline
+                \multicolumn{7}{|c|}{\textbf{Resultados Facilidad de uso percibida (PEOU)}}\\
+                \hline
+                PEOU1 & 0 & 0 & 0.114 & 1.396 & 3.065 & 4.575\\
+                \hline
+                PEOU2 & 0 & 0 & 0.171 & 1.432 & 2.926 & 4.529\\
+                \hline
+                PEOU3 & 0 & 0 & 0.114 & 1.396 & 3.065 & 4.575\\
+                \hline
+                PEOU4 & 0 & 0 & 0.084 & 1.736 & 2.69 & 4.51\\
+                \hline
+                \multicolumn{6}{|c|}{\textbf{Media Total (PEOU)}} & 4.54725\\
+                \hline
+            \end{longtable}
+        \end{center}
+    \end{spacing}
+\end{footnotesize}
+
+Con los resultados recopilados de la encuesta TAM sobre la aplicación móvil, donde la utilidad percibida promedio fue de 4.525 y la facilidad de uso percibida fue de 4.54725, es evidente que los residentes del conjunto habitacional valoran altamente la utilidad y la facilidad de uso de la aplicación móvil. Estos datos sugieren claramente que la aplicación es considerada como una herramienta valiosa y fácil de utilizar por parte de los usuarios del complejo residencial.
+
+
+Por lo tanto se concluye que el proyecto de investigación ha sido un éxito en términos de la percepción de los usuarios sobre la utilidad y facilidad de uso de la aplicación web y móvil desarrollada para la gestión de un conjunto habitacional.
 

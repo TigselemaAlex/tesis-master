@@ -15,8 +15,8 @@ Database file #1: biblio/main.bib
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in moscayzaSistemaWebPara
 Warning--empty year in moscayzaSistemaWebPara
-Warning--empty journal in universitat_politecnica_de_valencia_universitat_2014
-Warning--empty year in universitat_politecnica_de_valencia_universitat_2014
+Warning--empty journal in wu_desarrollo_2014
+Warning--empty year in wu_desarrollo_2014
 Warning--empty journal in ahmad_analysis_2023
 Warning--empty year in ahmad_analysis_2023
 Warning--empty journal in zhang_design_2021
@@ -25,14 +25,10 @@ Warning--empty journal in choma_efficiency_2023
 Warning--empty year in choma_efficiency_2023
 Warning--empty journal in lasluisa_evaluacion_2020
 Warning--empty year in lasluisa_evaluacion_2020
-Warning--missing school in leon_soberon_alisis_2020
 Warning--empty year in leon_soberon_alisis_2020
 Warning--empty year in islam_comparison_2020
-Warning--missing school in barriga_sanchez_sistema_2023
 Warning--empty year in barriga_sanchez_sistema_2023
-Warning--missing school in camino_costa_desarrollo_2012
 Warning--empty year in camino_costa_desarrollo_2012
-Warning--missing school in bonilla_cadena_desarrollo_2022
 Warning--empty year in bonilla_cadena_desarrollo_2022
 Warning--empty journal in tapia_leon_comparacion_2015
 Warning--empty year in tapia_leon_comparacion_2015
@@ -42,34 +38,34 @@ Warning--empty year in varela_modelo_2010
 Done.
 You've used 33 entries,
             4073 wiz_defined-function locations,
-            989 strings with 15355 characters,
-and the built_in function-call counts, 13824 in all, are:
-= -- 1190
+            989 strings with 15314 characters,
+and the built_in function-call counts, 13920 in all, are:
+= -- 1214
 > -- 266
 < -- 31
 + -- 127
 - -- 58
-* -- 644
-:= -- 2639
+* -- 640
+:= -- 2675
 add.period$ -- 66
 call.type$ -- 33
 change.case$ -- 33
 chr.to.int$ -- 51
-cite$ -- 58
-duplicate$ -- 1090
-empty$ -- 1110
+cite$ -- 54
+duplicate$ -- 1094
+empty$ -- 1114
 format.name$ -- 75
-if$ -- 2922
+if$ -- 2950
 int.to.chr$ -- 0
 int.to.str$ -- 33
 missing$ -- 232
 newline$ -- 146
 num.names$ -- 33
-pop$ -- 545
+pop$ -- 541
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1063
+skip$ -- 1075
 stack$ -- 0
 substring$ -- 158
 swap$ -- 733
@@ -77,8 +73,8 @@ text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 33
-warning$ -- 25
+warning$ -- 21
 while$ -- 47
 width$ -- 35
-write$ -- 326
-(There were 25 warnings)
+write$ -- 330
+(There were 21 warnings)
