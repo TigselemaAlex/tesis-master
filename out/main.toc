@@ -61,48 +61,51 @@
 \contentsline {subsubsection}{\numberline {a}Análisis de los procesos sistematizados propuestos}{54}{subsubsection.3.5.2.1}%
 \contentsline {subsubsection}{\numberline {b}Arquitectura}{62}{subsubsection.3.5.2.2}%
 \contentsline {subsubsection}{\numberline {c}Prototipado}{63}{subsubsection.3.5.2.3}%
-\contentsline {subsection}{\numberline {3.5.3}Construcción}{84}{subsection.3.5.3}%
-\contentsline {subsubsection}{\numberline {a}Backend}{84}{subsubsection.3.5.3.1}%
-\contentsline {paragraph}{\numberline {a.1}Dependencias de la API}{84}{paragraph.3.5.3.1.1}%
-\contentsline {paragraph}{\numberline {a.2}Configuración de las propiedades de la API}{84}{paragraph.3.5.3.1.2}%
-\contentsline {paragraph}{\numberline {a.3}Configuración de la seguridad de la API}{85}{paragraph.3.5.3.1.3}%
-\contentsline {paragraph}{\numberline {a.4}Acceso y persistencia de datos}{86}{paragraph.3.5.3.1.4}%
-\contentsline {paragraph}{\numberline {a.5}Configuración y uso del almacenamiento de archivos en S3}{90}{paragraph.3.5.3.1.5}%
-\contentsline {paragraph}{\numberline {a.6}Configuración del motor de plantillas HTML FreeMarker y envío de correos electrónicos}{91}{paragraph.3.5.3.1.6}%
-\contentsline {paragraph}{\numberline {a.7}Configuración de Firebase para el envío de Notificaciones Push y servicio de envió de notificaciones}{92}{paragraph.3.5.3.1.7}%
-\contentsline {paragraph}{\numberline {a.8}Cálculo de la distancia de Haversine}{94}{paragraph.3.5.3.1.8}%
-\contentsline {paragraph}{\numberline {a.9}Controladores}{95}{paragraph.3.5.3.1.9}%
-\contentsline {subsubsection}{\numberline {b}Frontend}{96}{subsubsection.3.5.3.2}%
-\contentsline {paragraph}{\numberline {b.1}Dependencias del sistema}{96}{paragraph.3.5.3.2.1}%
-\contentsline {paragraph}{\numberline {b.2}Configuración de la aplicación}{97}{paragraph.3.5.3.2.2}%
-\contentsline {paragraph}{\numberline {b.3}Inicio de sesión}{98}{paragraph.3.5.3.2.3}%
-\contentsline {paragraph}{\numberline {b.4}Gestión de usuarios}{100}{paragraph.3.5.3.2.4}%
-\contentsline {paragraph}{\numberline {b.5}Gestión de geolocalización}{102}{paragraph.3.5.3.2.5}%
-\contentsline {paragraph}{\numberline {b.6}Gestión de residencias}{102}{paragraph.3.5.3.2.6}%
-\contentsline {paragraph}{\numberline {b.7}Gestión de parqueaderos}{103}{paragraph.3.5.3.2.7}%
-\contentsline {paragraph}{\numberline {b.8}Gestión de incidentes}{104}{paragraph.3.5.3.2.8}%
-\contentsline {paragraph}{\numberline {b.9}Gestión de convocatorias}{105}{paragraph.3.5.3.2.9}%
-\contentsline {paragraph}{\numberline {b.10}Gestión de asistencias en asambleas}{107}{paragraph.3.5.3.2.10}%
-\contentsline {paragraph}{\numberline {b.11}Gestión de votación en asambleas}{109}{paragraph.3.5.3.2.11}%
-\contentsline {paragraph}{\numberline {b.12}Dependencias de la aplicación}{110}{paragraph.3.5.3.2.12}%
-\contentsline {paragraph}{\numberline {b.13}Configuración de la aplicación}{111}{paragraph.3.5.3.2.13}%
-\contentsline {paragraph}{\numberline {b.14}Inicio de sesión}{114}{paragraph.3.5.3.2.14}%
-\contentsline {paragraph}{\numberline {b.15}Visualizar calendario}{115}{paragraph.3.5.3.2.15}%
-\contentsline {paragraph}{\numberline {b.16}Visualizar estado de las obligaciones financieras}{117}{paragraph.3.5.3.2.16}%
-\contentsline {paragraph}{\numberline {b.17}Registrar asistencia}{119}{paragraph.3.5.3.2.17}%
-\contentsline {paragraph}{\numberline {b.18}Registrar voto}{120}{paragraph.3.5.3.2.18}%
-\contentsline {subsection}{\numberline {3.5.4}Transición}{121}{subsection.3.5.4}%
-\contentsline {section}{\numberline {3.6}Aplicación de los cuestionarios TAM}{126}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Modelo TAM}{126}{subsection.3.6.1}%
-\contentsline {subsubsection}{\numberline {a}Carácterísiticas principales de TAM)}{127}{subsubsection.3.6.1.1}%
-\contentsline {paragraph}{\numberline {a.1}Utilidad percibida (PU)}{127}{paragraph.3.6.1.1.1}%
-\contentsline {paragraph}{\numberline {a.2}Facilidad de uso percibida (PEOU)}{127}{paragraph.3.6.1.1.2}%
-\contentsline {subsubsection}{\numberline {b}Resultados del modelo TAM}{127}{subsubsection.3.6.1.2}%
-\contentsline {paragraph}{\numberline {b.1}Resultados del cuestionario TAM al sistema web}{127}{paragraph.3.6.1.2.1}%
-\contentsline {paragraph}{\numberline {b.2}Resultados del cuestionario TAM a la aplicación móvil}{128}{paragraph.3.6.1.2.2}%
-\contentsline {chapter}{\numberline {IV}CONCLUSIONES Y RECOMENDACIONES}{131}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Conclusiones}{131}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Recomendaciones}{132}{section.4.2}%
-\contentsline {chapter}{\bfseries REFERENCIAS BIBLIOGRÁFICAS}{137}{chapter*.159}%
-\contentsline {chapter}{\bfseries \uppercase {Anexos}}{138}{chapter*.160}%
+\contentsline {subsection}{\numberline {3.5.3}Construcción}{91}{subsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {a}Backend}{91}{subsubsection.3.5.3.1}%
+\contentsline {paragraph}{\numberline {a.1}Dependencias de la API}{91}{paragraph.3.5.3.1.1}%
+\contentsline {paragraph}{\numberline {a.2}Configuración de las propiedades de la API}{91}{paragraph.3.5.3.1.2}%
+\contentsline {paragraph}{\numberline {a.3}Configuración de la seguridad de la API}{92}{paragraph.3.5.3.1.3}%
+\contentsline {paragraph}{\numberline {a.4}Acceso y persistencia de datos}{94}{paragraph.3.5.3.1.4}%
+\contentsline {paragraph}{\numberline {a.5}Configuración y uso del almacenamiento de archivos en S3}{100}{paragraph.3.5.3.1.5}%
+\contentsline {paragraph}{\numberline {a.6}Configuración del motor de plantillas HTML FreeMarker y envío de correos electrónicos}{101}{paragraph.3.5.3.1.6}%
+\contentsline {paragraph}{\numberline {a.7}Configuración de Firebase para el envío de Notificaciones Push y servicio de envió de notificaciones}{103}{paragraph.3.5.3.1.7}%
+\contentsline {paragraph}{\numberline {a.8}Cálculo de la distancia de Haversine}{104}{paragraph.3.5.3.1.8}%
+\contentsline {paragraph}{\numberline {a.9}Controladores}{106}{paragraph.3.5.3.1.9}%
+\contentsline {subsubsection}{\numberline {b}Frontend}{106}{subsubsection.3.5.3.2}%
+\contentsline {paragraph}{\numberline {b.1}Dependencias del sistema}{107}{paragraph.3.5.3.2.1}%
+\contentsline {paragraph}{\numberline {b.2}Configuración de la aplicación}{107}{paragraph.3.5.3.2.2}%
+\contentsline {paragraph}{\numberline {b.3}Inicio de sesión}{109}{paragraph.3.5.3.2.3}%
+\contentsline {paragraph}{\numberline {b.4}Gestión de usuarios}{112}{paragraph.3.5.3.2.4}%
+\contentsline {paragraph}{\numberline {b.5}Gestión de geolocalización}{114}{paragraph.3.5.3.2.5}%
+\contentsline {paragraph}{\numberline {b.6}Gestión de residencias}{115}{paragraph.3.5.3.2.6}%
+\contentsline {paragraph}{\numberline {b.7}Gestión de parqueaderos}{116}{paragraph.3.5.3.2.7}%
+\contentsline {paragraph}{\numberline {b.8}Gestión de incidentes}{117}{paragraph.3.5.3.2.8}%
+\contentsline {paragraph}{\numberline {b.9}Gestión de convocatorias}{119}{paragraph.3.5.3.2.9}%
+\contentsline {paragraph}{\numberline {b.10}Gestión de asistencias en asambleas}{121}{paragraph.3.5.3.2.10}%
+\contentsline {paragraph}{\numberline {b.11}Gestión de votación en asambleas}{123}{paragraph.3.5.3.2.11}%
+\contentsline {paragraph}{\numberline {b.12}Gestión de ingresos mensuales}{125}{paragraph.3.5.3.2.12}%
+\contentsline {paragraph}{\numberline {b.13}Gestión de multas}{126}{paragraph.3.5.3.2.13}%
+\contentsline {paragraph}{\numberline {b.14}Gestión de egresos}{128}{paragraph.3.5.3.2.14}%
+\contentsline {paragraph}{\numberline {b.15}Dependencias de la aplicación}{130}{paragraph.3.5.3.2.15}%
+\contentsline {paragraph}{\numberline {b.16}Configuración de la aplicación}{131}{paragraph.3.5.3.2.16}%
+\contentsline {paragraph}{\numberline {b.17}Inicio de sesión}{135}{paragraph.3.5.3.2.17}%
+\contentsline {paragraph}{\numberline {b.18}Visualizar calendario}{136}{paragraph.3.5.3.2.18}%
+\contentsline {paragraph}{\numberline {b.19}Visualizar estado de las obligaciones financieras}{137}{paragraph.3.5.3.2.19}%
+\contentsline {paragraph}{\numberline {b.20}Registrar asistencia}{140}{paragraph.3.5.3.2.20}%
+\contentsline {paragraph}{\numberline {b.21}Registrar voto}{142}{paragraph.3.5.3.2.21}%
+\contentsline {subsection}{\numberline {3.5.4}Transición}{144}{subsection.3.5.4}%
+\contentsline {section}{\numberline {3.6}Aplicación de los cuestionarios TAM}{149}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Modelo TAM}{150}{subsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {a}Carácterísiticas principales de TAM)}{150}{subsubsection.3.6.1.1}%
+\contentsline {paragraph}{\numberline {a.1}Utilidad percibida (PU)}{150}{paragraph.3.6.1.1.1}%
+\contentsline {paragraph}{\numberline {a.2}Facilidad de uso percibida (PEOU)}{150}{paragraph.3.6.1.1.2}%
+\contentsline {subsubsection}{\numberline {b}Resultados del modelo TAM}{150}{subsubsection.3.6.1.2}%
+\contentsline {paragraph}{\numberline {b.1}Resultados del cuestionario TAM al sistema web}{150}{paragraph.3.6.1.2.1}%
+\contentsline {paragraph}{\numberline {b.2}Resultados del cuestionario TAM a la aplicación móvil}{152}{paragraph.3.6.1.2.2}%
+\contentsline {chapter}{\numberline {IV}CONCLUSIONES Y RECOMENDACIONES}{155}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Conclusiones}{155}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Recomendaciones}{156}{section.4.2}%
+\contentsline {chapter}{\bfseries REFERENCIAS BIBLIOGRÁFICAS}{161}{chapter*.171}%
+\contentsline {chapter}{\bfseries \uppercase {Anexos}}{162}{chapter*.172}%
 \contentsfinish 

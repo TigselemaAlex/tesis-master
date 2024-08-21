@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.1 (MiKTeX 23.12) (format=lualatex 2024.3.19)  13 JUN 2024 13:54
+This is LuaHBTeX, Version 1.17.1 (MiKTeX 23.12) (format=lualatex 2024.3.19)  31 JUL 2024 13:27
  restricted system commands enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -1661,9 +1661,19 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 3.
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 5--14
-[]\TU/TimesNewRoman(0)/m/n/12 En cal-i-dad de tu-tor del tra-bajo de tit-u-laci
-ón con el tema: SIS-TEMA WEB Y
+Underfull \hbox (badness 1577) in paragraph at lines 5--16
+\TU/TimesNewRoman(0)/m/n/12 PARA LA SIS-TEM-ATI-ZACIÓN DE LA GESTIÓN AD-MIN-IS
+-TRA-TIVA Y DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--16
+
  []
 
 ) (./chapters/0-prelims/autoria.tex [2
@@ -1674,15 +1684,30 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 3.
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 4--8
+Underfull \hbox (badness 1688) in paragraph at lines 4--12
 \TU/TimesNewRoman(0)/m/n/12 orig-i-nal, autén-tico y per-sonal y ha ob-ser-vado
  los pre-cep-tos es-table-ci-dos en la
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 4--8
+Underfull \hbox (badness 1383) in paragraph at lines 4--12
 \TU/TimesNewRoman(0)/m/n/12 Dis-posi-ción Gen-eral Quinta del Reglamento para 
 la Tit-u-lación de Grado en la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--12
+
  []
 
 ) (./chapters/0-prelims/derechos-autor.tex [3
@@ -1693,9 +1718,19 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 3.
 
 
-Underfull \hbox (badness 3701) in paragraph at lines 4--11
+Underfull \hbox (badness 3701) in paragraph at lines 4--13
 \TU/TimesNewRoman(0)/m/n/12 este tra-bajo de tit-u-lación den-tro de las reg-u-
 la-ciones legales e in-sti-tu-cionales
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--13
+
  []
 
 ) (./chapters/0-prelims/aprobacion-tribunal.tex [4
@@ -1712,7 +1747,7 @@ Underfull \hbox (badness 4872) in paragraph at lines 4--13
  []
 
 
-Overfull \hbox (9.77359pt too wide) in paragraph at lines 28--33
+Overfull \hbox (36.22995pt too wide) in paragraph at lines 29--34
  [] 
  []
 
@@ -1790,13 +1825,7 @@ Underfull \hbox (badness 2626) in paragraph at lines 9--10
 n-cia y la trans-paren-cia en la
  []
 
-) (./chapters/0-prelims/abstract.tex
-Underfull \hbox (badness 10000) in paragraph at lines 12--1
-[]\TU/TimesNewRoman(0)/b/n/12 Pal-abras clave: \TU/TimesNewRoman(0)/m/n/12 Sis-t
-em-ati-zación, Con-junto habita-cional, Frame-work,
- []
-
-[18
+) (./chapters/0-prelims/abstract.tex [18
 
 ]
 
@@ -2070,7 +2099,7 @@ Overfull \hbox (4.5877pt too wide) in alignment at lines 55--118
  []
 
 [18] [19] [20]
-<resources/images/p1.png, id=984, 715.92468pt x 270.25969pt>
+<resources/images/p1.png, id=1008, 715.92468pt x 270.25969pt>
 File: resources/images/p1.png Graphic file (type png)
 <use resources/images/p1.png>
 Package luatex.def Info: resources/images/p1.png  used on input line 153.
@@ -2081,36 +2110,36 @@ Underfull \hbox (badness 1968) in paragraph at lines 163--164
  fre-cuen-cia so-licita la in-for-ma-ción de las obli-ga-ciones
  []
 
-<resources/images/p2.png, id=991, 712.91344pt x 270.25969pt>
+<resources/images/p2.png, id=1015, 712.91344pt x 270.25969pt>
 File: resources/images/p2.png Graphic file (type png)
 <use resources/images/p2.png>
 Package luatex.def Info: resources/images/p2.png  used on input line 192.
 (luatex.def)             Requested size: 330.05322pt x 125.12097pt.
 [22<./resources/images/p2.png>]
-<resources/images/p3.png, id=998, 730.22812pt x 271.76532pt>
+<resources/images/p3.png, id=1022, 730.22812pt x 271.76532pt>
 File: resources/images/p3.png Graphic file (type png)
 <use resources/images/p3.png>
 Package luatex.def Info: resources/images/p3.png  used on input line 229.
 (luatex.def)             Requested size: 330.05322pt x 122.83234pt.
  [23<./resources/images/p3.png>]
-<resources/images/p4.png, id=1004, 732.48656pt x 291.33844pt>
+<resources/images/p4.png, id=1028, 732.48656pt x 291.33844pt>
 File: resources/images/p4.png Graphic file (type png)
 <use resources/images/p4.png>
 Package luatex.def Info: resources/images/p4.png  used on input line 265.
 (luatex.def)             Requested size: 330.05322pt x 131.27444pt.
  [24<./resources/images/p4.png>]
-<resources/images/p5.png, id=1010, 502.87875pt x 266.49562pt>
+<resources/images/p5.png, id=1034, 502.87875pt x 266.49562pt>
 File: resources/images/p5.png Graphic file (type png)
 <use resources/images/p5.png>
 Package luatex.def Info: resources/images/p5.png  used on input line 295.
 (luatex.def)             Requested size: 330.05322pt x 174.90764pt.
  [25<./resources/images/p5.png>]
-<resources/images/p6.png, id=1016, 639.89063pt x 264.23718pt>
+<resources/images/p6.png, id=1040, 639.89063pt x 264.23718pt>
 File: resources/images/p6.png Graphic file (type png)
 <use resources/images/p6.png>
 Package luatex.def Info: resources/images/p6.png  used on input line 331.
 (luatex.def)             Requested size: 330.05322pt x 136.29533pt.
-<resources/images/p7.png, id=1017, 666.23906pt x 262.73157pt>
+<resources/images/p7.png, id=1041, 666.23906pt x 262.73157pt>
 File: resources/images/p7.png Graphic file (type png)
 <use resources/images/p7.png>
 Package luatex.def Info: resources/images/p7.png  used on input line 368.
@@ -2121,13 +2150,13 @@ Underfull \hbox (badness 1297) in paragraph at lines 372--375
 que el 95.3% de los propi-etar-ios
  []
 
-<resources/images/p8.png, id=1023, 754.31813pt x 264.23718pt>
+<resources/images/p8.png, id=1047, 754.31813pt x 264.23718pt>
 File: resources/images/p8.png Graphic file (type png)
 <use resources/images/p8.png>
 Package luatex.def Info: resources/images/p8.png  used on input line 405.
 (luatex.def)             Requested size: 330.05322pt x 115.61557pt.
 [27<./resources/images/p7.png>]
-<resources/images/p9.png, id=1029, 508.14844pt x 263.48438pt>
+<resources/images/p9.png, id=1053, 508.14844pt x 263.48438pt>
 File: resources/images/p9.png Graphic file (type png)
 <use resources/images/p9.png>
 Package luatex.def Info: resources/images/p9.png  used on input line 435.
@@ -2937,7 +2966,7 @@ pla con los req-ui-si-tos
  []
 
 [41]
-<resources/images/Diagramade flujo parqueadero-actual.png, id=1147, 763.85374pt
+<resources/images/Diagramade flujo parqueadero-actual.png, id=1171, 763.85374pt
  x 804.00375pt>
 File: resources/images/Diagramade flujo parqueadero-actual.png Graphic file (ty
 pe png)
@@ -2957,7 +2986,7 @@ Underfull \hbox (badness 3138) in paragraph at lines 93--94
  jus-ti-fi-cación por la
  []
 
-<resources/images/Copia de Diagrama de flujo convocatorias-actual.png, id=1175,
+<resources/images/Copia de Diagrama de flujo convocatorias-actual.png, id=1199,
  1024.82875pt x 763.85374pt>
 File: resources/images/Copia de Diagrama de flujo convocatorias-actual.png Grap
 hic file (type png)
@@ -2967,7 +2996,7 @@ ias-actual.png  used on input line 103.
 (luatex.def)             Requested size: 412.56497pt x 307.50584pt.
 [44]
 <resources/images/Diagrama de flujo de proceso pagos obligaciones actual.png, i
-d=1191, 462.72874pt x 544.0325pt>
+d=1215, 462.72874pt x 544.0325pt>
 File: resources/images/Diagrama de flujo de proceso pagos obligaciones actual.p
 ng Graphic file (type png)
 <use resources/images/Diagrama de flujo de proceso pagos obligaciones actual.pn
@@ -2977,7 +3006,7 @@ ligaciones actual.png  used on input line 125.
 (luatex.def)             Requested size: 412.56497pt x 485.05904pt.
  [45<./resources/images/Copia de Diagrama de flujo convocatorias-actual.png>]
 <resources/images/Diagrama de flujo de proceso pagos a proveedores-actual.png, 
-id=1205, 462.72874pt x 393.47pt>
+id=1229, 462.72874pt x 393.47pt>
 File: resources/images/Diagrama de flujo de proceso pagos a proveedores-actual.
 png Graphic file (type png)
 <use resources/images/Diagrama de flujo de proceso pagos a proveedores-actual.p
@@ -2987,7 +3016,7 @@ proveedores-actual.png  used on input line 141.
 (luatex.def)             Requested size: 412.56497pt x 350.8176pt.
  [46<./resources/images/Diagrama de flujo de proceso pagos obligaciones actual.p
 ng>]
-<resources/images/Diagrama de flujo de proceso multas actual.png, id=1215, 522.
+<resources/images/Diagrama de flujo de proceso multas actual.png, id=1239, 522.
 95375pt x 452.69125pt>
 File: resources/images/Diagrama de flujo de proceso multas actual.png Graphic f
 ile (type png)
@@ -3415,7 +3444,7 @@ Underfull \hbox (badness 3138) in paragraph at lines 312--313
  jus-ti-fi-cación por la
  []
 
-<resources/images/Diagrama de flujo convocatorias propuesto.png, id=1302, 1718.
+<resources/images/Diagrama de flujo convocatorias propuesto.png, id=1326, 1718.
 42pt x 1969.3575pt>
 File: resources/images/Diagrama de flujo convocatorias propuesto.png Graphic fi
 le (type png)
@@ -3425,7 +3454,7 @@ esto.png  used on input line 321.
 (luatex.def)             Requested size: 412.56497pt x 472.80571pt.
 [57] [58<./resources/images/Diagrama de flujo convocatorias propuesto.png>]
 <resources/images/Diagrama de flujo de proceso pagos obligaciones propuesto.png
-, id=1323, 703.62875pt x 773.89125pt>
+, id=1347, 703.62875pt x 773.89125pt>
 File: resources/images/Diagrama de flujo de proceso pagos obligaciones propuest
 o.png Graphic file (type png)
 <use resources/images/Diagrama de flujo de proceso pagos obligaciones propuesto
@@ -3437,7 +3466,7 @@ ligaciones propuesto.png  used on input line 351.
 [59] [60<./resources/images/Diagrama de flujo de proceso pagos obligaciones prop
 uesto.png>]
 <resources/images/Diagrama de flujo de proceso pagos a proveedores propuesto.pn
-g, id=1343, 683.55376pt x 502.87875pt>
+g, id=1367, 683.55376pt x 502.87875pt>
 File: resources/images/Diagrama de flujo de proceso pagos a proveedores propues
 to.png Graphic file (type png)
 <use resources/images/Diagrama de flujo de proceso pagos a proveedores propuest
@@ -3453,7 +3482,7 @@ spaldo de pago al
 
 [61<./resources/images/Diagrama de flujo de proceso pagos a proveedores propuest
 o.png>]
-<resources/images/Diagrama de flujo de proceso multas propuesta.png, id=1358, 8
+<resources/images/Diagrama de flujo de proceso multas propuesta.png, id=1382, 8
 84.30376pt x 522.95375pt>
 File: resources/images/Diagrama de flujo de proceso multas propuesta.png Graphi
 c file (type png)
@@ -3461,313 +3490,315 @@ c file (type png)
 Package luatex.def Info: resources/images/Diagrama de flujo de proceso multas p
 ropuesta.png  used on input line 396.
 (luatex.def)             Requested size: 412.56497pt x 243.9849pt.
-<resources/images/Arquitectura.png, id=1360, 1175.39125pt x 675.52374pt>
+<resources/images/Arquitectura.png, id=1384, 1175.39125pt x 675.52374pt>
 File: resources/images/Arquitectura.png Graphic file (type png)
 <use resources/images/Arquitectura.png>
 Package luatex.def Info: resources/images/Arquitectura.png  used on input line 
 416.
 (luatex.def)             Requested size: 412.56497pt x 237.10684pt.
  [62<./resources/images/Diagrama de flujo de proceso multas propuesta.png>]
-<resources/images/login.png, id=1372, 1445.4pt x 1027.84pt>
+<resources/images/login.png, id=1396, 1445.4pt x 1027.84pt>
 File: resources/images/login.png Graphic file (type png)
 <use resources/images/login.png>
 Package luatex.def Info: resources/images/login.png  used on input line 432.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
  [63<./resources/images/Arquitectura.png>]
-<resources/images/navegacion.png, id=1381, 1445.4pt x 1027.84pt>
+<resources/images/navegacion.png, id=1405, 1445.4pt x 1027.84pt>
 File: resources/images/navegacion.png Graphic file (type png)
 <use resources/images/navegacion.png>
 Package luatex.def Info: resources/images/navegacion.png  used on input line 44
 1.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
-<resources/images/dashboard.png, id=1385, 1445.4pt x 1027.84pt>
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+ [64<./resources/images/login.png>]
+<resources/images/dashboard.png, id=1415, 1445.4pt x 1027.84pt>
 File: resources/images/dashboard.png Graphic file (type png)
 <use resources/images/dashboard.png>
 Package luatex.def Info: resources/images/dashboard.png  used on input line 451
 .
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
- [64<./resources/images/login.png><./resources/images/navegacion.png>]
-<resources/images/Dashboard-view-presidente.png, id=1393, 1445.4pt x 1027.84pt>
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+ [65<./resources/images/navegacion.png>]
+<resources/images/Dashboard-view-presidente.png, id=1422, 1445.4pt x 1027.84pt>
 
 File: resources/images/Dashboard-view-presidente.png Graphic file (type png)
 <use resources/images/Dashboard-view-presidente.png>
 Package luatex.def Info: resources/images/Dashboard-view-presidente.png  used o
 n input line 458.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
-<resources/images/Dashboard-view-tesorería.png, id=1394, 1445.4pt x 1027.84pt>
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+<resources/images/Dashboard-view-tesorería.png, id=1423, 1445.4pt x 1027.84pt>
 
 File: resources/images/Dashboard-view-tesorería.png Graphic file (type png)
 <use resources/images/Dashboard-view-tesorería.png>
 Package luatex.def Info: resources/images/Dashboard-view-tesorería.png  used o
 n input line 465.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
- [65<./resources/images/dashboard.png><./resources/images/Dashboard-view-preside
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+ [66<./resources/images/dashboard.png><./resources/images/Dashboard-view-preside
 nte.png>]
-<resources/images/usuarios.png, id=1402, 1445.4pt x 1027.84pt>
+<resources/images/usuarios.png, id=1431, 1445.4pt x 1027.84pt>
 File: resources/images/usuarios.png Graphic file (type png)
 <use resources/images/usuarios.png>
 Package luatex.def Info: resources/images/usuarios.png  used on input line 474.
 
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
-<resources/images/usuarios formulario.png, id=1404, 1445.4pt x 1027.84pt>
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+ [67<./resources/images/Dashboard-view-tesorería.png>]
+<resources/images/usuarios formulario.png, id=1439, 1445.4pt x 1027.84pt>
 File: resources/images/usuarios formulario.png Graphic file (type png)
 <use resources/images/usuarios formulario.png>
 Package luatex.def Info: resources/images/usuarios formulario.png  used on inpu
 t line 483.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
- [66<./resources/images/Dashboard-view-tesorería.png><./resources/images/usuari
-os.png>]
-<resources/images/geolocalizacion.png, id=1413, 1445.4pt x 1027.84pt>
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+ [68<./resources/images/usuarios.png>]
+<resources/images/geolocalizacion.png, id=1447, 1445.4pt x 1027.84pt>
 File: resources/images/geolocalizacion.png Graphic file (type png)
 <use resources/images/geolocalizacion.png>
 Package luatex.def Info: resources/images/geolocalizacion.png  used on input li
 ne 492.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
-<resources/images/residencias.png, id=1415, 1445.4pt x 1027.84pt>
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+ [69<./resources/images/usuarios formulario.png>]
+<resources/images/residencias.png, id=1455, 1445.4pt x 1027.84pt>
 File: resources/images/residencias.png Graphic file (type png)
 <use resources/images/residencias.png>
 Package luatex.def Info: resources/images/residencias.png  used on input line 5
 01.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
- [67<./resources/images/usuarios formulario.png><./resources/images/geolocalizac
-ion.png>]
-<resources/images/estacionamientos-organization.png, id=1425, 1445.4pt x 1027.8
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+ [70<./resources/images/geolocalizacion.png>]
+<resources/images/estacionamientos-organization.png, id=1464, 1445.4pt x 1027.8
 4pt>
 File: resources/images/estacionamientos-organization.png Graphic file (type png
 )
 <use resources/images/estacionamientos-organization.png>
 Package luatex.def Info: resources/images/estacionamientos-organization.png  us
 ed on input line 513.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
-<resources/images/estacionamientos- type.png, id=1426, 1445.4pt x 1027.84pt>
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+ [71<./resources/images/residencias.png>]
+<resources/images/estacionamientos- type.png, id=1471, 1445.4pt x 1027.84pt>
 File: resources/images/estacionamientos- type.png Graphic file (type png)
 <use resources/images/estacionamientos- type.png>
 Package luatex.def Info: resources/images/estacionamientos- type.png  used on i
 nput line 520.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
- [68<./resources/images/residencias.png><./resources/images/estacionamientos-org
-anization.png>]
-<resources/images/estacionamientos-organization-form.png, id=1436, 1445.4pt x 1
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+ [72<./resources/images/estacionamientos-organization.png><./resources/images/es
+tacionamientos- type.png>]
+<resources/images/estacionamientos-organization-form.png, id=1482, 1445.4pt x 1
 027.84pt>
 File: resources/images/estacionamientos-organization-form.png Graphic file (typ
 e png)
 <use resources/images/estacionamientos-organization-form.png>
 Package luatex.def Info: resources/images/estacionamientos-organization-form.pn
 g  used on input line 529.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
-<resources/images/estacionamientos-form-vista.png, id=1437, 1445.4pt x 1027.84p
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+<resources/images/estacionamientos-form-vista.png, id=1483, 1445.4pt x 1027.84p
 t>
 File: resources/images/estacionamientos-form-vista.png Graphic file (type png)
 <use resources/images/estacionamientos-form-vista.png>
 Package luatex.def Info: resources/images/estacionamientos-form-vista.png  used
  on input line 536.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
- [69<./resources/images/estacionamientos- type.png><./resources/images/estaciona
-mientos-organization-form.png>]
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+ [73<./resources/images/estacionamientos-organization-form.png>]
 Underfull \hbox (badness 1521) in paragraph at lines 541--542
 []\TU/TimesNewRoman(0)/m/n/12 En la Figura []34[] se mues-tra la vista de la ad-
 min-is-tración de con-vo-ca-to-rias en
  []
 
-<resources/images/convocatorias.png, id=1450, 1445.4pt x 1027.84pt>
+<resources/images/convocatorias.png, id=1495, 1445.4pt x 1027.84pt>
 File: resources/images/convocatorias.png Graphic file (type png)
 <use resources/images/convocatorias.png>
 Package luatex.def Info: resources/images/convocatorias.png  used on input line
  545.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
-<resources/images/convocatorias_edit.png, id=1451, 1445.4pt x 1027.84pt>
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+[74<./resources/images/estacionamientos-form-vista.png>]
+<resources/images/convocatorias_edit.png, id=1502, 1445.4pt x 1027.84pt>
 File: resources/images/convocatorias_edit.png Graphic file (type png)
 <use resources/images/convocatorias_edit.png>
 Package luatex.def Info: resources/images/convocatorias_edit.png  used on input
  line 552.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
-[70<./resources/images/estacionamientos-form-vista.png><./resources/images/convo
-catorias.png>]
-<resources/images/convocatorias_ver.png, id=1459, 1445.4pt x 1027.84pt>
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+<resources/images/convocatorias_ver.png, id=1503, 1445.4pt x 1027.84pt>
 File: resources/images/convocatorias_ver.png Graphic file (type png)
 <use resources/images/convocatorias_ver.png>
 Package luatex.def Info: resources/images/convocatorias_ver.png  used on input 
 line 559.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
-<resources/images/convocatorias_asistentes.png, id=1460, 1445.4pt x 1027.84pt>
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+ [75<./resources/images/convocatorias.png><./resources/images/convocatorias_edit
+.png>]
+<resources/images/convocatorias_asistentes.png, id=1510, 1445.4pt x 1027.84pt>
 File: resources/images/convocatorias_asistentes.png Graphic file (type png)
 <use resources/images/convocatorias_asistentes.png>
 Package luatex.def Info: resources/images/convocatorias_asistentes.png  used on
  input line 566.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
- [71<./resources/images/convocatorias_edit.png><./resources/images/convocatorias
-_ver.png>]
-<resources/images/convocatorias_votaciones.png, id=1467, 1445.4pt x 1027.84pt>
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+<resources/images/convocatorias_votaciones.png, id=1511, 1445.4pt x 1027.84pt>
 File: resources/images/convocatorias_votaciones.png Graphic file (type png)
 <use resources/images/convocatorias_votaciones.png>
 Package luatex.def Info: resources/images/convocatorias_votaciones.png  used on
  input line 573.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
-<resources/images/tesoreia - tipos.png, id=1471, 1445.4pt x 1027.84pt>
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+ [76<./resources/images/convocatorias_ver.png><./resources/images/convocatorias_
+asistentes.png>]
+<resources/images/tesoreia - tipos.png, id=1521, 1445.4pt x 1027.84pt>
 File: resources/images/tesoreia - tipos.png Graphic file (type png)
 <use resources/images/tesoreia - tipos.png>
 Package luatex.def Info: resources/images/tesoreia - tipos.png  used on input l
 ine 583.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
- [72<./resources/images/convocatorias_asistentes.png><./resources/images/convoca
-torias_votaciones.png>]
-<resources/images/tesoreia - tipos edit.png, id=1480, 1445.4pt x 1027.84pt>
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+ [77<./resources/images/convocatorias_votaciones.png>]
+<resources/images/tesoreia - tipos edit.png, id=1528, 1445.4pt x 1027.84pt>
 File: resources/images/tesoreia - tipos edit.png Graphic file (type png)
 <use resources/images/tesoreia - tipos edit.png>
 Package luatex.def Info: resources/images/tesoreia - tipos edit.png  used on in
 put line 590.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
-<resources/images/tesoreia - multas.png, id=1481, 1445.4pt x 1027.84pt>
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+<resources/images/tesoreia - multas.png, id=1529, 1445.4pt x 1027.84pt>
 File: resources/images/tesoreia - multas.png Graphic file (type png)
 <use resources/images/tesoreia - multas.png>
 Package luatex.def Info: resources/images/tesoreia - multas.png  used on input 
 line 597.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
- [73<./resources/images/tesoreia - tipos.png><./resources/images/tesoreia - tipo
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+ [78<./resources/images/tesoreia - tipos.png><./resources/images/tesoreia - tipo
 s edit.png>]
-<resources/images/tesoreia - ingresos - mensuales.png, id=1491, 1445.4pt x 1027
+<resources/images/tesoreia - ingresos - mensuales.png, id=1539, 1445.4pt x 1027
 .84pt>
 File: resources/images/tesoreia - ingresos - mensuales.png Graphic file (type p
 ng)
 <use resources/images/tesoreia - ingresos - mensuales.png>
 Package luatex.def Info: resources/images/tesoreia - ingresos - mensuales.png  
 used on input line 607.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
-<resources/images/tesoreia - ingresos - mensuales - edit.png, id=1492, 1445.4pt
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+ [79<./resources/images/tesoreia - multas.png>]
+<resources/images/tesoreia - ingresos - mensuales - edit.png, id=1546, 1445.4pt
  x 1027.84pt>
 File: resources/images/tesoreia - ingresos - mensuales - edit.png Graphic file 
 (type png)
 <use resources/images/tesoreia - ingresos - mensuales - edit.png>
 Package luatex.def Info: resources/images/tesoreia - ingresos - mensuales - edi
 t.png  used on input line 614.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
- [74<./resources/images/tesoreia - multas.png><./resources/images/tesoreia - ing
-resos - mensuales.png>]
-<resources/images/tesoreia-ingresos-mensuales-recibo.png, id=1500, 1445.4pt x 1
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+<resources/images/tesoreia-ingresos-mensuales-recibo.png, id=1547, 1445.4pt x 1
 027.84pt>
 File: resources/images/tesoreia-ingresos-mensuales-recibo.png Graphic file (typ
 e png)
 <use resources/images/tesoreia-ingresos-mensuales-recibo.png>
 Package luatex.def Info: resources/images/tesoreia-ingresos-mensuales-recibo.pn
 g  used on input line 621.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
-<resources/images/tesoreia - ingresos - multas.png, id=1504, 1445.4pt x 1027.84
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+ [80<./resources/images/tesoreia - ingresos - mensuales.png><./resources/images/
+tesoreia - ingresos - mensuales - edit.png>]
+<resources/images/tesoreia - ingresos - multas.png, id=1557, 1445.4pt x 1027.84
 pt>
 File: resources/images/tesoreia - ingresos - multas.png Graphic file (type png)
 
 <use resources/images/tesoreia - ingresos - multas.png>
 Package luatex.def Info: resources/images/tesoreia - ingresos - multas.png  use
 d on input line 631.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
- [75<./resources/images/tesoreia - ingresos - mensuales - edit.png><./resources/
-images/tesoreia-ingresos-mensuales-recibo.png>]
-<resources/images/tesoreia - ingresos - multas -formulario.png, id=1512, 1445.4
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+ [81<./resources/images/tesoreia-ingresos-mensuales-recibo.png>]
+<resources/images/tesoreia - ingresos - multas -formulario.png, id=1564, 1445.4
 pt x 1027.84pt>
 File: resources/images/tesoreia - ingresos - multas -formulario.png Graphic fil
 e (type png)
 <use resources/images/tesoreia - ingresos - multas -formulario.png>
 Package luatex.def Info: resources/images/tesoreia - ingresos - multas -formula
 rio.png  used on input line 638.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
-<resources/images/tesoreia - egresos - generales.png, id=1517, 1445.4pt x 1027.
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+ [82<./resources/images/tesoreia - ingresos - multas.png><./resources/images/tes
+oreia - ingresos - multas -formulario.png>]
+<resources/images/tesoreia - egresos - generales.png, id=1576, 1445.4pt x 1027.
 84pt>
 File: resources/images/tesoreia - egresos - generales.png Graphic file (type pn
 g)
 <use resources/images/tesoreia - egresos - generales.png>
 Package luatex.def Info: resources/images/tesoreia - egresos - generales.png  u
 sed on input line 649.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
- [76<./resources/images/tesoreia - ingresos - multas.png><./resources/images/tes
-oreia - ingresos - multas -formulario.png>]
-<resources/images/tesoreia - egresos - tipos.png, id=1525, 1445.4pt x 1027.84pt
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+<resources/images/tesoreia - egresos - tipos.png, id=1577, 1445.4pt x 1027.84pt
 >
 File: resources/images/tesoreia - egresos - tipos.png Graphic file (type png)
 <use resources/images/tesoreia - egresos - tipos.png>
 Package luatex.def Info: resources/images/tesoreia - egresos - tipos.png  used 
 on input line 656.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
-<resources/images/tesoreia - egresos - proveedores.png, id=1526, 1445.4pt x 102
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+ [83<./resources/images/tesoreia - egresos - generales.png>]
+<resources/images/tesoreia - egresos - proveedores.png, id=1584, 1445.4pt x 102
 7.84pt>
 File: resources/images/tesoreia - egresos - proveedores.png Graphic file (type 
 png)
 <use resources/images/tesoreia - egresos - proveedores.png>
 Package luatex.def Info: resources/images/tesoreia - egresos - proveedores.png 
  used on input line 663.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
- [77<./resources/images/tesoreia - egresos - generales.png><./resources/images/t
-esoreia - egresos - tipos.png>]
-<resources/images/tesoreia - egresos - generales-edit.png, id=1533, 1445.4pt x 
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+<resources/images/tesoreia - egresos - generales-edit.png, id=1585, 1445.4pt x 
 1027.84pt>
 File: resources/images/tesoreia - egresos - generales-edit.png Graphic file (ty
 pe png)
 <use resources/images/tesoreia - egresos - generales-edit.png>
 Package luatex.def Info: resources/images/tesoreia - egresos - generales-edit.p
 ng  used on input line 670.
-(luatex.def)             Requested size: 288.79422pt x 205.36047pt.
-<resources/images/Login-movil.png, id=1535, 394.47375pt x 855.195pt>
+(luatex.def)             Requested size: 412.56497pt x 293.37659pt.
+ [84<./resources/images/tesoreia - egresos - tipos.png><./resources/images/tesor
+eia - egresos - proveedores.png>]
+<resources/images/Login-movil.png, id=1593, 394.47375pt x 855.195pt>
 File: resources/images/Login-movil.png Graphic file (type png)
 <use resources/images/Login-movil.png>
 Package luatex.def Info: resources/images/Login-movil.png  used on input line 6
 82.
 (luatex.def)             Requested size: 123.77074pt x 268.31783pt.
- [78<./resources/images/tesoreia - egresos - proveedores.png><./resources/images
-/tesoreia - egresos - generales-edit.png>]
-<resources/images/navegacion-movil.png, id=1544, 394.47375pt x 855.195pt>
+ [85<./resources/images/tesoreia - egresos - generales-edit.png>]
+<resources/images/navegacion-movil.png, id=1601, 394.47375pt x 855.195pt>
 File: resources/images/navegacion-movil.png Graphic file (type png)
 <use resources/images/navegacion-movil.png>
 Package luatex.def Info: resources/images/navegacion-movil.png  used on input l
 ine 691.
 (luatex.def)             Requested size: 123.77074pt x 268.31783pt.
- [79<./resources/images/Login-movil.png><./resources/images/navegacion-movil.png
+ [86<./resources/images/Login-movil.png><./resources/images/navegacion-movil.png
 >]
-<resources/images/eventos-movil.png, id=1554, 394.47375pt x 855.195pt>
+<resources/images/eventos-movil.png, id=1611, 394.47375pt x 855.195pt>
 File: resources/images/eventos-movil.png Graphic file (type png)
 <use resources/images/eventos-movil.png>
 Package luatex.def Info: resources/images/eventos-movil.png  used on input line
  700.
 (luatex.def)             Requested size: 123.77074pt x 268.31783pt.
-<resources/images/eventos-detalle.png, id=1555, 394.47375pt x 855.195pt>
+<resources/images/eventos-detalle.png, id=1612, 394.47375pt x 855.195pt>
 File: resources/images/eventos-detalle.png Graphic file (type png)
 <use resources/images/eventos-detalle.png>
 Package luatex.def Info: resources/images/eventos-detalle.png  used on input li
 ne 708.
 (luatex.def)             Requested size: 123.77074pt x 268.31783pt.
- [80<./resources/images/eventos-movil.png>]
-<resources/images/Asambleas-movil.png, id=1565, 394.47375pt x 855.195pt>
+ [87<./resources/images/eventos-movil.png>]
+<resources/images/Asambleas-movil.png, id=1622, 394.47375pt x 855.195pt>
 File: resources/images/Asambleas-movil.png Graphic file (type png)
 <use resources/images/Asambleas-movil.png>
 Package luatex.def Info: resources/images/Asambleas-movil.png  used on input li
 ne 725.
 (luatex.def)             Requested size: 123.77074pt x 268.31783pt.
- [81<./resources/images/eventos-detalle.png>]
-<resources/images/Asambleas-asistencia-movil.png, id=1572, 394.47375pt x 855.19
+
+[88<./resources/images/eventos-detalle.png>]
+<resources/images/Asambleas-asistencia-movil.png, id=1629, 394.47375pt x 855.19
 5pt>
 File: resources/images/Asambleas-asistencia-movil.png Graphic file (type png)
 <use resources/images/Asambleas-asistencia-movil.png>
 Package luatex.def Info: resources/images/Asambleas-asistencia-movil.png  used 
 on input line 732.
 (luatex.def)             Requested size: 123.77074pt x 268.31783pt.
-<resources/images/Asambleas-voto-movil.png, id=1573, 394.47375pt x 855.195pt>
+<resources/images/Asambleas-voto-movil.png, id=1630, 394.47375pt x 855.195pt>
 File: resources/images/Asambleas-voto-movil.png Graphic file (type png)
 <use resources/images/Asambleas-voto-movil.png>
 Package luatex.def Info: resources/images/Asambleas-voto-movil.png  used on inp
 ut line 739.
 (luatex.def)             Requested size: 123.77074pt x 268.31783pt.
- [82<./resources/images/Asambleas-movil.png><./resources/images/Asambleas-asiste
+ [89<./resources/images/Asambleas-movil.png><./resources/images/Asambleas-asiste
 ncia-movil.png>]
-<resources/images/perfil-movil.png, id=1582, 394.47375pt x 855.195pt>
+<resources/images/perfil-movil.png, id=1638, 394.47375pt x 855.195pt>
 File: resources/images/perfil-movil.png Graphic file (type png)
 <use resources/images/perfil-movil.png>
 Package luatex.def Info: resources/images/perfil-movil.png  used on input line 
 748.
 (luatex.def)             Requested size: 123.77074pt x 268.31783pt.
- [83<./resources/images/Asambleas-voto-movil.png><./resources/images/perfil-movi
+ [90<./resources/images/Asambleas-voto-movil.png><./resources/images/perfil-movi
 l.png>]
-<resources/images/maven.png, id=1592, 799.48688pt x 654.94687pt>
+<resources/images/maven.png, id=1648, 799.48688pt x 654.94687pt>
 File: resources/images/maven.png Graphic file (type png)
 <use resources/images/maven.png>
 Package luatex.def Info: resources/images/maven.png  used on input line 765.
-(luatex.def)             Requested size: 123.77074pt x 101.38579pt.
+(luatex.def)             Requested size: 412.56497pt x 337.97598pt.
 
 Underfull \hbox (badness 1917) in paragraph at lines 771--772
 [][]|[] \TU/TimesNewRoman(0)/b/it/12 Con-fig-u-ración de las propiedades de la API.[] \TU/TimesNewRoman(0)/m/n/12 Para la con-fig-u-raci
@@ -3787,928 +3818,1023 @@ Underfull \hbox (badness 1527) in paragraph at lines 771--772
 se de datos, el puerto en el
  []
 
-<resources/images/properties.png, id=1594, 1016.29688pt x 919.18407pt>
+[91<./resources/images/maven.png>]
+<resources/images/properties.png, id=1659, 1016.29688pt x 919.18407pt>
 File: resources/images/properties.png Graphic file (type png)
 <use resources/images/properties.png>
 Package luatex.def Info: resources/images/properties.png  used on input line 77
 5.
-(luatex.def)             Requested size: 288.79422pt x 261.19878pt.
-[84<./resources/images/maven.png>]
-<resources/images/security.png, id=1605, 1475.5125pt x 2427.0675pt>
+(luatex.def)             Requested size: 412.56497pt x 373.1371pt.
+<resources/images/security.png, id=1661, 1475.5125pt x 2427.0675pt>
 File: resources/images/security.png Graphic file (type png)
 <use resources/images/security.png>
 Package luatex.def Info: resources/images/security.png  used on input line 787.
 
-(luatex.def)             Requested size: 288.79422pt x 475.03539pt.
- [85<./resources/images/properties.png>]
-[86<./resources/images/security.png>]
-<resources/images/abstractEntity.png, id=1622, 740.7675pt x 750.805pt>
+(luatex.def)             Requested size: 412.56497pt x 678.6114pt.
+ [92<./resources/images/properties.png>]
+Overfull \vbox (10.55469pt too high) has occurred while \output is active []
+
+
+[93<./resources/images/security.png>]
+<resources/images/abstractEntity.png, id=1677, 740.7675pt x 750.805pt>
 File: resources/images/abstractEntity.png Graphic file (type png)
 <use resources/images/abstractEntity.png>
 Package luatex.def Info: resources/images/abstractEntity.png  used on input lin
 e 804.
-(luatex.def)             Requested size: 288.79422pt x 292.70966pt.
-<resources/images/entity.png, id=1623, 1379.1525pt x 940.51375pt>
+(luatex.def)             Requested size: 412.56497pt x 418.15666pt.
+ [94]
+<resources/images/entity.png, id=1684, 1379.1525pt x 940.51375pt>
 File: resources/images/entity.png Graphic file (type png)
 <use resources/images/entity.png>
 Package luatex.def Info: resources/images/entity.png  used on input line 811.
-(luatex.def)             Requested size: 288.79422pt x 196.93967pt.
-
+(luatex.def)             Requested size: 412.56497pt x 281.35265pt.
+ [95<./resources/images/abstractEntity.png>]
 Underfull \hbox (badness 1009) in paragraph at lines 816--817
 []\TU/TimesNewRoman(0)/m/n/12 Para los pro-ce-sos CRUD se uti-lizaron repos-i-to
 -rios que ex-tien-den de la in-ter-faz
  []
 
-[87<./resources/images/abstractEntity.png><./resources/images/entity.png>]
 File: resources/images/entity.png Graphic file (type png)
 <use resources/images/entity.png>
 Package luatex.def Info: resources/images/entity.png  used on input line 820.
-(luatex.def)             Requested size: 288.79422pt x 196.93967pt.
-
-[88]
-<resources/images/diagram.png, id=1638, 7319.345pt x 4296.05pt>
-File: resources/images/diagram.png Graphic file (type png)
-<use resources/images/diagram.png>
-Package luatex.def Info: resources/images/diagram.png  used on input line 830.
-(luatex.def)             Requested size: 536.33571pt x 314.78244pt.
- [89
-
-<./resources/images/diagram.png>]
-<resources/images/s3.png, id=1645, 1078.0275pt x 656.4525pt>
+(luatex.def)             Requested size: 412.56497pt x 281.35265pt.
+[96<./resources/images/entity.png>]
+<resources/images/diagram-1.png, id=1699, 2811.75468pt x 3324.42pt>
+File: resources/images/diagram-1.png Graphic file (type png)
+<use resources/images/diagram-1.png>
+Package luatex.def Info: resources/images/diagram-1.png  used on input line 828
+.
+(luatex.def)             Requested size: 412.56497pt x 487.78603pt.
+ [97]
+<resources/images/diagram-2.png, id=1705, 2821.54124pt x 3324.42pt>
+File: resources/images/diagram-2.png Graphic file (type png)
+<use resources/images/diagram-2.png>
+Package luatex.def Info: resources/images/diagram-2.png  used on input line 835
+.
+(luatex.def)             Requested size: 412.56497pt x 486.06133pt.
+ [98<./resources/images/diagram-1.png>] [99<./resources/images/diagram-2.png>]
+<resources/images/s3.png, id=1717, 1078.0275pt x 656.4525pt>
 File: resources/images/s3.png Graphic file (type png)
 <use resources/images/s3.png>
-Package luatex.def Info: resources/images/s3.png  used on input line 843.
-(luatex.def)             Requested size: 288.79422pt x 175.85222pt.
-<resources/images/fileService.png, id=1647, 1559.8275pt x 1509.64pt>
+Package luatex.def Info: resources/images/s3.png  used on input line 848.
+(luatex.def)             Requested size: 412.56497pt x 251.22748pt.
+<resources/images/fileService.png, id=1719, 1559.8275pt x 1509.64pt>
 File: resources/images/fileService.png Graphic file (type png)
 <use resources/images/fileService.png>
 Package luatex.def Info: resources/images/fileService.png  used on input line 8
-53.
-(luatex.def)             Requested size: 288.79422pt x 279.48634pt.
- [90
-
-<./resources/images/s3.png>]
-<resources/images/fremaker.png, id=1656, 1255.69125pt x 434.62375pt>
+58.
+(luatex.def)             Requested size: 412.56497pt x 399.29254pt.
+ [100<./resources/images/s3.png>]
+<resources/images/fremaker.png, id=1728, 1255.69125pt x 434.62375pt>
 File: resources/images/fremaker.png Graphic file (type png)
 <use resources/images/fremaker.png>
-Package luatex.def Info: resources/images/fremaker.png  used on input line 865.
+Package luatex.def Info: resources/images/fremaker.png  used on input line 870.
 
-(luatex.def)             Requested size: 288.79422pt x 99.95473pt.
+(luatex.def)             Requested size: 412.56497pt x 142.79625pt.
+
+[101<./resources/images/fileService.png>]
 File: resources/images/fremaker.png Graphic file (type png)
 <use resources/images/fremaker.png>
-Package luatex.def Info: resources/images/fremaker.png  used on input line 875.
+Package luatex.def Info: resources/images/fremaker.png  used on input line 880.
 
-(luatex.def)             Requested size: 288.79422pt x 99.95473pt.
-
-[91<./resources/images/fileService.png><./resources/images/fremaker.png>]
+(luatex.def)             Requested size: 412.56497pt x 142.79625pt.
 File: resources/images/fremaker.png Graphic file (type png)
 <use resources/images/fremaker.png>
-Package luatex.def Info: resources/images/fremaker.png  used on input line 882.
+Package luatex.def Info: resources/images/fremaker.png  used on input line 887.
 
-(luatex.def)             Requested size: 288.79422pt x 99.95473pt.
-<resources/images/firebase.png, id=1669, 1208.515pt x 1352.05125pt>
+(luatex.def)             Requested size: 412.56497pt x 142.79625pt.
+ [102<./resources/images/fremaker.png>]
+<resources/images/firebase.png, id=1748, 1208.515pt x 1352.05125pt>
 File: resources/images/firebase.png Graphic file (type png)
 <use resources/images/firebase.png>
-Package luatex.def Info: resources/images/firebase.png  used on input line 894.
+Package luatex.def Info: resources/images/firebase.png  used on input line 899.
 
-(luatex.def)             Requested size: 288.79422pt x 323.09605pt.
-
-[92]
-<resources/images/pushNotification.png, id=1678, 1425.325pt x 2458.18375pt>
+(luatex.def)             Requested size: 412.56497pt x 461.56873pt.
+ [103<./resources/images/firebase.png>]
+<resources/images/pushNotification.png, id=1756, 1425.325pt x 2458.18375pt>
 File: resources/images/pushNotification.png Graphic file (type png)
 <use resources/images/pushNotification.png>
 Package luatex.def Info: resources/images/pushNotification.png  used on input l
-ine 903.
-(luatex.def)             Requested size: 288.79422pt x 498.04205pt.
- [93<./resources/images/firebase.png>] [94<./resources/images/pushNotification.p
-ng>]
-<resources/images/haversine.png, id=1694, 1294.8375pt x 403.5075pt>
+ine 908.
+(luatex.def)             Requested size: 330.05322pt x 569.19627pt.
+ [104<./resources/images/pushNotification.png>]
+<resources/images/haversine.png, id=1765, 1294.8375pt x 403.5075pt>
 File: resources/images/haversine.png Graphic file (type png)
 <use resources/images/haversine.png>
-Package luatex.def Info: resources/images/haversine.png  used on input line 917
+Package luatex.def Info: resources/images/haversine.png  used on input line 922
 .
-(luatex.def)             Requested size: 288.79422pt x 89.99716pt.
-<resources/images/attendance-geolocation.png, id=1695, 1547.7825pt x 1193.45876
+(luatex.def)             Requested size: 412.56497pt x 128.56474pt.
+<resources/images/attendance-geolocation.png, id=1766, 1547.7825pt x 1193.45876
 pt>
 File: resources/images/attendance-geolocation.png Graphic file (type png)
 <use resources/images/attendance-geolocation.png>
 Package luatex.def Info: resources/images/attendance-geolocation.png  used on i
-nput line 924.
-(luatex.def)             Requested size: 288.79422pt x 222.68033pt.
-<resources/images/userController.png, id=1697, 1680.2775pt x 2015.53pt>
+nput line 929.
+(luatex.def)             Requested size: 412.56497pt x 318.12256pt.
+ [105<./resources/images/haversine.png><./resources/images/attendance-geolocatio
+n.png>]
+<resources/images/userController.png, id=1776, 1680.2775pt x 2015.53pt>
 File: resources/images/userController.png Graphic file (type png)
 <use resources/images/userController.png>
 Package luatex.def Info: resources/images/userController.png  used on input lin
-e 935.
-(luatex.def)             Requested size: 288.79422pt x 346.41837pt.
- [95<./resources/images/haversine.png><./resources/images/attendance-geolocation
-.png>]
-<resources/images/dependencias-angular.png, id=1707, 1393.205pt x 1630.09pt>
+e 940.
+(luatex.def)             Requested size: 412.56497pt x 494.87021pt.
+ [106<./resources/images/userController.png>]
+<resources/images/dependencias-angular.png, id=1786, 1393.205pt x 1630.09pt>
 File: resources/images/dependencias-angular.png Graphic file (type png)
 <use resources/images/dependencias-angular.png>
 Package luatex.def Info: resources/images/dependencias-angular.png  used on inp
-ut line 952.
-(luatex.def)             Requested size: 288.79422pt x 337.87671pt.
- [96<./resources/images/userController.png>]
-<resources/images/app-config.png, id=1717, 1413.28pt x 1485.55pt>
+ut line 957.
+(luatex.def)             Requested size: 412.56497pt x 482.713pt.
+ [107<./resources/images/dependencias-angular.png>]
+<resources/images/app-config.png, id=1795, 1413.28pt x 1485.55pt>
 File: resources/images/app-config.png Graphic file (type png)
 <use resources/images/app-config.png>
 Package luatex.def Info: resources/images/app-config.png  used on input line 96
-3.
-(luatex.def)             Requested size: 288.79422pt x 303.56502pt.
- [97<./resources/images/dependencias-angular.png>]
-Underfull \hbox (badness 1014) in paragraph at lines 968--969
+8.
+(luatex.def)             Requested size: 412.56497pt x 433.65459pt.
+
+Underfull \hbox (badness 1014) in paragraph at lines 973--974
 []\TU/TimesNewRoman(0)/m/n/12 Adi-cional-mente es nece-sario con-fig-u-rar las 
 ru-tas de la apli-cación en el archivo
  []
 
-<resources/images/app-routes.png, id=1726, 519.44063pt x 329.73187pt>
+<resources/images/app-routes.png, id=1797, 519.44063pt x 329.73187pt>
 File: resources/images/app-routes.png Graphic file (type png)
 <use resources/images/app-routes.png>
 Package luatex.def Info: resources/images/app-routes.png  used on input line 97
-2.
-(luatex.def)             Requested size: 288.79422pt x 183.32031pt.
-[98<./resources/images/app-config.png><./resources/images/app-routes.png>]
-<resources/images/sw-login-code.png, id=1738, 1393.205pt x 1666.225pt>
+7.
+(luatex.def)             Requested size: 412.56497pt x 261.88904pt.
+[108<./resources/images/app-config.png>]
+<resources/images/sw-login-code.png, id=1807, 1393.205pt x 1666.225pt>
 File: resources/images/sw-login-code.png Graphic file (type png)
 <use resources/images/sw-login-code.png>
 Package luatex.def Info: resources/images/sw-login-code.png  used on input line
- 983.
-(luatex.def)             Requested size: 288.79422pt x 345.3666pt.
-<resources/images/api-auth-login-usecase.png, id=1739, 993.7125pt x 656.4525pt>
+ 988.
+(luatex.def)             Requested size: 412.56497pt x 493.41353pt.
+ [109<./resources/images/app-routes.png>]
+<resources/images/api-auth-login-usecase.png, id=1815, 993.7125pt x 656.4525pt>
 
 File: resources/images/api-auth-login-usecase.png Graphic file (type png)
 <use resources/images/api-auth-login-usecase.png>
 Package luatex.def Info: resources/images/api-auth-login-usecase.png  used on i
-nput line 990.
-(luatex.def)             Requested size: 288.79422pt x 190.77702pt.
-
-[99<./resources/images/sw-login-code.png>]
-<resources/images/sw-login.png, id=1746, 1441.63594pt x 710.655pt>
+nput line 995.
+(luatex.def)             Requested size: 412.56497pt x 272.54291pt.
+ [110<./resources/images/sw-login-code.png>]
+<resources/images/sw-login.png, id=1821, 1441.63594pt x 710.655pt>
 File: resources/images/sw-login.png Graphic file (type png)
 <use resources/images/sw-login.png>
-Package luatex.def Info: resources/images/sw-login.png  used on input line 997.
-
-(luatex.def)             Requested size: 288.79422pt x 142.35619pt.
-<resources/images/sw-interceptor.png, id=1747, 1413.28pt x 835.12pt>
+Package luatex.def Info: resources/images/sw-login.png  used on input line 1002
+.
+(luatex.def)             Requested size: 412.56497pt x 203.37373pt.
+<resources/images/sw-interceptor.png, id=1822, 1413.28pt x 835.12pt>
 File: resources/images/sw-interceptor.png Graphic file (type png)
 <use resources/images/sw-interceptor.png>
 Package luatex.def Info: resources/images/sw-interceptor.png  used on input lin
-e 1004.
-(luatex.def)             Requested size: 288.79422pt x 170.65276pt.
-
-Underfull \hbox (badness 3815) in paragraph at lines 1011--1014
+e 1009.
+(luatex.def)             Requested size: 412.56497pt x 243.7842pt.
+ [111<./resources/images/api-auth-login-usecase.png><./resources/images/sw-login
+.png>]
+Underfull \hbox (badness 3815) in paragraph at lines 1016--1019
 [][]|[] \TU/TimesNewRoman(0)/b/it/12 Gestión de usuar-ios.[] \TU/TimesNewRoman
 (0)/m/n/12 Los usuar-ios del con-do-minio úni-ca-mente po-drán ser
  []
 
-[100<./resources/images/api-auth-login-usecase.png><./resources/images/sw-login.
-png><./resources/images/sw-interceptor.png>]
-<resources/images/api-controller-findall.png, id=1757, 740.7675pt x 466.74374pt
+<resources/images/api-controller-findall.png, id=1830, 740.7675pt x 466.74374pt
 >
 File: resources/images/api-controller-findall.png Graphic file (type png)
 <use resources/images/api-controller-findall.png>
 Package luatex.def Info: resources/images/api-controller-findall.png  used on i
-nput line 1017.
-(luatex.def)             Requested size: 288.79422pt x 181.96523pt.
-<resources/images/sw-usuarios.png, id=1758, 1441.63594pt x 713.66624pt>
+nput line 1022.
+(luatex.def)             Requested size: 412.56497pt x 259.95032pt.
+[112<./resources/images/sw-interceptor.png>]
+<resources/images/sw-usuarios.png, id=1839, 1441.63594pt x 713.66624pt>
 File: resources/images/sw-usuarios.png Graphic file (type png)
 <use resources/images/sw-usuarios.png>
 Package luatex.def Info: resources/images/sw-usuarios.png  used on input line 1
-024.
-(luatex.def)             Requested size: 288.79422pt x 142.9594pt.
-<resources/images/api-crotroller-create-user.png, id=1759, 1162.3425pt x 244.91
+029.
+(luatex.def)             Requested size: 412.56497pt x 204.23549pt.
+<resources/images/api-crotroller-create-user.png, id=1840, 1162.3425pt x 244.91
 5pt>
 File: resources/images/api-crotroller-create-user.png Graphic file (type png)
 <use resources/images/api-crotroller-create-user.png>
 Package luatex.def Info: resources/images/api-crotroller-create-user.png  used 
-on input line 1031.
-(luatex.def)             Requested size: 288.79422pt x 60.85114pt.
-<resources/images/sw-usuarios-form.png, id=1760, 1442.38875pt x 704.6325pt>
+on input line 1036.
+(luatex.def)             Requested size: 412.56497pt x 86.93234pt.
+<resources/images/sw-usuarios-form.png, id=1841, 1442.38875pt x 704.6325pt>
 File: resources/images/sw-usuarios-form.png Graphic file (type png)
 <use resources/images/sw-usuarios-form.png>
 Package luatex.def Info: resources/images/sw-usuarios-form.png  used on input l
-ine 1038.
-(luatex.def)             Requested size: 288.79422pt x 141.07452pt.
- [101<./resources/images/api-controller-findall.png><./resources/images/sw-usuar
+ine 1043.
+(luatex.def)             Requested size: 412.56497pt x 201.54272pt.
+ [113<./resources/images/api-controller-findall.png><./resources/images/sw-usuar
 ios.png><./resources/images/api-crotroller-create-user.png>]
-<resources/images/api-geolocation-update-method.png, id=1770, 1532.72626pt x 30
+<resources/images/api-geolocation-update-method.png, id=1850, 1532.72626pt x 30
 8.15125pt>
 File: resources/images/api-geolocation-update-method.png Graphic file (type png
 )
 <use resources/images/api-geolocation-update-method.png>
 Package luatex.def Info: resources/images/api-geolocation-update-method.png  us
-ed on input line 1052.
-(luatex.def)             Requested size: 288.79422pt x 58.06033pt.
-<resources/images/sw-geolocation.png, id=1771, 1434.86063pt x 686.565pt>
+ed on input line 1057.
+(luatex.def)             Requested size: 412.56497pt x 82.94333pt.
+<resources/images/sw-geolocation.png, id=1851, 1434.86063pt x 686.565pt>
 File: resources/images/sw-geolocation.png Graphic file (type png)
 <use resources/images/sw-geolocation.png>
 Package luatex.def Info: resources/images/sw-geolocation.png  used on input lin
-e 1059.
-(luatex.def)             Requested size: 288.79422pt x 138.18008pt.
-
-Underfull \hbox (badness 1112) in paragraph at lines 1066--1068
+e 1064.
+(luatex.def)             Requested size: 412.56497pt x 197.40161pt.
+ [114<./resources/images/sw-usuarios-form.png><./resources/images/api-geolocatio
+n-update-method.png>]
+Underfull \hbox (badness 1112) in paragraph at lines 1071--1073
 [][]|[] \TU/TimesNewRoman(0)/b/it/12 Gestión de res-i-den-cias.[] \TU/TimesNew
 Roman(0)/m/n/12 El pres-i-dente o vi-cepres-i-dente po-drá reg-is-trar en las
  []
 
-<resources/images/api-update-residence-endpoint.png, id=1773, 1065.9825pt x 308
+<resources/images/api-update-residence-endpoint.png, id=1861, 1065.9825pt x 308
 .15125pt>
 File: resources/images/api-update-residence-endpoint.png Graphic file (type png
 )
 <use resources/images/api-update-residence-endpoint.png>
 Package luatex.def Info: resources/images/api-update-residence-endpoint.png  us
-ed on input line 1071.
-(luatex.def)             Requested size: 288.79422pt x 83.48405pt.
-[102<./resources/images/sw-usuarios-form.png><./resources/images/api-geolocation
--update-method.png><./resources/images/sw-geolocation.png>]
-<resources/images/sw-residente-update.png, id=1785, 1436.36626pt x 662.475pt>
+ed on input line 1076.
+(luatex.def)             Requested size: 412.56497pt x 119.2616pt.
+<resources/images/sw-residente-update.png, id=1862, 1436.36626pt x 662.475pt>
 File: resources/images/sw-residente-update.png Graphic file (type png)
 <use resources/images/sw-residente-update.png>
 Package luatex.def Info: resources/images/sw-residente-update.png  used on inpu
-t line 1078.
-(luatex.def)             Requested size: 288.79422pt x 133.19014pt.
-<resources/images/api-parking-update-method.png, id=1787, 967.615pt x 466.74374
+t line 1083.
+(luatex.def)             Requested size: 412.56497pt x 190.28319pt.
+[115<./resources/images/sw-geolocation.png><./resources/images/api-update-reside
+nce-endpoint.png>]
+<resources/images/api-parking-update-method.png, id=1872, 967.615pt x 466.74374
 pt>
 File: resources/images/api-parking-update-method.png Graphic file (type png)
 <use resources/images/api-parking-update-method.png>
 Package luatex.def Info: resources/images/api-parking-update-method.png  used o
-n input line 1091.
-(luatex.def)             Requested size: 288.79422pt x 139.30489pt.
-<resources/images/sw-parking-group.png, id=1788, 1434.10782pt x 667.74469pt>
+n input line 1096.
+(luatex.def)             Requested size: 412.56497pt x 199.008pt.
+<resources/images/sw-parking-group.png, id=1873, 1434.10782pt x 667.74469pt>
 File: resources/images/sw-parking-group.png Graphic file (type png)
 <use resources/images/sw-parking-group.png>
 Package luatex.def Info: resources/images/sw-parking-group.png  used on input l
-ine 1098.
-(luatex.def)             Requested size: 288.79422pt x 134.46358pt.
- [103<./resources/images/api-update-residence-endpoint.png><./resources/images/s
-w-residente-update.png><./resources/images/api-parking-update-method.png>]
-<resources/images/sw-parking-form.png, id=1798, 1440.13031pt x 657.95813pt>
+ine 1103.
+(luatex.def)             Requested size: 412.56497pt x 192.09227pt.
+ [116<./resources/images/sw-residente-update.png><./resources/images/api-parking
+-update-method.png>]
+<resources/images/sw-parking-form.png, id=1882, 1440.13031pt x 657.95813pt>
 File: resources/images/sw-parking-form.png Graphic file (type png)
 <use resources/images/sw-parking-form.png>
 Package luatex.def Info: resources/images/sw-parking-form.png  used on input li
-ne 1105.
-(luatex.def)             Requested size: 288.79422pt x 131.94067pt.
-<resources/images/api-guard-indicent-endpoint.png, id=1801, 1569.865pt x 466.74
+ne 1110.
+(luatex.def)             Requested size: 412.56497pt x 188.48381pt.
+<resources/images/api-guard-indicent-endpoint.png, id=1885, 1569.865pt x 466.74
 374pt>
 File: resources/images/api-guard-indicent-endpoint.png Graphic file (type png)
 <use resources/images/api-guard-indicent-endpoint.png>
 Package luatex.def Info: resources/images/api-guard-indicent-endpoint.png  used
- on input line 1118.
-(luatex.def)             Requested size: 288.79422pt x 85.86194pt.
-<resources/images/sw-guard-incidents.png, id=1802, 1441.63594pt x 709.14937pt>
+ on input line 1123.
+(luatex.def)             Requested size: 412.56497pt x 122.66093pt.
+ [117<./resources/images/sw-parking-group.png><./resources/images/sw-parking-for
+m.png>]
+<resources/images/sw-guard-incidents.png, id=1894, 1441.63594pt x 709.14937pt>
 File: resources/images/sw-guard-incidents.png Graphic file (type png)
 <use resources/images/sw-guard-incidents.png>
 Package luatex.def Info: resources/images/sw-guard-incidents.png  used on input
- line 1125.
-(luatex.def)             Requested size: 288.79422pt x 142.0546pt.
- [104<./resources/images/sw-parking-group.png><./resources/images/sw-parking-for
-m.png><./resources/images/api-guard-indicent-endpoint.png>]
-<resources/images/sw-guard-incidents-form.png, id=1812, 1441.63594pt x 709.1493
+ line 1130.
+(luatex.def)             Requested size: 412.56497pt x 202.94287pt.
+<resources/images/sw-guard-incidents-form.png, id=1895, 1441.63594pt x 709.1493
 7pt>
 File: resources/images/sw-guard-incidents-form.png Graphic file (type png)
 <use resources/images/sw-guard-incidents-form.png>
 Package luatex.def Info: resources/images/sw-guard-incidents-form.png  used on 
-input line 1132.
-(luatex.def)             Requested size: 288.79422pt x 142.0546pt.
-<resources/images/sw-guard-incidents-report.png, id=1813, 1444.64719pt x 709.14
+input line 1137.
+(luatex.def)             Requested size: 412.56497pt x 202.94287pt.
+<resources/images/sw-guard-incidents-report.png, id=1896, 1444.64719pt x 709.14
 937pt>
 File: resources/images/sw-guard-incidents-report.png Graphic file (type png)
 <use resources/images/sw-guard-incidents-report.png>
 Package luatex.def Info: resources/images/sw-guard-incidents-report.png  used o
-n input line 1139.
-(luatex.def)             Requested size: 288.79422pt x 141.76244pt.
- [105<./resources/images/sw-guard-incidents.png><./resources/images/sw-guard-inc
-idents-form.png><./resources/images/sw-guard-incidents-report.png>]
-<resources/images/api-convocation-create-usecase.png, id=1824, 1641.13126pt x 1
+n input line 1144.
+(luatex.def)             Requested size: 412.56497pt x 202.52086pt.
+ [118<./resources/images/api-guard-indicent-endpoint.png><./resources/images/sw-
+guard-incidents.png><./resources/images/sw-guard-incidents-form.png>]
+<resources/images/api-convocation-create-usecase.png, id=1906, 1641.13126pt x 1
 003.75pt>
 File: resources/images/api-convocation-create-usecase.png Graphic file (type pn
 g)
 <use resources/images/api-convocation-create-usecase.png>
 Package luatex.def Info: resources/images/api-convocation-create-usecase.png  u
-sed on input line 1153.
-(luatex.def)             Requested size: 288.79422pt x 176.62378pt.
-<resources/images/sw-convocatorias.png, id=1825, 1442.38875pt x 709.90219pt>
+sed on input line 1158.
+(luatex.def)             Requested size: 412.56497pt x 252.33064pt.
+ [119<./resources/images/sw-guard-incidents-report.png>]
+<resources/images/sw-convocatorias.png, id=1914, 1442.38875pt x 709.90219pt>
 File: resources/images/sw-convocatorias.png Graphic file (type png)
 <use resources/images/sw-convocatorias.png>
 Package luatex.def Info: resources/images/sw-convocatorias.png  used on input l
-ine 1160.
-(luatex.def)             Requested size: 288.79422pt x 142.12956pt.
-<resources/images/sw-convocatorias-form.png, id=1826, 1439.3775pt x 702.37407pt
+ine 1165.
+(luatex.def)             Requested size: 412.56497pt x 203.04997pt.
+<resources/images/sw-convocatorias-form.png, id=1915, 1439.3775pt x 702.37407pt
 >
 File: resources/images/sw-convocatorias-form.png Graphic file (type png)
 <use resources/images/sw-convocatorias-form.png>
 Package luatex.def Info: resources/images/sw-convocatorias-form.png  used on in
-put line 1167.
-(luatex.def)             Requested size: 288.79422pt x 140.92245pt.
-<resources/images/sw-convocatorias-comunicado.png, id=1827, 1440.88312pt x 707.
+put line 1172.
+(luatex.def)             Requested size: 412.56497pt x 201.31473pt.
+ [120<./resources/images/api-convocation-create-usecase.png><./resources/images/
+sw-convocatorias.png>]
+<resources/images/sw-convocatorias-comunicado.png, id=1922, 1440.88312pt x 707.
 64375pt>
 File: resources/images/sw-convocatorias-comunicado.png Graphic file (type png)
 <use resources/images/sw-convocatorias-comunicado.png>
 Package luatex.def Info: resources/images/sw-convocatorias-comunicado.png  used
- on input line 1174.
-(luatex.def)             Requested size: 288.79422pt x 141.82858pt.
- [106<./resources/images/api-convocation-create-usecase.png><./resources/images/
-sw-convocatorias.png><./resources/images/sw-convocatorias-form.png>]
-<resources/images/api-asamblea-asistencia-manual.png, id=1838, 1150.2975pt x 11
+ on input line 1179.
+(luatex.def)             Requested size: 412.56497pt x 202.60918pt.
+<resources/images/api-asamblea-asistencia-manual.png, id=1925, 1150.2975pt x 11
 93.45876pt>
 File: resources/images/api-asamblea-asistencia-manual.png Graphic file (type pn
 g)
 <use resources/images/api-asamblea-asistencia-manual.png>
 Package luatex.def Info: resources/images/api-asamblea-asistencia-manual.png  u
-sed on input line 1188.
-(luatex.def)             Requested size: 288.79422pt x 299.62048pt.
- [107<./resources/images/sw-convocatorias-comunicado.png>]
-<resources/images/sw-asamblea-asistencia.png, id=1846, 1443.14156pt x 709.90219
+sed on input line 1193.
+(luatex.def)             Requested size: 412.56497pt x 428.04228pt.
+ [121<./resources/images/sw-convocatorias-form.png><./resources/images/sw-convoc
+atorias-comunicado.png>]
+<resources/images/sw-asamblea-asistencia.png, id=1934, 1443.14156pt x 709.90219
 pt>
 File: resources/images/sw-asamblea-asistencia.png Graphic file (type png)
 <use resources/images/sw-asamblea-asistencia.png>
 Package luatex.def Info: resources/images/sw-asamblea-asistencia.png  used on i
-nput line 1195.
-(luatex.def)             Requested size: 288.79422pt x 142.05374pt.
-<resources/images/sw-asamblea-asistencia-reporte.png, id=1847, 1443.14156pt x 7
+nput line 1200.
+(luatex.def)             Requested size: 412.56497pt x 202.94165pt.
+ [122<./resources/images/api-asamblea-asistencia-manual.png>]
+<resources/images/sw-asamblea-asistencia-reporte.png, id=1942, 1443.14156pt x 7
 06.13812pt>
 File: resources/images/sw-asamblea-asistencia-reporte.png Graphic file (type pn
 g)
 <use resources/images/sw-asamblea-asistencia-reporte.png>
 Package luatex.def Info: resources/images/sw-asamblea-asistencia-reporte.png  u
-sed on input line 1202.
-(luatex.def)             Requested size: 288.79422pt x 141.30054pt.
-
-[108<./resources/images/api-asamblea-asistencia-manual.png><./resources/images/s
-w-asamblea-asistencia.png><./resources/images/sw-asamblea-asistencia-reporte.png
->]
-<resources/images/api-pregunta-crear.png, id=1859, 1427.3325pt x 213.79875pt>
+sed on input line 1207.
+(luatex.def)             Requested size: 412.56497pt x 201.86562pt.
+<resources/images/api-pregunta-crear.png, id=1946, 1427.3325pt x 213.79875pt>
 File: resources/images/api-pregunta-crear.png Graphic file (type png)
 <use resources/images/api-pregunta-crear.png>
 Package luatex.def Info: resources/images/api-pregunta-crear.png  used on input
- line 1214.
-(luatex.def)             Requested size: 288.79422pt x 43.25812pt.
-<resources/images/api-pregunta-listar-todos.png, id=1860, 1413.28pt x 213.79875
+ line 1219.
+(luatex.def)             Requested size: 412.56497pt x 61.79778pt.
+ [123<./resources/images/sw-asamblea-asistencia.png><./resources/images/sw-asamb
+lea-asistencia-reporte.png>]
+<resources/images/api-pregunta-listar-todos.png, id=1955, 1413.28pt x 213.79875
 pt>
 File: resources/images/api-pregunta-listar-todos.png Graphic file (type png)
 <use resources/images/api-pregunta-listar-todos.png>
 Package luatex.def Info: resources/images/api-pregunta-listar-todos.png  used o
-n input line 1221.
-(luatex.def)             Requested size: 288.79422pt x 43.68874pt.
-<resources/images/api-pregunta-toggle.png, id=1861, 1487.5575pt x 213.79875pt>
+n input line 1226.
+(luatex.def)             Requested size: 412.56497pt x 62.41109pt.
+<resources/images/api-pregunta-toggle.png, id=1956, 1487.5575pt x 213.79875pt>
 File: resources/images/api-pregunta-toggle.png Graphic file (type png)
 <use resources/images/api-pregunta-toggle.png>
 Package luatex.def Info: resources/images/api-pregunta-toggle.png  used on inpu
-t line 1228.
-(luatex.def)             Requested size: 288.79422pt x 41.50626pt.
-<resources/images/sw-asamblea-votaciones.png, id=1862, 1442.38875pt x 707.64375
+t line 1233.
+(luatex.def)             Requested size: 412.56497pt x 59.2956pt.
+<resources/images/sw-asamblea-votaciones.png, id=1957, 1442.38875pt x 707.64375
 pt>
 File: resources/images/sw-asamblea-votaciones.png Graphic file (type png)
 <use resources/images/sw-asamblea-votaciones.png>
 Package luatex.def Info: resources/images/sw-asamblea-votaciones.png  used on i
-nput line 1235.
-(luatex.def)             Requested size: 288.79422pt x 141.67741pt.
-<resources/images/sw-asamblea-votaciones-detalle.png, id=1863, 1441.63594pt x 7
+nput line 1240.
+(luatex.def)             Requested size: 412.56497pt x 202.404pt.
+<resources/images/sw-asamblea-votaciones-detalle.png, id=1958, 1441.63594pt x 7
 06.89093pt>
 File: resources/images/sw-asamblea-votaciones-detalle.png Graphic file (type pn
 g)
 <use resources/images/sw-asamblea-votaciones-detalle.png>
 Package luatex.def Info: resources/images/sw-asamblea-votaciones-detalle.png  u
-sed on input line 1242.
-(luatex.def)             Requested size: 288.79422pt x 141.60219pt.
- [109<./resources/images/api-pregunta-crear.png><./resources/images/api-pregunta
--listar-todos.png><./resources/images/api-pregunta-toggle.png><./resources/image
-s/sw-asamblea-votaciones.png>]
-<resources/images/app-dependencias.png, id=1874, 1314.9125pt x 2352.79pt>
+sed on input line 1247.
+(luatex.def)             Requested size: 412.56497pt x 202.29655pt.
+
+[124<./resources/images/api-pregunta-crear.png><./resources/images/api-pregunta-
+listar-todos.png><./resources/images/api-pregunta-toggle.png><./resources/images
+/sw-asamblea-votaciones.png>]
+<resources/images/sw-tesoreria-mensual-listar.png, id=1969, 1400.98407pt x 709.
+14937pt>
+File: resources/images/sw-tesoreria-mensual-listar.png Graphic file (type png)
+<use resources/images/sw-tesoreria-mensual-listar.png>
+Package luatex.def Info: resources/images/sw-tesoreria-mensual-listar.png  used
+ on input line 1259.
+(luatex.def)             Requested size: 412.56497pt x 208.82935pt.
+<resources/images/api-listar-mensuales.png, id=1970, 1150.2975pt x 497.86pt>
+File: resources/images/api-listar-mensuales.png Graphic file (type png)
+<use resources/images/api-listar-mensuales.png>
+Package luatex.def Info: resources/images/api-listar-mensuales.png  used on inp
+ut line 1266.
+(luatex.def)             Requested size: 412.56497pt x 178.56094pt.
+ [125<./resources/images/sw-asamblea-votaciones-detalle.png><./resources/images/
+sw-tesoreria-mensual-listar.png>]
+<resources/images/sw-tesoreria-mensual-form.png, id=1979, 1402.48969pt x 710.65
+5pt>
+File: resources/images/sw-tesoreria-mensual-form.png Graphic file (type png)
+<use resources/images/sw-tesoreria-mensual-form.png>
+Package luatex.def Info: resources/images/sw-tesoreria-mensual-form.png  used o
+n input line 1273.
+(luatex.def)             Requested size: 412.56497pt x 209.045pt.
+<resources/images/api-mensual-save.png, id=1980, 2053.6725pt x 529.98pt>
+File: resources/images/api-mensual-save.png Graphic file (type png)
+<use resources/images/api-mensual-save.png>
+Package luatex.def Info: resources/images/api-mensual-save.png  used on input l
+ine 1280.
+(luatex.def)             Requested size: 412.56497pt x 106.46315pt.
+ [126<./resources/images/api-listar-mensuales.png><./resources/images/sw-tesorer
+ia-mensual-form.png><./resources/images/api-mensual-save.png>]
+<resources/images/sw-tesoreria-multas-listar.png, id=1990, 1401.73688pt x 708.3
+9656pt>
+File: resources/images/sw-tesoreria-multas-listar.png Graphic file (type png)
+<use resources/images/sw-tesoreria-multas-listar.png>
+Package luatex.def Info: resources/images/sw-tesoreria-multas-listar.png  used 
+on input line 1294.
+(luatex.def)             Requested size: 412.56497pt x 208.49956pt.
+<resources/images/api-multas-listar.png, id=1991, 1100.11pt x 529.98pt>
+File: resources/images/api-multas-listar.png Graphic file (type png)
+<use resources/images/api-multas-listar.png>
+Package luatex.def Info: resources/images/api-multas-listar.png  used on input 
+line 1301.
+(luatex.def)             Requested size: 412.56497pt x 198.75009pt.
+<resources/images/sw-tesoreria-multas-form.png, id=1992, 1403.99532pt x 711.407
+8pt>
+File: resources/images/sw-tesoreria-multas-form.png Graphic file (type png)
+<use resources/images/sw-tesoreria-multas-form.png>
+Package luatex.def Info: resources/images/sw-tesoreria-multas-form.png  used on
+ input line 1308.
+(luatex.def)             Requested size: 412.56497pt x 209.04935pt.
+ [127<./resources/images/sw-tesoreria-multas-listar.png><./resources/images/api-
+multas-listar.png>]
+<resources/images/sw-tesoreria-egresos-listar.png, id=2002, 1403.2425pt x 705.3
+8531pt>
+File: resources/images/sw-tesoreria-egresos-listar.png Graphic file (type png)
+<use resources/images/sw-tesoreria-egresos-listar.png>
+Package luatex.def Info: resources/images/sw-tesoreria-egresos-listar.png  used
+ on input line 1322.
+(luatex.def)             Requested size: 412.56497pt x 207.38725pt.
+<resources/images/api-egreso-listar.png, id=2003, 991.705pt x 561.09625pt>
+File: resources/images/api-egreso-listar.png Graphic file (type png)
+<use resources/images/api-egreso-listar.png>
+Package luatex.def Info: resources/images/api-egreso-listar.png  used on input 
+line 1329.
+(luatex.def)             Requested size: 412.56497pt x 233.42422pt.
+ [128<./resources/images/sw-tesoreria-multas-form.png><./resources/images/sw-tes
+oreria-egresos-listar.png>]
+<resources/images/sw-tesoreria-egresos-form.png, id=2012, 1397.22pt x 709.90219
+pt>
+File: resources/images/sw-tesoreria-egresos-form.png Graphic file (type png)
+<use resources/images/sw-tesoreria-egresos-form.png>
+Package luatex.def Info: resources/images/sw-tesoreria-egresos-form.png  used o
+n input line 1336.
+(luatex.def)             Requested size: 412.56497pt x 209.6143pt.
+<resources/images/api-egreso-save.png, id=2013, 740.7675pt x 719.68875pt>
+File: resources/images/api-egreso-save.png Graphic file (type png)
+<use resources/images/api-egreso-save.png>
+Package luatex.def Info: resources/images/api-egreso-save.png  used on input li
+ne 1343.
+(luatex.def)             Requested size: 412.56497pt x 400.82664pt.
+ [129<./resources/images/api-egreso-listar.png><./resources/images/sw-tesoreria-
+egresos-form.png>]
+<resources/images/app-dependencias.png, id=2021, 1314.9125pt x 2352.79pt>
 File: resources/images/app-dependencias.png Graphic file (type png)
 <use resources/images/app-dependencias.png>
 Package luatex.def Info: resources/images/app-dependencias.png  used on input l
-ine 1255.
-(luatex.def)             Requested size: 288.79422pt x 516.7179pt.
- [110<./resources/images/sw-asamblea-votaciones-detalle.png>]
-<resources/images/app-env.png, id=1883, 1349.04pt x 509.905pt>
+ine 1356.
+(luatex.def)             Requested size: 330.05322pt x 590.5655pt.
+ [130<./resources/images/api-egreso-save.png>] [131<./resources/images/app-depen
+dencias.png>]
+<resources/images/app-env.png, id=2037, 1349.04pt x 509.905pt>
 File: resources/images/app-env.png Graphic file (type png)
 <use resources/images/app-env.png>
-Package luatex.def Info: resources/images/app-env.png  used on input line 1266.
+Package luatex.def Info: resources/images/app-env.png  used on input line 1367.
 
-(luatex.def)             Requested size: 288.79422pt x 109.15282pt.
- [111<./resources/images/app-dependencias.png>]
-<resources/images/app-main.png, id=1891, 1349.04pt x 871.255pt>
+(luatex.def)             Requested size: 412.56497pt x 155.93704pt.
+<resources/images/app-main.png, id=2038, 1349.04pt x 871.255pt>
 File: resources/images/app-main.png Graphic file (type png)
 <use resources/images/app-main.png>
-Package luatex.def Info: resources/images/app-main.png  used on input line 1273
+Package luatex.def Info: resources/images/app-main.png  used on input line 1374
 .
-(luatex.def)             Requested size: 288.79422pt x 186.50522pt.
-<resources/images/app-push.png, id=1894, 2220.295pt x 2569.6pt>
+(luatex.def)             Requested size: 412.56497pt x 266.44363pt.
+<resources/images/app-push.png, id=2041, 2220.295pt x 2569.6pt>
 File: resources/images/app-push.png Graphic file (type png)
 <use resources/images/app-push.png>
-Package luatex.def Info: resources/images/app-push.png  used on input line 1283
+Package luatex.def Info: resources/images/app-push.png  used on input line 1384
 .
-(luatex.def)             Requested size: 288.79422pt x 334.21657pt.
- [112<./resources/images/app-env.png><./resources/images/app-main.png>]
-<resources/images/app-firebase-config.png, id=1903, 219.82124pt x 183.68625pt>
+(luatex.def)             Requested size: 412.56497pt x 477.44664pt.
+ [132<./resources/images/app-env.png><./resources/images/app-main.png>]
+<resources/images/app-firebase-config.png, id=2050, 219.82124pt x 183.68625pt>
 File: resources/images/app-firebase-config.png Graphic file (type png)
 <use resources/images/app-firebase-config.png>
 Package luatex.def Info: resources/images/app-firebase-config.png  used on inpu
-t line 1290.
-(luatex.def)             Requested size: 288.79422pt x 241.32861pt.
-<resources/images/app-gradle.png, id=1904, 1836.8625pt x 979.66pt>
+t line 1391.
+(luatex.def)             Requested size: 412.56497pt x 344.75838pt.
+ [133<./resources/images/app-push.png>]
+<resources/images/app-gradle.png, id=2056, 1836.8625pt x 979.66pt>
 File: resources/images/app-gradle.png Graphic file (type png)
 <use resources/images/app-gradle.png>
-Package luatex.def Info: resources/images/app-gradle.png  used on input line 12
-97.
-(luatex.def)             Requested size: 288.79422pt x 154.01324pt.
- [113<./resources/images/app-push.png><./resources/images/app-firebase-config.pn
-g>]
-<resources/images/app-manifest.png, id=1912, 2388.925pt x 1196.47pt>
+Package luatex.def Info: resources/images/app-gradle.png  used on input line 13
+98.
+(luatex.def)             Requested size: 412.56497pt x 220.02533pt.
+<resources/images/app-manifest.png, id=2058, 2388.925pt x 1196.47pt>
 File: resources/images/app-manifest.png Graphic file (type png)
 <use resources/images/app-manifest.png>
 Package luatex.def Info: resources/images/app-manifest.png  used on input line 
-1306.
-(luatex.def)             Requested size: 288.79422pt x 144.62909pt.
-
-Underfull \hbox (badness 1655) in paragraph at lines 1313--1314
+1407.
+(luatex.def)             Requested size: 412.56497pt x 206.62863pt.
+ [134<./resources/images/app-firebase-config.png><./resources/images/app-gradle.
+png>]
+Underfull \hbox (badness 1655) in paragraph at lines 1414--1415
 [][]|[] \TU/TimesNewRoman(0)/b/it/12 Ini-cio de sesión.[] \TU/TimesNewRoman(0)
 /m/n/12 Para el ini-cio de sesión el usuario debe pro-por-cionar sus
  []
 
-<resources/images/app-login.jpg, id=1913, 704.6325pt x 1606.0pt>
+<resources/images/app-login.jpg, id=2065, 704.6325pt x 1606.0pt>
 File: resources/images/app-login.jpg Graphic file (type jpg)
 <use resources/images/app-login.jpg>
-Package luatex.def Info: resources/images/app-login.jpg  used on input line 131
-7.
+Package luatex.def Info: resources/images/app-login.jpg  used on input line 141
+8.
 (luatex.def)             Requested size: 123.77074pt x 282.08345pt.
-[114<./resources/images/app-gradle.png><./resources/images/app-manifest.png>]
-<resources/images/api-calendar.png, id=1923, 1487.5575pt x 371.3875pt>
+[135<./resources/images/app-manifest.png><./resources/images/app-login.jpg>]
+<resources/images/api-calendar.png, id=2075, 1487.5575pt x 371.3875pt>
 File: resources/images/api-calendar.png Graphic file (type png)
 <use resources/images/api-calendar.png>
 Package luatex.def Info: resources/images/api-calendar.png  used on input line 
-1329.
-(luatex.def)             Requested size: 288.79422pt x 72.10008pt.
-<resources/images/app-eventos.jpg, id=1924, 704.6325pt x 1606.0pt>
+1430.
+(luatex.def)             Requested size: 412.56497pt x 103.00174pt.
+<resources/images/app-eventos.jpg, id=2076, 704.6325pt x 1606.0pt>
 File: resources/images/app-eventos.jpg Graphic file (type jpg)
 <use resources/images/app-eventos.jpg>
 Package luatex.def Info: resources/images/app-eventos.jpg  used on input line 1
-336.
+437.
 (luatex.def)             Requested size: 123.77074pt x 282.08345pt.
-
-[115<./resources/images/app-login.jpg><./resources/images/api-calendar.png>]
-<resources/images/app-eventos-detalle.jpg, id=1932, 704.6325pt x 1606.0pt>
+<resources/images/app-eventos-detalle.jpg, id=2077, 704.6325pt x 1606.0pt>
 File: resources/images/app-eventos-detalle.jpg Graphic file (type jpg)
 <use resources/images/app-eventos-detalle.jpg>
 Package luatex.def Info: resources/images/app-eventos-detalle.jpg  used on inpu
-t line 1343.
+t line 1444.
 (luatex.def)             Requested size: 123.77074pt x 282.08345pt.
 
-[116<./resources/images/app-eventos.jpg><./resources/images/app-eventos-detalle.
-jpg>]
-<resources/images/app-mi-hogar.jpg, id=1940, 704.6325pt x 1606.0pt>
+[136<./resources/images/api-calendar.png><./resources/images/app-eventos.jpg>]
+<resources/images/app-mi-hogar.jpg, id=2086, 704.6325pt x 1606.0pt>
 File: resources/images/app-mi-hogar.jpg Graphic file (type jpg)
 <use resources/images/app-mi-hogar.jpg>
 Package luatex.def Info: resources/images/app-mi-hogar.jpg  used on input line 
-1354.
+1455.
 (luatex.def)             Requested size: 123.77074pt x 282.08345pt.
-<resources/images/api-endpoints-obligaciones.png, id=1941, 1222.5675pt x 371.38
+
+[137<./resources/images/app-eventos-detalle.jpg>]
+<resources/images/api-endpoints-obligaciones.png, id=2093, 1222.5675pt x 371.38
 75pt>
 File: resources/images/api-endpoints-obligaciones.png Graphic file (type png)
 <use resources/images/api-endpoints-obligaciones.png>
 Package luatex.def Info: resources/images/api-endpoints-obligaciones.png  used 
-on input line 1361.
-(luatex.def)             Requested size: 288.79422pt x 87.72375pt.
-<resources/images/app-mi-hogar-pagos.jpg, id=1942, 704.6325pt x 1606.0pt>
+on input line 1462.
+(luatex.def)             Requested size: 412.56497pt x 125.3237pt.
+<resources/images/app-mi-hogar-pagos.jpg, id=2094, 704.6325pt x 1606.0pt>
 File: resources/images/app-mi-hogar-pagos.jpg Graphic file (type jpg)
 <use resources/images/app-mi-hogar-pagos.jpg>
 Package luatex.def Info: resources/images/app-mi-hogar-pagos.jpg  used on input
- line 1368.
+ line 1469.
 (luatex.def)             Requested size: 123.77074pt x 282.08345pt.
- [117<./resources/images/app-mi-hogar.jpg><./resources/images/api-endpoints-obli
+ [138<./resources/images/app-mi-hogar.jpg><./resources/images/api-endpoints-obli
 gaciones.png>]
-<resources/images/app-multas-sin-pagar.jpg, id=1949, 704.6325pt x 1606.0pt>
+<resources/images/app-multas-sin-pagar.jpg, id=2100, 704.6325pt x 1606.0pt>
 File: resources/images/app-multas-sin-pagar.jpg Graphic file (type jpg)
 <use resources/images/app-multas-sin-pagar.jpg>
 Package luatex.def Info: resources/images/app-multas-sin-pagar.jpg  used on inp
-ut line 1375.
+ut line 1476.
 (luatex.def)             Requested size: 123.77074pt x 282.08345pt.
- [118<./resources/images/app-mi-hogar-pagos.jpg><./resources/images/app-multas-s
+ [139<./resources/images/app-mi-hogar-pagos.jpg><./resources/images/app-multas-s
 in-pagar.jpg>]
-<resources/images/app-asistencia-codigo.png, id=1957, 1190.4475pt x 1738.495pt>
+<resources/images/app-asistencia-codigo.png, id=2108, 1190.4475pt x 1738.495pt>
 
 File: resources/images/app-asistencia-codigo.png Graphic file (type png)
 <use resources/images/app-asistencia-codigo.png>
 Package luatex.def Info: resources/images/app-asistencia-codigo.png  used on in
-put line 1388.
-(luatex.def)             Requested size: 288.79422pt x 421.73044pt.
-<resources/images/api-asistencia.png, id=1958, 1415.2875pt x 244.915pt>
+put line 1489.
+(luatex.def)             Requested size: 412.56497pt x 602.48721pt.
+[140]
+<resources/images/api-asistencia.png, id=2114, 1415.2875pt x 244.915pt>
 File: resources/images/api-asistencia.png Graphic file (type png)
 <use resources/images/api-asistencia.png>
 Package luatex.def Info: resources/images/api-asistencia.png  used on input lin
-e 1395.
-(luatex.def)             Requested size: 288.79422pt x 49.97246pt.
-<resources/images/app-asambleas-asistencias.jpg, id=1959, 704.6325pt x 1606.0pt
+e 1496.
+(luatex.def)             Requested size: 412.56497pt x 71.3935pt.
+ [141<./resources/images/app-asistencia-codigo.png>]
+<resources/images/app-asambleas-asistencias.jpg, id=2120, 704.6325pt x 1606.0pt
 >
 File: resources/images/app-asambleas-asistencias.jpg Graphic file (type jpg)
 <use resources/images/app-asambleas-asistencias.jpg>
 Package luatex.def Info: resources/images/app-asambleas-asistencias.jpg  used o
-n input line 1402.
+n input line 1503.
 (luatex.def)             Requested size: 123.77074pt x 282.08345pt.
- [119<./resources/images/app-asistencia-codigo.png><./resources/images/api-asist
-encia.png>]
-<resources/images/api-votacion-metodo.png, id=1969, 1545.775pt x 1099.10625pt>
+<resources/images/api-votacion-metodo.png, id=2123, 1545.775pt x 1099.10625pt>
 File: resources/images/api-votacion-metodo.png Graphic file (type png)
 <use resources/images/api-votacion-metodo.png>
 Package luatex.def Info: resources/images/api-votacion-metodo.png  used on inpu
-t line 1414.
-(luatex.def)             Requested size: 288.79422pt x 205.344pt.
- [120<./resources/images/app-asambleas-asistencias.jpg>]
-<resources/images/app-asambleas-votacion.jpg, id=1976, 704.6325pt x 1606.0pt>
+t line 1515.
+(luatex.def)             Requested size: 412.56497pt x 293.34137pt.
+ [142<./resources/images/api-asistencia.png><./resources/images/app-asambleas-as
+istencias.jpg>]
+<resources/images/app-asambleas-votacion.jpg, id=2132, 704.6325pt x 1606.0pt>
 File: resources/images/app-asambleas-votacion.jpg Graphic file (type jpg)
 <use resources/images/app-asambleas-votacion.jpg>
 Package luatex.def Info: resources/images/app-asambleas-votacion.jpg  used on i
-nput line 1421.
+nput line 1522.
 (luatex.def)             Requested size: 123.77074pt x 282.08345pt.
- [121<./resources/images/api-votacion-metodo.png><./resources/images/app-asamble
-as-votacion.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1446--1446
+
+[143<./resources/images/api-votacion-metodo.png><./resources/images/app-asamblea
+s-votacion.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1547--1547
 []\TU/TimesNewRoman(0)/m/n/10 Vi-su-al-ización de los usuar-ios junto con su
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 1446--1446
+Underfull \hbox (badness 1874) in paragraph at lines 1547--1547
 \TU/TimesNewRoman(0)/m/n/10 in-for-ma-ción per-sonal, así como sus roles y su
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1448--1448
+Underfull \hbox (badness 10000) in paragraph at lines 1549--1549
 []\TU/TimesNewRoman(0)/m/n/10 Com-pro-bar las fun-ciones de crear, ed-i-tar o
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 1452--1452
+Underfull \hbox (badness 2884) in paragraph at lines 1553--1553
 []\TU/TimesNewRoman(0)/m/n/10 Com-pro-bar la fun-ción de ac-tu-alizar el usuari
 o
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
+Underfull \hbox (badness 10000) in paragraph at lines 1571--1571
 []\TU/TimesNewRoman(0)/m/n/10 Vi-su-al-ización de los difer-entes par-queaderos
 
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 1472--1472
+Underfull \hbox (badness 1226) in paragraph at lines 1573--1573
 []\TU/TimesNewRoman(0)/m/n/10 Com-pro-bar la fun-cional-i-dad de ac-tu-al-izaci
 ón de
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 1476--1476
+Underfull \hbox (badness 2884) in paragraph at lines 1577--1577
 []\TU/TimesNewRoman(0)/m/n/10 Com-pro-bar la fun-ción de ac-tu-alizar al usuari
 o
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1478
+Underfull \hbox (badness 10000) in paragraph at lines 1579--1579
 []\TU/TimesNewRoman(0)/m/n/10 Com-pro-bar las fun-ciones de crear, ed-i-tar o
  []
 
 
-Underfull \hbox (badness 7667) in paragraph at lines 1497--1497
+Underfull \hbox (badness 7667) in paragraph at lines 1598--1598
 []\TU/TimesNewRoman(0)/m/n/10 Com-pro-bar la ha-bil-itación a votación de las
  []
 
-[122]
-Underfull \hbox (badness 3838) in paragraph at lines 1515--1515
+[144]
+Underfull \hbox (badness 3838) in paragraph at lines 1616--1616
 []\TU/TimesNewRoman(0)/m/n/10 Vi-su-al-ización de los in-gre-sos men-su-ales co
 mo
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 1519--1519
+Underfull \hbox (badness 1092) in paragraph at lines 1620--1620
 []\TU/TimesNewRoman(0)/m/n/10 Vi-su-al-ización de las mul-tas junto con el mont
 o
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 1519--1519
+Underfull \hbox (badness 2460) in paragraph at lines 1620--1620
 \TU/TimesNewRoman(0)/m/n/10 a pa-gar, el es-tado del pago, número de casa,
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 1523--1523
+Underfull \hbox (badness 1946) in paragraph at lines 1624--1624
 []\TU/TimesNewRoman(0)/m/n/10 Al crear o ed-i-tar una multa el sis-tema guarda
  []
 
 
-Underfull \hbox (badness 2119) in paragraph at lines 1531--1531
+Underfull \hbox (badness 2119) in paragraph at lines 1632--1632
 []\TU/TimesNewRoman(0)/m/n/10 Se vi-su-al-izan los even-tos so-ciales y asam-ble
 as
  []
 
 
-Underfull \hbox (badness 3375) in paragraph at lines 1533--1533
+Underfull \hbox (badness 3375) in paragraph at lines 1634--1634
 []\TU/TimesNewRoman(0)/m/n/10 Se vi-su-al-iza el es-tado fi-nanciero de las casa
 s
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 1535--1535
+Underfull \hbox (badness 1888) in paragraph at lines 1636--1636
 []\TU/TimesNewRoman(0)/m/n/10 Du-rante la asam-blea la asis-ten-cia es val-i-dad
  y
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 1537--1537
+Underfull \hbox (badness 1881) in paragraph at lines 1638--1638
 []\TU/TimesNewRoman(0)/m/n/10 Du-rante la asam-blea las pre-gun-tas a votar son
  []
 
-[123]
-<resources/images/aws-vpc.png, id=1991, 1224.82594pt x 179.92218pt>
+[145]
+<resources/images/aws-vpc.png, id=2146, 1224.82594pt x 179.92218pt>
 File: resources/images/aws-vpc.png Graphic file (type png)
 <use resources/images/aws-vpc.png>
-Package luatex.def Info: resources/images/aws-vpc.png  used on input line 1559.
+Package luatex.def Info: resources/images/aws-vpc.png  used on input line 1660.
 
-(luatex.def)             Requested size: 288.79422pt x 42.42172pt.
-<resources/images/aws-ec2.png, id=1992, 1208.26407pt x 201.00093pt>
+(luatex.def)             Requested size: 412.56497pt x 60.60443pt.
+ [146]
+<resources/images/aws-ec2.png, id=2151, 1208.26407pt x 201.00093pt>
 File: resources/images/aws-ec2.png Graphic file (type png)
 <use resources/images/aws-ec2.png>
-Package luatex.def Info: resources/images/aws-ec2.png  used on input line 1566.
+Package luatex.def Info: resources/images/aws-ec2.png  used on input line 1667.
 
-(luatex.def)             Requested size: 288.79422pt x 48.04184pt.
-<resources/images/aws-ec2-code.png, id=1993, 1067.99pt x 582.175pt>
+(luatex.def)             Requested size: 412.56497pt x 68.63077pt.
+<resources/images/aws-ec2-code.png, id=2152, 1067.99pt x 582.175pt>
 File: resources/images/aws-ec2-code.png Graphic file (type png)
 <use resources/images/aws-ec2-code.png>
 Package luatex.def Info: resources/images/aws-ec2-code.png  used on input line 
-1573.
-(luatex.def)             Requested size: 288.79422pt x 157.42032pt.
- [124<./resources/images/aws-vpc.png><./resources/images/aws-ec2.png>]
-<resources/images/aws-route53.png, id=2000, 1128.46594pt x 584.1825pt>
+1674.
+(luatex.def)             Requested size: 412.56497pt x 224.89758pt.
+<resources/images/aws-route53.png, id=2153, 1128.46594pt x 584.1825pt>
 File: resources/images/aws-route53.png Graphic file (type png)
 <use resources/images/aws-route53.png>
 Package luatex.def Info: resources/images/aws-route53.png  used on input line 1
-580.
-(luatex.def)             Requested size: 288.79422pt x 149.50385pt.
-<resources/images/aws-certificates.png, id=2001, 607.51968pt x 557.83406pt>
+681.
+(luatex.def)             Requested size: 412.56497pt x 213.57693pt.
+ [147<./resources/images/aws-vpc.png><./resources/images/aws-ec2.png><./resource
+s/images/aws-ec2-code.png>]
+<resources/images/aws-certificates.png, id=2161, 607.51968pt x 557.83406pt>
 File: resources/images/aws-certificates.png Graphic file (type png)
 <use resources/images/aws-certificates.png>
 Package luatex.def Info: resources/images/aws-certificates.png  used on input l
-ine 1587.
-(luatex.def)             Requested size: 288.79422pt x 265.1782pt.
-<resources/images/aws-nginx.png, id=2002, 932.73468pt x 267.24844pt>
+ine 1688.
+(luatex.def)             Requested size: 412.56497pt x 378.82845pt.
+<resources/images/aws-nginx.png, id=2162, 932.73468pt x 267.24844pt>
 File: resources/images/aws-nginx.png Graphic file (type png)
 <use resources/images/aws-nginx.png>
-Package luatex.def Info: resources/images/aws-nginx.png  used on input line 159
-4.
-(luatex.def)             Requested size: 288.79422pt x 82.7442pt.
-
-[125<./resources/images/aws-ec2-code.png><./resources/images/aws-route53.png><./
-resources/images/aws-certificates.png>]
-<resources/images/aws-nginx-config.png, id=2010, 706.13812pt x 426.09187pt>
+Package luatex.def Info: resources/images/aws-nginx.png  used on input line 169
+5.
+(luatex.def)             Requested size: 412.56497pt x 118.2095pt.
+ [148<./resources/images/aws-route53.png><./resources/images/aws-certificates.pn
+g>]
+<resources/images/aws-nginx-config.png, id=2169, 706.13812pt x 426.09187pt>
 File: resources/images/aws-nginx-config.png Graphic file (type png)
 <use resources/images/aws-nginx-config.png>
 Package luatex.def Info: resources/images/aws-nginx-config.png  used on input l
-ine 1601.
-(luatex.def)             Requested size: 288.79422pt x 174.26318pt.
- [126<./resources/images/aws-nginx.png><./resources/images/aws-nginx-config.png>
+ine 1702.
+(luatex.def)             Requested size: 412.56497pt x 248.9474pt.
+ [149<./resources/images/aws-nginx.png><./resources/images/aws-nginx-config.png>
 ]
-Underfull \hbox (badness 1975) in paragraph at lines 1619--1621
+Underfull \hbox (badness 1975) in paragraph at lines 1720--1722
 []\TU/TimesNewRoman(0)/m/n/12 En esta sec-ción se pre-sen-tan los re-sul-ta-dos
  obtenidos de la apli-cación de los
  []
 
-<resources/images/tam-w-pu1.png, id=2027, 372.64218pt x 150.5625pt>
+<resources/images/tam-w-pu1.png, id=2183, 372.64218pt x 150.5625pt>
 File: resources/images/tam-w-pu1.png Graphic file (type png)
 <use resources/images/tam-w-pu1.png>
-Package luatex.def Info: resources/images/tam-w-pu1.png  used on input line 162
-6.
+Package luatex.def Info: resources/images/tam-w-pu1.png  used on input line 172
+7.
 (luatex.def)             Requested size: 165.02347pt x 66.675pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1626--1627
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1727--1728
 [][] 
  []
 
-<resources/images/tam-w-pu2.png, id=2028, 374.90062pt x 144.54pt>
+<resources/images/tam-w-pu2.png, id=2184, 374.90062pt x 144.54pt>
 File: resources/images/tam-w-pu2.png Graphic file (type png)
 <use resources/images/tam-w-pu2.png>
-Package luatex.def Info: resources/images/tam-w-pu2.png  used on input line 163
-1.
+Package luatex.def Info: resources/images/tam-w-pu2.png  used on input line 173
+2.
 (luatex.def)             Requested size: 165.02347pt x 63.62425pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1631--1632
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1732--1733
 [][] 
  []
 
-<resources/images/tam-w-pu3.png, id=2029, 373.395pt x 149.05687pt>
+<resources/images/tam-w-pu3.png, id=2185, 373.395pt x 149.05687pt>
 File: resources/images/tam-w-pu3.png Graphic file (type png)
 <use resources/images/tam-w-pu3.png>
-Package luatex.def Info: resources/images/tam-w-pu3.png  used on input line 163
-6.
+Package luatex.def Info: resources/images/tam-w-pu3.png  used on input line 173
+7.
 (luatex.def)             Requested size: 165.02347pt x 65.87634pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1636--1637
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1737--1738
 [][] 
  []
 
-<resources/images/tam-w-pu4.png, id=2030, 377.91188pt x 152.06813pt>
+<resources/images/tam-w-pu4.png, id=2186, 377.91188pt x 152.06813pt>
 File: resources/images/tam-w-pu4.png Graphic file (type png)
 <use resources/images/tam-w-pu4.png>
-Package luatex.def Info: resources/images/tam-w-pu4.png  used on input line 164
-1.
+Package luatex.def Info: resources/images/tam-w-pu4.png  used on input line 174
+2.
 (luatex.def)             Requested size: 165.02347pt x 66.40433pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1641--1642
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1742--1743
 [][] 
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 1622--1646
+Underfull \hbox (badness 1331) in paragraph at lines 1723--1747
 \TU/TimesNewRoman(0)/m/n/12 las en-cues-tas apli-cadas a los cu-a-tro miem-bros de la di-rec-tiva y dos miem-bros
  []
 
-<resources/images/tam-w-peou1.png, id=2031, 372.64218pt x 145.29282pt>
+[150]
+<resources/images/tam-w-peou1.png, id=2201, 372.64218pt x 145.29282pt>
 File: resources/images/tam-w-peou1.png Graphic file (type png)
 <use resources/images/tam-w-peou1.png>
 Package luatex.def Info: resources/images/tam-w-peou1.png  used on input line 1
-651.
+752.
 (luatex.def)             Requested size: 165.02347pt x 64.34138pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1651--1652
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1752--1753
 [][] 
  []
 
-<resources/images/tam-w-peou2.png, id=2032, 366.61969pt x 143.78719pt>
+<resources/images/tam-w-peou2.png, id=2202, 366.61969pt x 143.78719pt>
 File: resources/images/tam-w-peou2.png Graphic file (type png)
 <use resources/images/tam-w-peou2.png>
 Package luatex.def Info: resources/images/tam-w-peou2.png  used on input line 1
-656.
+757.
 (luatex.def)             Requested size: 165.02347pt x 64.72337pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1656--1657
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1757--1758
 [][] 
  []
 
-<resources/images/tam-w-peou3.png, id=2033, 370.38374pt x 142.28156pt>
+<resources/images/tam-w-peou3.png, id=2203, 370.38374pt x 142.28156pt>
 File: resources/images/tam-w-peou3.png Graphic file (type png)
 <use resources/images/tam-w-peou3.png>
 Package luatex.def Info: resources/images/tam-w-peou3.png  used on input line 1
-661.
+762.
 (luatex.def)             Requested size: 165.02347pt x 63.39433pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1661--1662
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1762--1763
 [][] 
  []
 
-<resources/images/tam-w-peou4.png, id=2034, 377.91188pt x 149.8097pt>
+<resources/images/tam-w-peou4.png, id=2204, 377.91188pt x 149.8097pt>
 File: resources/images/tam-w-peou4.png Graphic file (type png)
 <use resources/images/tam-w-peou4.png>
 Package luatex.def Info: resources/images/tam-w-peou4.png  used on input line 1
-666.
+767.
 (luatex.def)             Requested size: 165.02347pt x 65.41812pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1666--1667
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1767--1768
 [][] 
  []
 
-[127<./resources/images/tam-w-pu1.png><./resources/images/tam-w-pu2.png><./resou
-rces/images/tam-w-pu3.png><./resources/images/tam-w-pu4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1682--1682
+
+Underfull \hbox (badness 10000) in paragraph at lines 1783--1783
 []\TU/TimesNewRoman(0)/b/n/10 To-tal-mente
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1682--1682
+Underfull \hbox (badness 10000) in paragraph at lines 1783--1783
 \TU/TimesNewRoman(0)/b/n/10 en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1682--1682
+Underfull \hbox (badness 10000) in paragraph at lines 1783--1783
 []\TU/TimesNewRoman(0)/b/n/10 En
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1682--1682
+Underfull \hbox (badness 10000) in paragraph at lines 1783--1783
 []\TU/TimesNewRoman(0)/b/n/10 To-tal-mente
  []
 
 
-Overfull \hbox (12.94122pt too wide) in alignment at lines 1677--1706
+Overfull \hbox (12.94122pt too wide) in alignment at lines 1778--1807
  [][][][][][][] 
  []
 
-<resources/images/tam-m-pu1.png, id=2053, 371.88937pt x 146.79843pt>
+[151<./resources/images/tam-w-pu1.png><./resources/images/tam-w-pu2.png><./resou
+rces/images/tam-w-pu3.png><./resources/images/tam-w-pu4.png><./resources/images/
+tam-w-peou1.png><./resources/images/tam-w-peou2.png><./resources/images/tam-w-pe
+ou3.png><./resources/images/tam-w-peou4.png>]
+<resources/images/tam-m-pu1.png, id=2219, 371.88937pt x 146.79843pt>
 File: resources/images/tam-m-pu1.png Graphic file (type png)
 <use resources/images/tam-m-pu1.png>
-Package luatex.def Info: resources/images/tam-m-pu1.png  used on input line 172
-0.
+Package luatex.def Info: resources/images/tam-m-pu1.png  used on input line 182
+1.
 (luatex.def)             Requested size: 165.02347pt x 65.14253pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1720--1721
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1821--1822
 [][] 
  []
 
-<resources/images/tam-m-pu2.png, id=2054, 368.1253pt x 144.54pt>
+<resources/images/tam-m-pu2.png, id=2220, 368.1253pt x 144.54pt>
 File: resources/images/tam-m-pu2.png Graphic file (type png)
 <use resources/images/tam-m-pu2.png>
-Package luatex.def Info: resources/images/tam-m-pu2.png  used on input line 172
-5.
+Package luatex.def Info: resources/images/tam-m-pu2.png  used on input line 182
+6.
 (luatex.def)             Requested size: 165.02347pt x 64.79536pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1725--1726
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1826--1827
 [][] 
  []
 
-<resources/images/tam-m-pu3.png, id=2055, 359.84438pt x 149.05687pt>
+<resources/images/tam-m-pu3.png, id=2221, 359.84438pt x 149.05687pt>
 File: resources/images/tam-m-pu3.png Graphic file (type png)
 <use resources/images/tam-m-pu3.png>
-Package luatex.def Info: resources/images/tam-m-pu3.png  used on input line 173
-0.
+Package luatex.def Info: resources/images/tam-m-pu3.png  used on input line 183
+1.
 (luatex.def)             Requested size: 165.02347pt x 68.35774pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1730--1731
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1831--1832
 [][] 
  []
 
-<resources/images/tam-m-pu4.png, id=2056, 362.10281pt x 144.54pt>
+<resources/images/tam-m-pu4.png, id=2222, 362.10281pt x 144.54pt>
 File: resources/images/tam-m-pu4.png Graphic file (type png)
 <use resources/images/tam-m-pu4.png>
-Package luatex.def Info: resources/images/tam-m-pu4.png  used on input line 173
-5.
+Package luatex.def Info: resources/images/tam-m-pu4.png  used on input line 183
+6.
 (luatex.def)             Requested size: 165.02347pt x 65.87166pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1735--1736
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1836--1837
 [][] 
  []
 
-[128<./resources/images/tam-w-peou1.png><./resources/images/tam-w-peou2.png><./r
-esources/images/tam-w-peou3.png><./resources/images/tam-w-peou4.png>]
-<resources/images/tam-m-peou1.png, id=2067, 386.94562pt x 150.5625pt>
+<resources/images/tam-m-peou1.png, id=2223, 386.94562pt x 150.5625pt>
 File: resources/images/tam-m-peou1.png Graphic file (type png)
 <use resources/images/tam-m-peou1.png>
 Package luatex.def Info: resources/images/tam-m-peou1.png  used on input line 1
-745.
+846.
 (luatex.def)             Requested size: 165.02347pt x 64.2122pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1745--1746
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1846--1847
 [][] 
  []
 
-<resources/images/tam-m-peou2.png, id=2068, 368.87813pt x 154.32657pt>
+<resources/images/tam-m-peou2.png, id=2224, 368.87813pt x 154.32657pt>
 File: resources/images/tam-m-peou2.png Graphic file (type png)
 <use resources/images/tam-m-peou2.png>
 Package luatex.def Info: resources/images/tam-m-peou2.png  used on input line 1
-750.
+851.
 (luatex.def)             Requested size: 165.02347pt x 69.03891pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1750--1751
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1851--1852
 [][] 
  []
 
-<resources/images/tam-m-peou3.png, id=2069, 367.3725pt x 151.3153pt>
+<resources/images/tam-m-peou3.png, id=2225, 367.3725pt x 151.3153pt>
 File: resources/images/tam-m-peou3.png Graphic file (type png)
 <use resources/images/tam-m-peou3.png>
 Package luatex.def Info: resources/images/tam-m-peou3.png  used on input line 1
-755.
+856.
 (luatex.def)             Requested size: 165.02347pt x 67.97119pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1755--1756
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1856--1857
 [][] 
  []
 
-<resources/images/tam-m-peou4.png, id=2070, 374.90062pt x 149.05687pt>
+<resources/images/tam-m-peou4.png, id=2226, 374.90062pt x 149.05687pt>
 File: resources/images/tam-m-peou4.png Graphic file (type png)
 <use resources/images/tam-m-peou4.png>
 Package luatex.def Info: resources/images/tam-m-peou4.png  used on input line 1
-760.
+861.
 (luatex.def)             Requested size: 165.02347pt x 65.61252pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1760--1761
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1861--1862
 [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1776--1776
+[152<./resources/images/tam-m-pu1.png><./resources/images/tam-m-pu2.png><./resou
+rces/images/tam-m-pu3.png><./resources/images/tam-m-pu4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1877--1877
 []\TU/TimesNewRoman(0)/b/n/10 To-tal-mente
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1776--1776
+Underfull \hbox (badness 10000) in paragraph at lines 1877--1877
 \TU/TimesNewRoman(0)/b/n/10 en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1776--1776
+Underfull \hbox (badness 10000) in paragraph at lines 1877--1877
 []\TU/TimesNewRoman(0)/b/n/10 En
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1776--1776
+Underfull \hbox (badness 10000) in paragraph at lines 1877--1877
 []\TU/TimesNewRoman(0)/b/n/10 To-tal-mente
  []
 
 
-Overfull \hbox (12.94122pt too wide) in alignment at lines 1771--1802
+Overfull \hbox (12.94122pt too wide) in alignment at lines 1872--1903
  [][][][][][][] 
  []
 
-[129<./resources/images/tam-m-pu1.png><./resources/images/tam-m-pu2.png><./resou
-rces/images/tam-m-pu3.png><./resources/images/tam-m-pu4.png><./resources/images/
-tam-m-peou1.png><./resources/images/tam-m-peou2.png><./resources/images/tam-m-pe
-ou3.png><./resources/images/tam-m-peou4.png>]) [130]
+[153<./resources/images/tam-m-peou1.png><./resources/images/tam-m-peou2.png><./r
+esources/images/tam-m-peou3.png><./resources/images/tam-m-peou4.png>])
+[154]
 CAPÍTULO IV.
 (./chapters/4-conclusiones-y-recomendaciones/4.1-conclusiones.tex
 Underfull \hbox (badness 1152) in paragraph at lines 3--4
@@ -4716,7 +4842,7 @@ Underfull \hbox (badness 1152) in paragraph at lines 3--4
 olló con el ob-je-tivo de pro-poner una
  []
 
-[131
+[155
 
 ]
 Underfull \hbox (badness 2119) in paragraph at lines 13--15
@@ -4730,8 +4856,8 @@ Underfull \hbox (badness 1533) in paragraph at lines 5--6
 se maneja en el sis-tema, se
  []
 
-[132]) (./chapters/0-prelims/biblio.tex (C:/Projects/Tesis_master/out/main.bbl
-[133]
+[156]) (./chapters/0-prelims/biblio.tex (C:/Projects/Tesis_master/out/main.bbl
+[157]
 Underfull \hbox (badness 10000) in paragraph at lines 25--28
 \TU/TimesNewRoman(0)/m/n/12 AD-MIN-IS-TRA-TIVA PARA LA CO-OP-ER-A-TIVA DE TRANS-
 PORTE
@@ -4790,7 +4916,7 @@ Underfull \hbox (badness 2582) in paragraph at lines 72--78
  MSC.
  []
 
-[134
+[158
 
 ]
 Underfull \hbox (badness 3199) in paragraph at lines 80--83
@@ -4804,7 +4930,7 @@ Underfull \hbox (badness 1924) in paragraph at lines 106--111
 s-tración del con-junto
  []
 
-[135] [136])) (./chapters/5-appendixs/index.tex [137]
+[159] [160])) (./chapters/5-appendixs/index.tex [161]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 2.
@@ -4827,7 +4953,7 @@ Underfull \hbox (badness 4899) in paragraph at lines 26--26
  (mul-tas,
  []
 
-) [138
+) [162
 
 ] (./chapters/5-appendixs/encuesta-residentes.tex
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
@@ -4859,46 +4985,43 @@ Overfull \hbox (4.57675pt too wide) in alignment at lines 6--86
  [][] 
  []
 
-[139]) (./chapters/5-appendixs/encuesta-TAM-web.tex) [140]
+[163]) [164] (./chapters/5-appendixs/encuesta-TAM-web.tex) [165]
 (./chapters/5-appendixs/encuesta-TAM-app.tex
-Underfull \hbox (badness 3078) in paragraph at lines 20--20
+Underfull \hbox (badness 3078) in paragraph at lines 19--19
 []\TU/TimesNewRoman(0)/m/n/10 La apli-cación mejora la in-ter-ac-ción y la co-
 mu-ni-cación en-tre los
  []
 
 
-Underfull \hbox (badness 2027) in paragraph at lines 25--25
+Underfull \hbox (badness 2027) in paragraph at lines 24--24
 []\TU/TimesNewRoman(0)/m/n/10 La apli-cación ofrece una ex-pe-ri-en-cia có-mod
 a al in-ter-ac-tuar desde
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [141] (./chapters/5-appendixs/dependencias.tex
-<resources/images/dependencias-anexo-1.png, id=2161, 837.1275pt x 1446.40375pt>
+) [166] (./chapters/5-appendixs/dependencias.tex
+<resources/images/dependencias-anexo-1.png, id=2328, 837.1275pt x 1446.40375pt>
 
 File: resources/images/dependencias-anexo-1.png Graphic file (type png)
 <use resources/images/dependencias-anexo-1.png>
 Package luatex.def Info: resources/images/dependencias-anexo-1.png  used on inp
 ut line 5.
 (luatex.def)             Requested size: 330.05322pt x 570.25282pt.
- [142]
-<resources/images/dependencias-anexo-2.png, id=2167, 1038.88126pt x 1731.46875p
+<resources/images/dependencias-anexo-2.png, id=2329, 1038.88126pt x 1731.46875p
 t>
 File: resources/images/dependencias-anexo-2.png Graphic file (type png)
 <use resources/images/dependencias-anexo-2.png>
 Package luatex.def Info: resources/images/dependencias-anexo-2.png  used on inp
 ut line 10.
 (luatex.def)             Requested size: 330.05322pt x 550.06548pt.
-) [143<./resources/images/dependencias-anexo-1.png>]) [144<./resources/images/de
-pendencias-anexo-2.png>] (C:/Projects/Tesis_master/out/main.aux)
+) [167<./resources/images/dependencias-anexo-1.png>]) [168<./resources/images/de
+pendencias-anexo-2.png>]
+(C:/Projects/Tesis_master/out/main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7C461186DDAFD3FAE77ABDA360258139;10236.
+(rerunfilecheck)             Checksum: CF5FFEB638A169017C5068E42A6DB4FD;10236.
 )
 (\end occurred inside a group at level 1)
 
@@ -4906,16 +5029,16 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 ### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 48378 strings out of 476497
+ 48607 strings out of 476497
  195392,1977958 words of node,token memory allocated
  1109 words of node memory still in use:
    7 hlist, 2 vlist, 3 rule, 2 glue, 4 kern, 1 glyph, 38 attribute, 122 glue_spe
 c, 38 attribute_list, 2 write, 21 pdf_action nodes
-   avail lists: 1:1,2:2837,3:785,4:166,5:898,6:293,7:16889,8:246,9:3390,10:23,11
+   avail lists: 1:2,2:2837,3:785,4:166,5:898,6:293,7:16889,8:246,9:3390,10:22,11
 :1311
- 67993 multiletter control sequences out of 65536+600000
+ 68147 multiletter control sequences out of 65536+600000
  63 fonts using 18593207 bytes
- 109i,12n,101p,1450b,5555s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,12n,101p,1450b,5558s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Windows/Fonts/timesbi.ttf><C:/Windows/Fonts/timesi.ttf><C:/Windows/Fonts/tim
 es.ttf><C:/Windows/Fonts/timesbd.ttf><C:/Users/Capibara/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Capibara/AppData/Local
@@ -4924,9 +5047,9 @@ pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/C
 apibara/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C
 :/Users/Capibara/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb>
-Output written on main.pdf (163 pages, 24534039 bytes).
+Output written on main.pdf (187 pages, 25516385 bytes).
 
-PDF statistics: 2245 PDF objects out of 2487 (max. 8388607)
- 592 named destinations out of 1000 (max. 131072)
+PDF statistics: 2408 PDF objects out of 2487 (max. 8388607)
+ 631 named destinations out of 1000 (max. 131072)
  504 words of extra memory for PDF output out of 10000 (max. 100000000)
 
